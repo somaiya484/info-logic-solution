@@ -2,32 +2,182 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+
+.transition-all {
+    transition-property: all;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.max-h-0 {
+    max-height: 0;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.max-h-96 {
+    max-height: 24rem;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.primary-text {
+    color: #ca541d;
+}
+
+.bg-btn {
+    background-color: #e25d29;
+    color: rgb(235, 234, 234);
+}
+
+.bg-btn:hover {
+    color: black;
+}
+
+.list-text {
+    font-size: 14px;
+    color: black;
+}
+
+/* global.css */
+
+.text-gradient {
+    background-image: linear-gradient(to right, #ca9907, #ff7f50, #ff4500);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.bg-gradient {
+    background-image: linear-gradient(to right, #ffc107, #ff7f50, #ff4500);
+}
+
+
+/* global.css */
+/* .primary-button {
+    @apply btn bg-btn rounded-xl bg-gradient-to-r from-orange-500 to-red-600 hover:from-red-600 hover:to-orange-400 transition duration-300 ease-in-out text-lg border-none
+} */
+
+.primary-button {
+    @apply bg-gradient-to-r from-orange-500 to-red-600;
+    border-radius: 10px;
+    padding: 9px 10px;
+    color: #ebeaea;
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    font-weight: 400;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: background-color 0.6s ease-in-out, color 0.6s ease-in-out;
+    /* Transition for background-color and color */
+    border: none;
+}
+
+.primary-button:hover,
+.primary-button:focus {
+    @apply bg-gradient-to-r from-red-600 to-orange-500;
+    color: #fff;
+}
+
+.primary-button:hover {
+    transition-delay: 0s; /* Ensures smooth transition on hover */
+}
+
+.primary-button:focus {
+    outline: none; /* Remove focus outline if not needed */
+    transition-delay: 0s; /* Ensures smooth transition on focus */
+}
+
+
+.secondary-button {
+    background: transparent;
+    border: 2px solid #ca541d;
+    color: #ca541d;
+    padding: 9px 10px;
+    font-size: 1.125rem;
+    font-weight: 400;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.secondary-button:hover {
+    background: transparent;
+    border-color: #e25d29;
+    color: #e25d29;
+}
+
+.services-button {
+    background: white;
+    border: 2px solid #ca541d;
+    color: #ca541d;
+    padding: 0.5rem 1rem;
+    border-radius: 9999px;
+    font-size: 1.125rem;
+    transition: background 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+.services-button:hover {
+    background: #e25d29;
+    color: white;
+    border-color: #e25d29;
+}
+
+
+.animate-gradient {
+    background-size: 300%;
+    -webkit-animation: animatedgradient 6s ease infinite alternate;
+    -moz-animation: animatedgradient 6s ease infinite alternate;
+    animation: animatedgradient 6s ease infinite alternate;
+}
+
+.navbar-container {
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.gradient-background {
+    position: relative;
+    background: linear-gradient(180deg, #FFFFFF 0%, #FFD7C2 100%);
+    text-align: center;
+}
+
+.gradient-background2 {
+    position: relative;
+    background: linear-gradient(180deg, #feddcb 0%, #FFFFFF 100%);
+    text-align: center;
+}
+
+.service-bg {
+    position: relative;
+    background: linear-gradient(180deg, #ffeee4 0%, #FFFFFF 100%);
+}
+
+.page-background {
+    background: linear-gradient(180deg, #FFFFFF 0%, #FFEEE4 50%, #FFFFFF 100%);
+    padding-top: 4rem;
+    /* Adjust padding as needed */
+    padding-bottom: 4rem;
+    /* Adjust padding as needed */
+}
+
+
+.text-gradient {
+    background: linear-gradient(to right, #f57040, #ff4500, #e6ac00);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+
+
+@keyframes animatedgradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }
