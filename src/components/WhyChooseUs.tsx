@@ -5,8 +5,8 @@ import img3 from "../../public/Proven.jpg";
 import { MdKeyboardDoubleArrowUp } from "react-icons/md";
 
 const WhyChooseUs: React.FC = () => {
-    return (
-        <div className='mt-32'>
+    return ( 
+        <div className='mt-32' id="why-choose-us">
             <div className="text-center">
                 <h2 className='text-center text-5xl font-bold primary-text'>Why Choose Us?</h2>
                 <svg

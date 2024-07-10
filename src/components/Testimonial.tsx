@@ -62,7 +62,7 @@ const testimonials: TestimonialData[] = [
 
 const Testimonial: React.FC = () => {
     return (
-        <div className="gradient-background2 overflow-hidden py-20">
+        <div className="gradient-background2 overflow-hidden py-20" id="testimonial">
             <Swiper
                 effect={"coverflow"}
                 grabCursor={true}

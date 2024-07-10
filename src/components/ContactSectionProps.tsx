@@ -1,5 +1,3 @@
-// components/ContactSection.tsx
-import React from 'react';
 import { IoMdCall } from "react-icons/io";
 import Link from "next/link";
 
@@ -9,7 +7,7 @@ interface ContactSectionProps {
 
 const ContactSection: React.FC<ContactSectionProps> = ({ serviceName }) => {
     return (
-        <div className="md:w-2/4 mx-auto  mb-32 px-10 md:px-0">
+        <div className="md:w-2/4 mx-auto  mb-32 px-10 md:px-0 mt-16">
             <h1 className="font-bold text-4xl md:text-6xl mb-10">
                 Let's Talk <br /> <span className='text-gradient'>About {serviceName}</span>
             </h1>

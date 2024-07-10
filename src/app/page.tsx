@@ -8,10 +8,9 @@ import QaN from "@/components/QaN";
 import Service from "@/components/Service";
 import Testimonial from "@/components/Testimonial";
 import WhyChooseUs from "@/components/WhyChooseUs";
-import Image from "next/image";
-import { FaQ } from "react-icons/fa6";
 
 export default function Home() {
+
   return (
     <main className='bg-[#fefefe] text-black font-sans  max-w-screen'>
       <Banner></Banner>

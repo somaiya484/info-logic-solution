@@ -54,7 +54,7 @@ const services: Service[] = [
 
 const Service: React.FC = () => {
     return (
-        <div className='mt-32'>
+        <div className='mt-32' id='services'>
             <div className="text-center">
                 <h2 className="text-5xl font-bold primary-text mb-6">
                     Things we provide!

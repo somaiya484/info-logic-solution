@@ -54,7 +54,7 @@ const QaN: React.FC = () => {
   };
 
   return (
-    <div className="w-[95%] mx-auto p-4 md:flex justify-between my-16">
+    <div id='QaN' className="w-[95%] mx-auto p-4 md:flex justify-between my-16">
       <div className="w-[20%]">
         <div>
           <h1 className="text-4xl font-semibold text-gray-800">Have More </h1>

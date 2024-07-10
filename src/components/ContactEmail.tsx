@@ -3,7 +3,7 @@ import { IoMdCall } from "react-icons/io";
 
 const ContactEmail: React.FC = () => {
     return (
-        <div className="bg-fixed bg-[url('../../public/message.jpg')] h-[600px] flex justify-center items-center relative overflow-auto">
+        <div id="contact" className="bg-fixed bg-[url('../../public/message.jpg')] h-[600px] flex justify-center items-center relative overflow-auto">
             <div className="absolute inset-0 bg-black opacity-80"></div>
             <div className='text-center relative z-10 text-white'>
                 <h1 className='font-bold primary-text'>Get In Touch</h1>

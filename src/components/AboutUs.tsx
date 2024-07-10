@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 const AboutUs: React.FC = () => {
     return (
-        <div className='mt-32'>
+        <div className='mt-32' id='about'>
 
             <div className='w-[98%] mx-auto md:flex justify-center items-center gap-14 mt-10 pl-10'>
 

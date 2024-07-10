@@ -37,7 +37,7 @@
 
 /* global.css */
 
-.text-gradient {
+.text-gradient-primary {
     background-image: linear-gradient(to right, #ca9907, #ff7f50, #ff4500);
     -webkit-background-clip: text;
     color: transparent;
@@ -46,12 +46,6 @@
 .bg-gradient {
     background-image: linear-gradient(to right, #ffc107, #ff7f50, #ff4500);
 }
-
-
-/* global.css */
-/* .primary-button {
-    @apply btn bg-btn rounded-xl bg-gradient-to-r from-orange-500 to-red-600 hover:from-red-600 hover:to-orange-400 transition duration-300 ease-in-out text-lg border-none
-} */
 
 .primary-button {
     @apply bg-gradient-to-r from-orange-500 to-red-600;
@@ -65,7 +59,6 @@
     justify-content: space-between;
     cursor: pointer;
     transition: background-color 0.6s ease-in-out, color 0.6s ease-in-out;
-    /* Transition for background-color and color */
     border: none;
 }
 
@@ -76,12 +69,12 @@
 }
 
 .primary-button:hover {
-    transition-delay: 0s; /* Ensures smooth transition on hover */
+    transition-delay: 0s;
 }
 
 .primary-button:focus {
-    outline: none; /* Remove focus outline if not needed */
-    transition-delay: 0s; /* Ensures smooth transition on focus */
+    outline: none;
+    transition-delay: 0s;
 }
 
 
@@ -120,7 +113,6 @@
     border-color: #e25d29;
 }
 
-
 .animate-gradient {
     background-size: 300%;
     -webkit-animation: animatedgradient 6s ease infinite alternate;
@@ -142,7 +134,7 @@
 
 .gradient-background2 {
     position: relative;
-    background: linear-gradient(180deg, #feddcb 0%, #FFFFFF 100%);
+    background: linear-gradient(180deg, #feddcb 0%, #FFFFFF 100%, #feddcb 0%);
     text-align: center;
 }
 
@@ -154,11 +146,8 @@
 .page-background {
     background: linear-gradient(180deg, #FFFFFF 0%, #FFEEE4 50%, #FFFFFF 100%);
     padding-top: 4rem;
-    /* Adjust padding as needed */
     padding-bottom: 4rem;
-    /* Adjust padding as needed */
 }
-
 
 .text-gradient {
     background: linear-gradient(to right, #f57040, #ff4500, #e6ac00);
@@ -166,6 +155,58 @@
     color: transparent;
 }
 
+.work-sample {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.work-sample:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.overlay {
+    transition: opacity 0.3s ease-in-out;
+}
+
+.work-sample:hover .overlay {
+    opacity: 1;
+}
+
+.bg-gradient-to-r {
+    background: linear-gradient(to right, #ff8a00, #da1b60);
+}
+
+.hover\:from-orange-600:hover {
+    background-color: #ff8a00;
+}
+
+.hover\:to-orange-800:hover {
+    background-color: #da1b60;
+}
+
+.text-gradient {
+    background-image: linear-gradient(to right, #ff8a00, #da1b60);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.sample-bg{
+        position: relative;
+        background: linear-gradient(180deg, #fdede2 0%, #ffffff 100%);
+}
+
+.sample-style {
+    @apply work-sample shadow-lg rounded-xl relative overflow-hidden duration-300 ease-in-out transition-transform transform hover:scale-105 px-3 pt-3 shadow-lg sample-bg
+}
+
+.sample-inner-style{
+    @apply overlay absolute inset-0 flex items-center justify-center inset-0 bg-gradient-to-t from-black to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300
+}
+
+.sample_button{
+    @apply bg-gradient-to-r from-orange-400 to-orange-600 hover:from-orange-600 hover:to-orange-800 text-white px-6 py-3 rounded-full text-lg md:text-xl font-semibold shadow-md hover:shadow-xl transition duration-300
+}
 
 
 @keyframes animatedgradient {
