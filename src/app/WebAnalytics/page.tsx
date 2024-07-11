@@ -48,7 +48,7 @@ const WebAnalytics: React.FC = () => {
         {
             id: 2,
             img: "/conversionAPI-preview.png",
-            title: "Google Tag Manager",
+            title: "Conversion API",
             description:
                 "Accurately track conversions and customer interactions with our Conversion API services. We integrate your website with various platforms to provide detailed analytics that help you optimize your marketing strategies.",
             link: "/contact",
