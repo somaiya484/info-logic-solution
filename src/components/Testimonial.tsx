@@ -1,7 +1,6 @@
 "use client";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCoverflow, Pagination } from "swiper/modules";
-
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
@@ -63,41 +62,45 @@ const testimonials: TestimonialData[] = [
 const Testimonial: React.FC = () => {
     return (
         <div className="gradient-background2 overflow-hidden py-20" id="testimonial">
-            <Swiper
-                effect={"coverflow"}
-                grabCursor={true}
-                centeredSlides={true}
-                slidesPerView={"auto"}
-                coverflowEffect={{
-                    rotate: 50,
-                    stretch: 0,
-                    depth: 100,
-                    modifier: 1,
-                    slideShadows: true,
-                }}
-                pagination={{ clickable: true }}
-                modules={[EffectCoverflow, Pagination]}
-                className="mySwiper w-[80%] mx-auto"
-            >
-                {testimonials.map((testimonial, index) => (
-                    <SwiperSlide key={index} className="p-6 bg-white shadow-lg rounded-lg border-l-4 border-orange-500 flex flex-col justify-center items-center text-center">
-                        <div className="mb-4 mt-20">
-                            <h2 className="text-2xl font-bold text-amber-600 italic">{testimonial.name}</h2>
-                            <p className="text-base font-medium text-red-700">{testimonial.role}</p>
-                            <p className="text-sm text-red-500">{testimonial.agency}</p>
-                        </div>
-                        <p className="text-base italic text-gray-800 mb-4">"{testimonial.feedback}"</p>
-                        <div className="flex justify-center items-center">
-                            {Array.from({ length: testimonial.rating }).map((_, i) => (
-                                <span key={i} className="text-orange-400">&#9733;</span>
-                            ))}
-                            {Array.from({ length: 5 - testimonial.rating }).map((_, i) => (
-                                <span key={i} className="text-gray-300">&#9733;</span>
-                            ))}
-                        </div>
-                    </SwiperSlide>
-                ))}
-            </Swiper>
+            <div data-aos="fade-up" data-aos-duration="2000">
+
+
+                <Swiper
+                    effect={"coverflow"}
+                    grabCursor={true}
+                    centeredSlides={true}
+                    slidesPerView={"auto"}
+                    coverflowEffect={{
+                        rotate: 50,
+                        stretch: 0,
+                        depth: 100,
+                        modifier: 1,
+                        slideShadows: true,
+                    }}
+                    pagination={{ clickable: true }}
+                    modules={[EffectCoverflow, Pagination]}
+                    className="mySwiper w-[80%] mx-auto"
+                >
+                    {testimonials.map((testimonial, index) => (
+                        <SwiperSlide key={index} className="p-6 bg-white shadow-lg rounded-lg border-l-4 border-orange-500 flex flex-col justify-center items-center text-center">
+                            <div className="mb-4 mt-20">
+                                <h2 className="text-2xl font-bold text-amber-600 italic">{testimonial.name}</h2>
+                                <p className="text-base font-medium text-red-700">{testimonial.role}</p>
+                                <p className="text-sm text-red-500">{testimonial.agency}</p>
+                            </div>
+                            <p className="text-base italic text-gray-800 mb-4">"{testimonial.feedback}"</p>
+                            <div className="flex justify-center items-center">
+                                {Array.from({ length: testimonial.rating }).map((_, i) => (
+                                    <span key={i} className="text-orange-400">&#9733;</span>
+                                ))}
+                                {Array.from({ length: 5 - testimonial.rating }).map((_, i) => (
+                                    <span key={i} className="text-gray-300">&#9733;</span>
+                                ))}
+                            </div>
+                        </SwiperSlide>
+                    ))}
+                </Swiper>
+            </div>
         </div>
     );
 };

@@ -1,6 +1,7 @@
 import { MdKeyboardDoubleArrowDown } from "react-icons/md";
 import AnimatedText from "./AnimatedText";
 import styles from './Banner.module.css';
+import Link from "next/link";
 
 const Banner: React.FC = () => {
   return (
@@ -25,9 +26,9 @@ const Banner: React.FC = () => {
 
       <AnimatedText />
 
-      <div className='relative mt-10 flex justify-center md:justify-start gap-5 w-[34%] mx-auto'>
-        <button className='primary-button'>Explore Services <MdKeyboardDoubleArrowDown className='text-xl' /></button>
-        <button className='secondary-button'>Get Free Consultation</button>
+      <div className='relative mt-10 md:flex justify-center md:justify-start gap-5 w-2/4 mx-auto md:w-[34%]'> 
+        <Link className='primary-button transition-transform transform hover:scale-105 duration-300' href="/#services">Explore Services <MdKeyboardDoubleArrowDown className='text-xl' /></Link>
+        <button className='secondary-button mt-5 md:mt-0'>Get Free Consultation</button>
       </div>
 
       <div className='relative text-center mt-10 md:text-lg font-semibold w-3/4 mx-auto pb-10 z-10'>

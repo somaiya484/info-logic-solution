@@ -27,7 +27,7 @@ const BackToTopButton: React.FC = () => {
 
     return (
         <div
-            className={`fixed bottom-4 right-4 p-2 rounded-full bg-gradient-to-r from-orange-500 to-red-500 text-white shadow-lg cursor-pointer transition-all duration-300 ${isVisible ? 'opacity-100' : 'opacity-0'}`}
+            className={`fixed bottom-4 md:right-4 p-2 rounded-full bg-gradient-to-r from-orange-500 to-red-500 text-white shadow-lg cursor-pointer transition-all duration-300 ${isVisible ? 'opacity-100' : 'opacity-0'}`}
             onClick={scrollToTop}
             style={{ zIndex: 1000 }} // Ensure it is above other elements
         >
