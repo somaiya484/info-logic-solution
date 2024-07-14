@@ -89,6 +89,54 @@ const LookerPage: React.FC = () => {
         }
     ];
 
+    const plans = [
+        {
+            id: 1,
+            title: "Basic",
+            description: "Targeted insights on a single location",
+            features: [
+                "Map 100 outlets",
+                "Up to 5 brands / products",
+                "1 location",
+                "Interactive dashboards",
+                "Geospatial data visualizations",
+                "Raw data downloads",
+            ],
+            link: "/sample-basic",
+        },
+        {
+            id: 2,
+            title: "Pro",
+            description: "Broader insights and product tracking",
+            features: [
+                "Map 300 outlets",
+                "Up to 10 brands / products",
+                "Multiple locations",
+                "Interactive dashboards",
+                "Geospatial data visualizations",
+                "Raw data downloads",
+                "Unlimited users",
+            ],
+            link: "/sample-pro",
+        },
+        {
+            id: 3,
+            title: "Premium",
+            description: "Expansive insights and product tracking",
+            features: [
+                "Map 1000 outlets",
+                "Up to 20 brands / products",
+                "Multiple locations",
+                "Interactive dashboards",
+                "Geospatial data visualizations",
+                "Raw data downloads",
+                "Unlimited users",
+                "API access",
+            ],
+            link: "/sample-premium",
+        },
+    ];
+
     return (
         <div>
 
@@ -105,6 +153,39 @@ const LookerPage: React.FC = () => {
                     </p>
                 </div>
             </div>
+
+            <div className="my-16">
+                <h2 className="text-center font-bold mb-8 text-6xl text-gradient">Our Plans</h2>
+                <div className="flex justify-center gap-8">
+                    {plans.map((plan, index) => (
+                        <div key={plan.id} className={`relative border border-orange-200 p-6 mt-10 rounded-lg shadow-lg w-80 text-center flex flex-col justify-between bg-white hover:shadow-2xl transition-shadow duration-300 ${index === 1 ? 'border-2 border-orange-500' : ''}`}>
+                            {index === 1 && (
+                                <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-orange-500 text-white py-1 px-3 rounded-t-md">
+                                    Most Popular
+                                </div>
+                            )}
+                            <div>
+                                <h3 className={`text-2xl font-semibold mb-4 ${index === 1 ? 'text-orange-500' : 'text-black'}`}>{plan.title}</h3>
+                                <p className="mb-10 text-gray-500 w-[70%] mx-auto text-sm ">{plan.description}</p>
+                                <ul className="text-left mb-4 text-gray-800">
+                                    {plan.features.map((feature, i) => (
+                                        <li key={i} className="mb-2">• {feature}</li>
+                                    ))}
+                                </ul>
+                            </div>
+                            <a
+                                href={plan.link}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="bg-orange-600 text-white py-2 px-4 rounded mt-4 hover:bg-orange-700 transition-colors duration-300"
+                            >
+                                Preview
+                            </a>
+                        </div>
+                    ))}
+                </div>
+            </div>
+
             <ServicePage
                 sections={sections}
                 processSteps={processSteps}
@@ -117,3 +198,4 @@ const LookerPage: React.FC = () => {
 };
 
 export default LookerPage;
+
