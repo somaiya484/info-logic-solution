@@ -161,8 +161,8 @@ const WebAnalytics: React.FC = () => {
 
     return (
         <div>
-            <div className="bg-fixed bg-[url('/datavisualization.jpg')] h-[600px] w-full flex justify-center items-center relative overflow-auto">
-                <div className="absolute inset-0 bg-gradient-to-b from-[#feddcb] to-[#ffffff] opacity-95"></div>
+            <div className="bg-fixed bg-[url('/analy.jpg')] h-[600px] w-full flex justify-center items-center relative overflow-auto">
+                <div className="absolute inset-0 bg-gradient-to-b from-[#feddcb] to-[#ffffff] opacity-85"></div>
                 <div className="text-center relative z-10">
                     <h1 className="font-semibold">Web Analytics</h1>
                     <h2 className="text-5xl my-8 leading-[50px] font-semibold">

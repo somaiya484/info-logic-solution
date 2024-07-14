@@ -137,7 +137,7 @@ const SMM: React.FC = () => {
 
     return (
         <div>
-            <div className="bg-fixed bg-[url('/datavisualization.jpg')] h-[600px] w-full flex justify-center items-center relative overflow-auto">
+            <div className="bg-fixed bg-[url('/smm.jpg')] bg-no-repeat h-[600px] w-full flex justify-center items-center relative overflow-auto">
                 <div className="absolute inset-0 bg-gradient-to-b from-[#feddcb] to-[#ffffff] opacity-95"></div>
                 <div className="text-center relative z-10">
                     <h1 className="font-semibold">SMM</h1>

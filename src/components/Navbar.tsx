@@ -48,6 +48,11 @@ const Navbar: React.FC = () => {
         setOpenSubMenu(openSubMenu === index ? null : index);
     };
 
+    const handleSubCategoryClick = () => {
+        setOpenSubMenu(null);
+        setOpen(false);
+    };
+
     const handleScroll = () => {
         if (window.scrollY > 50) {
             setScrolled(true);
@@ -97,7 +102,7 @@ const Navbar: React.FC = () => {
                                         {
                                             mainLink.subLinks.map((subLink) => (
                                                 <li key={subLink.name}>
-                                                    <Link href={subLink.link} className='block px-4 py-2 text-gray-800 hover:bg-orange-100'>
+                                                    <Link href={subLink.link} className='block px-4 py-2 text-gray-800 hover:bg-orange-100' onClick={handleSubCategoryClick}>
                                                         {subLink.name}
                                                     </Link>
                                                 </li>
