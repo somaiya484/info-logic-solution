@@ -1,10 +1,14 @@
 import Marquee from "react-fast-marquee";
-import React from "react";
+import Image from 'next/image';
+import com1 from '../../public/com.png'
+import com2 from '../../public/comone.png'
+import com3 from '../../public/comtwo.png'
+import com4 from '../../public/com.png'
 
 const CompanyTwo: React.FC = () => {
     return (
         <div className='mt-24 md:px-8 pb-32 page-background'>
-            
+
             <div data-aos="fade-up" data-aos-duration="500">
                 <h2 className='text-center text-5xl font-bold text-gradient'>Amazing Client</h2>
             </div>
@@ -21,21 +25,29 @@ const CompanyTwo: React.FC = () => {
 
             <Marquee pauseOnHover speed={100} direction="left" className='order g-4 '>
                 <div className="flex items-center gap-28">
-                    <img className="w-44" src="https://i.ibb.co/jZ1SFDN/channels4-profile-removebg-preview.png" alt="" />
-                    <img className="w-44" src="https://i.ibb.co/bLbnq4B/Autodesk-Logo-removebg-preview.png" alt="" />
-                    <img className="w-44" src="https://i.ibb.co/HxkW6fL/Intel-Logo-Design-in-BLue-1024x640-removebg-preview.png" alt="" />
-                    <img className="w-44" src="https://i.ibb.co/s5nx3K5/download-removebg-preview.png" alt="" />
-                    <img className="w-44" src="https://i.ibb.co/pJzyNhN/download-1-removebg-preview.png" alt="" />
+                    <Image src={com1} width={250} height={250} alt="Company Logo" className="w-52" />
+                    <Image src={com2} width={250} height={250} alt="Company Logo" className="w-52" />
+                    <Image src={com3} width={250} height={250} alt="Company Logo" className="w-52" />
+                    <Image src={com4} width={250} height={250} alt="Company Logo" className="w-52" />
+                    <Image src={com2} width={250} height={250} alt="Company Logo" className="w-52" />
+                    <Image src={com1} width={250} height={250} alt="Company Logo" className="w-52" />
+                    <Image src={com2} width={250} height={250} alt="Company Logo" className="w-52" />
+                    <Image src={com3} width={250} height={250} alt="Company Logo" className="w-52" />
+                    <Image src={com1} width={250} height={250} alt="Company Logo" className="w-52" />
                 </div>
             </Marquee>
 
-            <Marquee pauseOnHover speed={100} direction="right" className='order g-4 -mt-3'>
+            <Marquee pauseOnHover speed={100} direction="right" className='order g-4 -mt-16'>
                 <div className="flex items-center gap-28">
-                    <img className="w-44" src="https://i.ibb.co/HxkW6fL/Intel-Logo-Design-in-BLue-1024x640-removebg-preview.png" alt="" />
-                    <img className="w-44" src="https://i.ibb.co/jZ1SFDN/channels4-profile-removebg-preview.png" alt="" />
-                    <img className="w-44" src="https://i.ibb.co/pJzyNhN/download-1-removebg-preview.png" alt="" />
-                    <img className="w-44" src="https://i.ibb.co/bLbnq4B/Autodesk-Logo-removebg-preview.png" alt="" />
-                    <img className="w-44" src="https://i.ibb.co/s5nx3K5/download-removebg-preview.png" alt="" />
+                <Image src={com1} width={250} height={250} alt="Company Logo" className="w-52" />
+                    <Image src={com2} width={250} height={250} alt="Company Logo" className="w-52" />
+                    <Image src={com3} width={250} height={250} alt="Company Logo" className="w-52" />
+                    <Image src={com4} width={250} height={250} alt="Company Logo" className="w-52" />
+                    <Image src={com2} width={250} height={250} alt="Company Logo" className="w-52" />
+                    <Image src={com1} width={250} height={250} alt="Company Logo" className="w-52" />
+                    <Image src={com2} width={250} height={250} alt="Company Logo" className="w-52" />
+                    <Image src={com3} width={250} height={250} alt="Company Logo" className="w-52" />
+                    <Image src={com1} width={250} height={250} alt="Company Logo" className="w-52" />
                 </div>
             </Marquee>
 

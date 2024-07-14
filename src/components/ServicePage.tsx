@@ -1,5 +1,4 @@
 "use client"
-
 import React, { useEffect } from "react";
 import { AiFillTags } from "react-icons/ai";
 import Link from "next/link";
@@ -8,6 +7,7 @@ import CompanyTwo from "@/components/CompanyTwo";
 import Message from "./Message";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Image from 'next/image';
 
 interface Section {
     id: number;
@@ -61,11 +61,7 @@ const ServicePage: React.FC<ServicePageProps> = ({ sections, processSteps, workS
                             <div data-aos="fade-up" data-aos-duration="1000">
 
                                 <div key={section.id} className="shadow-xl rounded bg-white transition-transform transform hover:scale-105  duration-300 h-full w-full">
-                                    <img
-                                        src={section.img}
-                                        alt={section.title}
-                                        className="h-80 w-full object-cover p-3"
-                                    />
+                                    <Image src={section.img} width={250} height={250} alt="Company Logo" className="h-80 w-full object-cover p-3" />
                                     <div className="p-6">
                                         <h2 className="text-4xl my-5">{section.title}</h2>
                                         <p className="text-gray-700 mb-7">{section.description}</p>
@@ -119,7 +115,10 @@ const ServicePage: React.FC<ServicePageProps> = ({ sections, processSteps, workS
                 <div className="mx-auto grid md:grid-cols-3 gap-10 px=6 md:px-16">
                     {workSamples.map((sample) => (
                         <div key={sample.id} className="sample-style" data-aos="fade-up" data-aos-duration="1000">
-                            <img className="rounded-2xl w-full h-60 object-cover shadow-lg shadow-orange-100" src={sample.img} alt={sample.title} />
+                            <Image
+                                src={sample.img} width={250} height={250} alt="Company Logo"
+                                className="rounded-2xl w-full h-60 object-cover shadow-lg shadow-orange-100" />
+
                             <div className="sample-inner-style">
                                 <div className="text-center text-white p-6">
                                     <h3 className="text-lg font-semibold italic mb-5 text-center">{sample.category}</h3>
