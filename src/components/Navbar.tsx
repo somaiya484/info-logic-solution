@@ -69,28 +69,28 @@ const Navbar: React.FC = () => {
     }, []);
 
     return (
-        <div className={`w-full fixed top-0 left-0 z-50 shadow transition-colors duration-300 ${scrolled ? 'bg-white' : 'bg-[radial-gradient(circle,_rgba(255,165,0,0.8)_0%]'} `}>
+        <div className={`w-full fixed top-0 left-0 z-50 transition-colors duration-300 ${scrolled ? 'bg-white shadow-lg' : 'bg-[radial-gradient(circle,_rgba(255,165,0,0.8)_0%]'} `}>
             <div className='container mx-auto flex items-center justify-between px-6'>
                 <div className='flex items-center'>
                     <Link href='/'>
                         <Image
                             src={logo}
-                            width={500}
-                            height={600}
+                            width={230}
+                            height={80}
                             alt="Logo"
                             className="h-[80px] w-[230px]"
                         />
                     </Link>
                 </div>
-                <div onClick={() => setOpen(!open)} className='text-3xl md:hidden cursor-pointer'>
+                <div onClick={() => setOpen(!open)} className='text-3xl md:hidden cursor-pointer mr-16'>
                     <IoMdMenu />
                 </div>
-                <ul className={`md:flex md:items-center md:pb-0 pb-4 absolute md:static md:z-auto z-70 left-0 w-full md:w-auto md:pl-0 pl-6 transition-all duration-500 ease-in ${open ? 'top-20' : '-top-32'} ${open ? 'flex-col md:flex-row' : 'hidden'}`}>
+                <ul className={`md:flex md:items-center md:pb-0 pb-4 absolute md:static md:z-auto z-50 left-0 w-full md:w-auto md:pl-0 pl-6 transition-all duration-500 ease-in ${open ? 'top-20' : '-top-32'} ${open ? 'flex flex-col md:flex-row bg-white md:bg-transparent' : 'hidden'} justify-center`}>
                     {
                         mainLinks.map((mainLink, index) => (
                             <li key={mainLink.name} className='md:ml-4 lg:ml-6 md:mt-0 mt-2 relative group'>
                                 <div className='flex items-center'>
-                                    <Link href={mainLink.link || '#'} className='text-gray-800 hover:text-orange-600 focus:text-orange-600 duration-200 block md:inline-block font-semibold' onClick={() => handleSubMenuToggle(index)}>
+                                    <Link href={mainLink.link || '#'} className='hover:text-orange-600 focus:text-orange-600 duration-200 block md:inline-block font-semibold text-base' onClick={() => handleSubMenuToggle(index)}>
                                         {mainLink.name}
                                     </Link>
                                     {mainLink.subLinks && (
@@ -116,14 +116,12 @@ const Navbar: React.FC = () => {
                             </li>
                         ))
                     }
-                    <li className='mt-2 md:mt-0 md:ml-6'>
-                        <Link href='/contact'>
-                            <button className='primary-button flex items-center'>
-                                Contact Us <IoMdCall className='text-xl ml-2' />
-                            </button>
-                        </Link>
-                    </li>
                 </ul>
+                <Link href='/contact' className='hidden md:block'>
+                    <button className='primary-button flex items-center'>
+                        Contact Us <IoMdCall className='text-xl ml-2' />
+                    </button>
+                </Link>
             </div>
         </div>
     );

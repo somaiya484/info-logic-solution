@@ -7,7 +7,7 @@ import com4 from '../../public/com.png'
 
 const Company: React.FC = () => {
     return (
-        <div className='mt-60 mx-2 md:mx-8 pb-32' id="company">
+        <div className='mt-60 mx-2 md:mx-8' id="company">
             <h2 className='text-center text-5xl font-bold primary-text'>Amazing Client</h2>
             <div data-aos="fade-up"
                 data-aos-duration="500">

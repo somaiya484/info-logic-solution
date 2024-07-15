@@ -55,25 +55,14 @@ const QaN: React.FC = () => {
   };
 
   return (
-    <div id='QaN' className="w-[95%] mx-auto p-4 md:flex justify-between my-16">
-      <div className="w-[20%]">
-        <div data-aos="fade-up" data-aos-duration="1000">
-          <h1 className="text-xl md:text-4xl font-semibold text-gray-800">Have More </h1>
-          <h1 className="text-3xl md:text-7xl font-semibold mb-8 text-red-500">Questions? </h1>
-        </div>
-
-        <div className="mt-24" data-aos="fade-up" data-aos-duration="1000">
-          <h1 className="font-semibold mb-3 text-gray-600">Reach out directly for assistance</h1>
-          <Link href='/contact'>
-            <button className='primary-button flex items-center'>
-              Contact Us <IoMdCall className='text-xl ml-2' />
-            </button>
-          </Link>
-        </div>
-
-      </div>
+    <div id='QaN' className=" p-4 my-16 flex justify-center page-background">
 
       <div className="space-y-4 w-full md:w-[65%] mt-10 md:mt-0" data-aos="fade-up" data-aos-duration="1000">
+        <div data-aos="fade-up" data-aos-duration="1000">
+          <h1 className="text-xl md:text-4xl font-semibold text-gray-800 text-center">Have More </h1>
+          <h1 className="text-3xl md:text-7xl font-semibold mb-8 text-red-500 text-center">Questions? </h1>
+          <p className='text-lg text-center mb-10 text-gray-700 font-semibold'>We have already addressed some of our frequently asked questions.</p>
+        </div>
         {faqs.map((faq, index) => (
           <div key={index} className="border border-b-8 rounded-lg border-gray-600 p-4  transition-transform transform hover:scale-105 hover:shadow duration-300">
             <button

@@ -15,13 +15,13 @@ export default function Home() {
     <main className='bg-[#fefefe] text-black font-sans  max-w-screen'>
       <Banner></Banner>
       <BackToTopButton></BackToTopButton>
-      <AboutUs></AboutUs>
       <Service></Service>
+      <AboutUs></AboutUs>
       <Message></Message>
       <WhyChooseUs></WhyChooseUs>
       <Company></Company>
-      <ContactEmail></ContactEmail>
       <Testimonial></Testimonial>
+      <ContactEmail></ContactEmail>
       <QaN></QaN>
     </main>
   );

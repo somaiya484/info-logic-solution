@@ -61,7 +61,7 @@ const testimonials: TestimonialData[] = [
 
 const Testimonial: React.FC = () => {
     return (
-        <div className="gradient-background2 overflow-hidden py-20" id="testimonial">
+        <div className="page-background overflow-hidden pb-32" id="testimonial">
             <div data-aos="fade-up" data-aos-duration="2000">
 
 

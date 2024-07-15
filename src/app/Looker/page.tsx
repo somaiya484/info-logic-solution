@@ -138,8 +138,7 @@ const LookerPage: React.FC = () => {
     ];
 
     return (
-        <div>
-
+        <div className="bg-white text-black">
             <div className="bg-fixed bg-[url('/Google-Looker-Studio-Tutorial.png')] h-[600px] w-full flex justify-center items-center relative overflow-auto">
                 <div className="absolute inset-0 bg-gradient-to-b from-[#feddcb] to-[#ffffff] opacity-95"></div>
                 <div className="text-center relative z-10">
@@ -186,14 +185,8 @@ const LookerPage: React.FC = () => {
                 </div>
             </div>
 
-            <ServicePage
-                sections={sections}
-                processSteps={processSteps}
-                workSamples={workSamples}
-                serviceName="Looker"
-            />
+            <ServicePage processSteps={processSteps} workSamples={workSamples} serviceName="Looker Studio" />
         </div>
-
     );
 };
 

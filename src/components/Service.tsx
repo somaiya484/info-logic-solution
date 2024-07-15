@@ -89,12 +89,9 @@ const Service: React.FC = () => {
                         </defs>
                     </svg>
                 </div>
-
-
-
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mx-2 md:mx-24 mt-20">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mx-2 md:mx-24 mt-32">
                 {services.map(service => (
                     <div key={service.id} data-aos="fade-up" data-aos-duration="1000" className="flex">
                         <div className="shadow-lg rounded p-6 transition-transform transform hover:scale-105 hover:shadow-xl service-bg flex flex-col justify-between duration-300 h-full w-full">
