@@ -143,19 +143,15 @@ const LookerPage: React.FC = () => {
                 <div className="absolute inset-0 bg-gradient-to-b from-[#feddcb] to-[#ffffff] opacity-95"></div>
                 <div className="text-center relative z-10">
                     <h1 className="font-semibold">Looker and Reporting</h1>
-                    <h2 className="text-5xl my-8 font-semibold leading-[60px]">
-                        Unlock Insights with Powerful {" "} <br />
-                        <span className="text-gradient font-bold ">Looker & Reporting</span>
-                    </h2>
-                    <p>
-                        At Info Logic Solution, we specialize in transforming complex data into clear and actionable insights. <br /> Our Looker services leverage Looker Studio to help you understand your data, make informed decisions,<br /> and drive business success.
-                    </p>
+                    <h2 className="text-2xl md:text-5xl mt-10 font-semibold">Unlock Insights with Powerful</h2>
+                    <h2 className="text-2xl md:text-5xl font-semibold mt-5 mb-10 text-gradient font-bold">Looker & Reporting</h2>
+                    <p>At Info Logic Solution, we specialize in transforming complex data into clear and actionable insights. <br /> Our Looker services leverage Looker Studio to help you understand your data, make informed decisions,<br /> and drive business success.</p>
                 </div>
             </div>
 
             <div className="my-16">
                 <h2 className="text-center font-bold mb-8 text-6xl text-gradient">Our Plans</h2>
-                <div className="flex justify-center gap-8">
+                <div className="md:flex ml-8 md:ml-0 justify-center gap-8">
                     {plans.map((plan, index) => (
                         <div key={plan.id} className={`relative border border-orange-200 p-6 mt-10 rounded-lg shadow-lg w-80 text-center flex flex-col justify-between bg-white hover:shadow-2xl transition-shadow duration-300 ${index === 1 ? 'border-2 border-orange-500' : ''}`}>
                             {index === 1 && (

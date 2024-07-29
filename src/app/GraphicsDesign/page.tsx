@@ -154,8 +154,9 @@ const GraphicsDesign: React.FC = () => {
                 <div className="text-center relative z-10">
                     <h1 className="font-semibold">Graphics Design</h1>
                     <h2 className="text-5xl my-8 font-semibold leading-[60px]">
-                        Captivate Your Audience with Eye <br /> Catching  <span className="text-gradient font-bold ">Graphic Design</span>
+                        Captivate Your Audience with Eye Catching
                     </h2>
+                    <h2 className="text-2xl md:text-5xl font-semibold mb-10 text-gradient font-bold pb-2">Graphic Design</h2>
                     <p>
                         Our graphic design services are tailored to create visually striking content that captures attention<br /> and communicates your brand's message effectively. From ad content to marketing materials,<br /> our designs are crafted to resonate with your audience.
                     </p>

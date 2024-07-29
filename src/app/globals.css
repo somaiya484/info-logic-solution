@@ -139,8 +139,13 @@
 }
 
 .service-bg {
-    position: relative;
-    background: linear-gradient(180deg, #ffeee4 0%, #FFFFFF 100%);
+    /* background: linear-gradient(180deg, #ffd0b6 0%, #ffcd8d 100%); */
+    /* background-image: url('../../public//servicebg.png'); */
+    background-image: linear-gradient(#ffd0b64f, #ffce8d55),
+        url('../../public//servicebg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .page-background {
@@ -191,20 +196,20 @@
     color: transparent;
 }
 
-.sample-bg{
-        position: relative;
-        background: linear-gradient(180deg, #fdede2 0%, #ffffff 100%);
+.sample-bg {
+    position: relative;
+    background: linear-gradient(180deg, #fdede2 0%, #ffffff 100%);
 }
 
 .sample-style {
     @apply work-sample shadow-lg rounded-xl relative overflow-hidden duration-300 ease-in-out transition-transform transform hover:scale-105 px-3 pt-3 shadow-lg sample-bg
 }
 
-.sample-inner-style{
+.sample-inner-style {
     @apply overlay absolute inset-0 flex items-center justify-center inset-0 bg-gradient-to-t from-black to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300
 }
 
-.sample_button{
+.sample_button {
     @apply bg-gradient-to-r from-orange-400 to-orange-600 hover:from-orange-600 hover:to-orange-800 text-white px-6 py-3 rounded-full text-lg md:text-xl font-semibold shadow-md hover:shadow-xl transition duration-300
 }
 

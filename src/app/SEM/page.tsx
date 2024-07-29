@@ -2,7 +2,7 @@ import ServicePage from "@/components/ServicePage";
 
 const SEM: React.FC = () => {
 
-    const sections= [
+    const sections = [
         {
             id: 1,
             img: "/seoPage.jpg",
@@ -56,7 +56,7 @@ const SEM: React.FC = () => {
         },
     ];
 
-    const workSamples= [
+    const workSamples = [
         {
             id: 1,
             category: "Power BI",
@@ -151,10 +151,8 @@ const SEM: React.FC = () => {
                 <div className="absolute inset-0 bg-gradient-to-b from-[#feddcb] to-[#ffffff] opacity-95"></div>
                 <div className="text-center relative z-10">
                     <h1 className="font-semibold">SEO & SEM</h1>
-                    <h2 className="text-5xl my-8 font-semibold leading-[60px]">
-                        Elevate Your Online Presence <br /> with Comprehensive <br /> {" "}
-                        <span className="text-gradient font-bold ">SEO, SEM & Ads Campaigns</span>
-                    </h2>
+                    <h2 className="text-2xl md:text-5xl mt-10 font-semibold">Elevate Your Online Presence <br /> with Comprehensive</h2>
+                    <h2 className="text-2xl md:text-5xl font-semibold mt-8 mb-10 text-gradient font-bold pb-2">SEO, SEM & Ads Campaigns</h2>
                     <p>
                         We will provide a full suite of digital marketing services designed to boost your <br /> online visibility, drive targeted traffic, and engage your audience. Our expert team integrates SEO, SEM, <br />and social media marketing strategies to ensure your brand reaches its full potential
                     </p>

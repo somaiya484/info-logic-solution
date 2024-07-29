@@ -143,8 +143,8 @@ const SMM: React.FC = () => {
                     <h1 className="font-semibold">SMM</h1>
                     <h2 className="text-5xl my-8 font-semibold leading-[60px]">
                         Enhance Your Online Presence <br /> with Comprehensive <br />{" "}
-                        <span className="text-gradient font-bold">Social Media Marketing</span>
                     </h2>
+                    <h2 className="text-2xl md:text-5xl font-semibold mt-5 mb-10 text-gradient font-bold pb-3">Social Media Marketing</h2>
                     <p>
                         We provide a full suite of social media marketing services designed to boost your
                         online visibility, <br /> drive targeted traffic, and engage your audience. Our expert team integrates

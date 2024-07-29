@@ -10,53 +10,67 @@ interface TestimonialData {
     name: string;
     role: string;
     feedback: string;
-    agency: string;
+    // agency: string;
     rating: number;
 }
 
 const testimonials: TestimonialData[] = [
     {
-        name: "Joon-ho",
-        role: "Instructor of Violin",
-        feedback: "The instructor of Violin is exceptional and very professional.",
-        agency: "Music Academy",
+        name: "Michelle Bes",
+        role: "Entrepreneur",
+        feedback: "It was exceptional. They jumped straight on the project, provided clear information, and sorted out the issue in record time. I honestly could not have dreamt of a better outcome and I cannot thank Info Logic Solution enough. I almost don't want to write this review (so I can keep this agency all to myself). HIGHLY recommend. Will use again.",
+        // agency: "Music Academy",
         rating: 5,
     },
     {
-        name: "Mr. Smith",
-        role: "Instructor of Guitar",
-        feedback: "Mr. Smith has a unique way of teaching that makes learning guitar fun.",
-        agency: "Guitar Institute",
+        name: "Nick Jude",
+        role: "Entrepreneur",
+        feedback: "Great communication. Amazing job on the project. I would not pick another Agency to work on my projects. Info Logic Solution will be the top of my priority",
+        // agency: "Guitar Institute",
         rating: 5,
     },
     {
-        name: "Sarfaraz",
-        role: "Instructor of Piano",
-        feedback: "Sarfaraz is very knowledgeable and has a lot of patience with his students.",
-        agency: "Piano Academy",
+        name: "Jaide Daniel",
+        role: "Digital Marketer",
+        feedback: "We were highly impressed for quick and exceptional work. We needed someone to address our tracking issues, and the Analytics Team delivered outstanding results. They did not hesitate to invest extra time to ensure everything was 100% accurate. We highly recommend Info Logic Solution to anyone facing tracking problems.",
+        // agency: "Cello School",
         rating: 5,
     },
     {
-        name: "Daniel",
-        role: "Instructor of Cello",
-        feedback: "Daniel is a brilliant instructor who makes learning cello easy.",
-        agency: "Cello School",
+        name: "Nicola Caleman",
+        role: "Social Media Expert",
+        feedback: "I received a beautiful Google Data Studio dashboard that my client will be thrilled with. Will take the Web Analytics service in future for sure. Thank you!!",
+        // agency: "Piano Academy",
         rating: 5,
     },
     {
         name: "William Edward",
-        role: "Instructor of Trumpet",
-        feedback: "William Edward is a highly skilled instructor with a lot of experience.",
-        agency: "Trumpet Studio",
+        role: "Businessman",
+        feedback: "I am delighted with the exceptional service provided, and the powerful high DA SEO backlinks I received have significantly boosted my website's ranking. Thank you for the high DA authority link-building service.",
+        // agency: "Trumpet Studio",
         rating: 5,
     },
     {
-        name: "George Benjamin",
-        role: "Instructor of Bouzouki",
-        feedback: "George Benjamin is an excellent instructor with a deep understanding of Bouzouki.",
-        agency: "Bouzouki Academy",
+        name: "Nahiya Mitra",
+        role: "SEO Expert",
+        feedback: "I knew nothing about websites and asked for help. What I received went above and beyond my expectations. The WordPress team is made up of well-spoken, attentive, nice guys to work with to build your website. There wasn't any request I had for them that they couldn't handle. Info Logic Solution should definitely be your next agency for your required services.",
+        // agency: "Bouzouki Academy",
         rating: 5,
     },
+    {
+        name: "Ezabella",
+        role: "Entrepreneur",
+        feedback: "This seller provided the clearest explanation of backlinks I've ever heard. Their expertise is impressive! Thank you for the high-quality work. I will definitely place another order soon.",
+        // agency: "Bouzouki Academy",
+        rating: 5,
+    },
+    {
+        name: "Emiliy Wastine",
+        role: "Founder",
+        feedback: "Info Logic Solution executed our web development project flawlessly, demonstrating exceptional coding expertise and attention to detail. Working with this agency was effortless, thanks to the team's deep understanding of the project, timely delivery, and outstanding cooperation. The project not only met but exceeded our expectations—truly amazing, fast, and great work. We will definitely hire them again!",
+        // agency: "Bouzouki Academy",
+        rating: 5,
+    }
 ];
 
 const Testimonial: React.FC = () => {
@@ -83,10 +97,10 @@ const Testimonial: React.FC = () => {
                 >
                     {testimonials.map((testimonial, index) => (
                         <SwiperSlide key={index} className="p-6 bg-white shadow-lg rounded-lg border-l-4 border-orange-500 flex flex-col justify-center items-center text-center">
-                            <div className="mb-4 mt-20">
+                            <div className="mb-4 mt-5">
                                 <h2 className="text-2xl font-bold text-amber-600 italic">{testimonial.name}</h2>
                                 <p className="text-base font-medium text-red-700">{testimonial.role}</p>
-                                <p className="text-sm text-red-500">{testimonial.agency}</p>
+                                {/* <p className="text-sm text-red-500">{testimonial.agency}</p> */}
                             </div>
                             <p className="text-base italic text-gray-800 mb-4">"{testimonial.feedback}"</p>
                             <div className="flex justify-center items-center">

@@ -165,10 +165,8 @@ const WebAnalytics: React.FC = () => {
                 <div className="absolute inset-0 bg-gradient-to-b from-[#feddcb] to-[#ffffff] opacity-85"></div>
                 <div className="text-center relative z-10">
                     <h1 className="font-semibold">Web Analytics</h1>
-                    <h2 className="text-5xl my-8 leading-[50px] font-semibold">
-                        Unlock Actionable Insights with Advanced <br /> {" "}
-                        <span className="text-gradient font-bold ">Web Analytics</span>
-                    </h2>
+                    <h2 className="text-2xl md:text-5xl mt-10 font-semibold">Unlock Actionable Insights with Advanced</h2>
+                    <h2 className="text-2xl md:text-5xl font-semibold mt-7 mb-10 text-gradient font-bold pb-2">Web Analytics</h2>
                     <p>
                         Info Logic Solution offers comprehensive web analytics services to <br /> help you understand your website's performance and user behavior for both client and server sides. <br /> We use tools like Google Tag Manager, Conversion API, Google Analytics, <br /> and other marketing platforms to provide insights that drive informed business decisions.
                     </p>

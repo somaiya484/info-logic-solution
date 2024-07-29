@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { IoMdCall } from "react-icons/io";
 
 const Message = () => {
@@ -11,9 +12,9 @@ const Message = () => {
                     <p className='text-2xl md:text-4xl font-bold animate-text-color-change'>
                         We make the creative solutions for modern brands
                     </p>
-                    <button className='primary-button flex items-center text-white transition-transform transform hover:scale-105 duration-300'>
+                    <Link href='/contact' className='primary-button flex items-center text-white transition-transform transform hover:scale-105 duration-300'>
                         Contact Us <IoMdCall className='text-xl ml-2' />
-                    </button>
+                    </Link>
                 </div>
             </div>
         </div>

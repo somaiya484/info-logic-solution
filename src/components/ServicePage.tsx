@@ -84,7 +84,7 @@ const ServicePage: React.FC<ServicePageProps> = ({ sections, processSteps, workS
                 <h1 className="font-bold text-center text-4xl mt-10 mb-10">
                     Our <span className="text-gradient">Process</span>
                 </h1>
-                <p className="text-center text-lg">
+                <p className="text-center md:text-lg">
                     Do you dream of exploring the furthest reaches of outer space? <br />
                     Do you live for bringing brands to life and finding new ways to tell exciting
                     brand stories? <br />

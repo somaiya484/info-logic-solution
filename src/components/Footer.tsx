@@ -1,7 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
 import Image, { StaticImageData } from 'next/image';
-import logoFooter from '../../public/logoFooter.png';
 
 interface FooterProps {
     logoSrc: StaticImageData;
@@ -25,7 +24,7 @@ const Footer: React.FC<FooterProps> = ({ logoSrc, message, services, companyLink
                             className="w-[180px] mx-auto md:mx-0"
                         />
                     </Link>
-                    <p className='mt-5 pr-10'>
+                    <p className='mt-5 md:pr-10'>
                         {message}
                     </p>
                 </div>

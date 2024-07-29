@@ -8,7 +8,7 @@ import com4 from '../../public/com.png'
 const Company: React.FC = () => {
     return (
         <div className='mt-60 mx-2 md:mx-8' id="company">
-            <h2 className='text-center text-5xl font-bold primary-text'>Amazing Client</h2>
+            <h2 className='text-center text-5xl font-bold primary-text pb-3'>Amazing Client</h2>
             <div data-aos="fade-up"
                 data-aos-duration="500">
                 <p className="text-center md:text-xl mt-6 mb-10">
@@ -21,8 +21,8 @@ const Company: React.FC = () => {
             </div>
 
 
-            <Marquee pauseOnHover speed={100} direction="left" className='order g-4 '>
-                <div className="flex items-center gap-28">
+            <Marquee pauseOnHover speed={100} direction="left" className='order g-4 hover:cursor-pointer'>
+                <div className="flex items-center md:gap-28">
                     <Image src={com1} width={250} height={250} alt="Company Logo" className="w-52" />
                     <Image src={com2} width={250} height={250} alt="Company Logo" className="w-52" />
                     <Image src={com3} width={250} height={250} alt="Company Logo" className="w-52" />
@@ -35,8 +35,8 @@ const Company: React.FC = () => {
                 </div>
             </Marquee>
 
-            <Marquee pauseOnHover speed={100} direction="right" className='order g-4 -mt-14'>
-                <div className="flex items-center gap-28">
+            <Marquee pauseOnHover speed={100} direction="right" className='order g-4 -mt-14 hover:cursor-pointer'>
+                <div className="flex items-center md:gap-28">
                     <Image src={com1} width={250} height={250} alt="Company Logo" className="w-52" />
                     <Image src={com2} width={250} height={250} alt="Company Logo" className="w-52" />
                     <Image src={com3} width={250} height={250} alt="Company Logo" className="w-52" />
