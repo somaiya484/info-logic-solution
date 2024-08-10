@@ -4,7 +4,7 @@ import { TypeAnimation } from 'react-type-animation';
 const AnimatedText: React.FC = () => {
     return (
 
-        <div className="relative h-full flex justify-center items-center mt-10 sm:text-lg md:text-xl font-semibold">
+        <div className="relative h-full flex justify-center items-center mt-7 sm:text-lg md:text-xl font-semibold">
             <TypeAnimation
                 sequence={[
                     'We are passionate about Website Design & Development',

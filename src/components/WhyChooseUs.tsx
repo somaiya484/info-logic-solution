@@ -46,7 +46,7 @@ const WhyChooseUs: React.FC = () => {
                         </div>
 
                         <div className="text-center md:text-left md:ml-8">
-                            <div data-aos="fade-up" data-aos-duration="1000">
+                            <div data-aos="fade-up" data-aos-duration="600">
                                 <h3 className="text-5xl">Exceptional Expertise</h3>
                                 <p className="text-xl my-7 leading-8">We deliver top-tier marketing solutions backed <br /> by extensive industry experience.</p>
                             </div>

@@ -35,8 +35,6 @@
     color: black;
 }
 
-/* global.css */
-
 .text-gradient-primary {
     background-image: linear-gradient(to right, #ca9907, #ff7f50, #ff4500);
     -webkit-background-clip: text;
@@ -76,7 +74,6 @@
     outline: none;
     transition-delay: 0s;
 }
-
 
 .secondary-button {
     background: transparent;
@@ -139,10 +136,7 @@
 }
 
 .service-bg {
-    /* background: linear-gradient(180deg, #ffd0b6 0%, #ffcd8d 100%); */
-    /* background-image: url('../../public//servicebg.png'); */
-    background-image: linear-gradient(#ffd0b64f, #ffce8d55),
-        url('../../public//servicebg.png');
+    background-image: linear-gradient(#ffd0b64f, #ffce8d55), url('../../public//servicebg.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -153,9 +147,19 @@
     padding-top: 4rem;
     padding-bottom: 4rem;
 }
+.banner-background {
+    background: linear-gradient(180deg, #fef6f2 0%, #ffdAB9 50%, #fef7f7 100%);
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
 
 .text-gradient {
     background: linear-gradient(to right, #f57040, #ff4500, #e6ac00);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.banner-gradient {
+    background: linear-gradient(to left, #ff901a, #ff5900, #fe8b11);
     -webkit-background-clip: text;
     color: transparent;
 }
@@ -212,7 +216,6 @@
 .sample_button {
     @apply bg-gradient-to-r from-orange-400 to-orange-600 hover:from-orange-600 hover:to-orange-800 text-white px-6 py-3 rounded-full text-lg md:text-xl font-semibold shadow-md hover:shadow-xl transition duration-300
 }
-
 
 @keyframes animatedgradient {
     0% {
