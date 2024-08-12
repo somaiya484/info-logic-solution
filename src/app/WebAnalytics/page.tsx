@@ -162,14 +162,12 @@ const WebAnalytics: React.FC = () => {
     return (
         <div>
             <div className="bg-fixed bg-[url('/analy.jpg')] h-[600px] w-full flex justify-center items-center relative overflow-auto">
-                <div className="absolute inset-0 bg-gradient-to-b from-[#feddcb] to-[#ffffff] opacity-85"></div>
+                <div className="absolute inset-0 banner-background opacity-90"></div>
                 <div className="text-center relative z-10">
                     <h1 className="font-semibold">Web Analytics</h1>
                     <h2 className="text-2xl md:text-5xl mt-10 font-semibold">Unlock Actionable Insights with Advanced</h2>
-                    <h2 className="text-2xl md:text-5xl font-semibold mt-7 mb-10 text-gradient font-bold pb-2">Web Analytics</h2>
-                    <p>
-                        Info Logic Solution offers comprehensive web analytics services to <br /> help you understand your website's performance and user behavior for both client and server sides. <br /> We use tools like Google Tag Manager, Conversion API, Google Analytics, <br /> and other marketing platforms to provide insights that drive informed business decisions.
-                    </p>
+                    <h2 className="text-2xl md:text-6xl font-semibold mt-7 mb-10 text-gradient font-bold pb-2">Web Analytics</h2>
+                    <p className="text-base">Info Logic Solution offers comprehensive web analytics services to help you understand your website's <br />performance and user behavior for both client and server sides. We use tools like Google Tag Manager, Conversion API,<br /> Google Analytics, and other marketing platforms to provide insights that drive informed business decisions.</p>
                 </div>
             </div>
             <ServicePage

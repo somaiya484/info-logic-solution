@@ -148,14 +148,12 @@ const SEM: React.FC = () => {
     return (
         <div>
             <div className="bg-fixed bg-[url('/SEMbg.jpg')] h-[600px] w-full flex justify-center items-center relative overflow-auto">
-                <div className="absolute inset-0 bg-gradient-to-b from-[#feddcb] to-[#ffffff] opacity-95"></div>
+                <div className="absolute inset-0 banner-background opacity-95"></div>
                 <div className="text-center relative z-10">
-                    <h1 className="font-semibold">SEO & SEM</h1>
-                    <h2 className="text-2xl md:text-5xl mt-10 font-semibold">Elevate Your Online Presence <br /> with Comprehensive</h2>
-                    <h2 className="text-2xl md:text-5xl font-semibold mt-8 mb-10 text-gradient font-bold pb-2">SEO, SEM & Ads Campaigns</h2>
-                    <p>
-                        We will provide a full suite of digital marketing services designed to boost your <br /> online visibility, drive targeted traffic, and engage your audience. Our expert team integrates SEO, SEM, <br />and social media marketing strategies to ensure your brand reaches its full potential
-                    </p>
+                    <h1 className="font-semibold mt-5">SEO & SEM</h1>
+                    <h2 className="text-2xl md:text-6xl mt-10 font-semibold">Elevate Your Online Presence <br /> with Comprehensive</h2>
+                    <h2 className="text-2xl md:text-6xl font-semibold mt-8 mb-10 text-gradient font-bold pb-2">SEO, SEM & Ads Campaigns</h2>
+                    <p className="text-base">We will provide a full suite of digital marketing services designed to boost your <br /> online visibility, drive targeted traffic, and engage your audience. Our expert team integrates SEO, SEM, <br />and social media marketing strategies to ensure your brand reaches its full potential</p>
                 </div>
             </div>
 

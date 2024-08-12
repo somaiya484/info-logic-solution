@@ -138,18 +138,12 @@ const SMM: React.FC = () => {
     return (
         <div>
             <div className="bg-fixed bg-[url('/smm.jpg')] bg-no-repeat h-[600px] w-full flex justify-center items-center relative overflow-auto">
-                <div className="absolute inset-0 bg-gradient-to-b from-[#feddcb] to-[#ffffff] opacity-95"></div>
+                <div className="absolute inset-0 banner-background opacity-95"></div>
                 <div className="text-center relative z-10">
-                    <h1 className="font-semibold">SMM</h1>
-                    <h2 className="text-5xl my-8 font-semibold leading-[60px]">
-                        Enhance Your Online Presence <br /> with Comprehensive <br />{" "}
-                    </h2>
-                    <h2 className="text-2xl md:text-5xl font-semibold mt-5 mb-10 text-gradient font-bold pb-3">Social Media Marketing</h2>
-                    <p>
-                        We provide a full suite of social media marketing services designed to boost your
-                        online visibility, <br /> drive targeted traffic, and engage your audience. Our expert team integrates
-                        creative and strategic approaches <br /> to ensure your brand reaches its full potential.
-                    </p>
+                    <h1 className="font-semibold mt-5">SMM</h1>
+                    <h2 className="text-2xl md:text-6xl my-8 font-semibold leading-[60px]"> Enhance Your Online Presence <br /> with Comprehensive<br /></h2>
+                    <h2 className="text-2xl md:text-6xl font-semibold mt-5 mb-10 text-gradient font-bold pb-3">Social Media Marketing</h2>
+                    <p className="text-base">We provide a full suite of social media marketing services designed to boost your online visibility, <br /> drive targeted traffic, and engage your audience. Our expert team integrates creative and strategic approaches <br /> to ensure your brand reaches its full potential.</p>
                 </div>
             </div>
 

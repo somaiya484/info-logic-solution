@@ -150,14 +150,12 @@ const WebDesignDevelopment: React.FC = () => {
     return (
         <div>
             <div className="bg-fixed bg-[url('/devebg.jpg')] h-[600px] w-full flex justify-center items-center relative overflow-auto">
-                <div className="absolute inset-0 bg-gradient-to-b from-[#feddcb] to-[#ffffff] opacity-95"></div>
+                <div className="absolute inset-0 banner-background opacity-95"></div>
                 <div className="text-center relative z-10">
-                    <h1 className="font-semibold">Web Design and Development</h1>
-                    <h2 className="text-5xl my-6 font-semibold leading-[60px]">Transform Your Online Presence with Stunning</h2>
-                    <h2 className="text-2xl md:text-5xl font-semibold mb-10 text-gradient font-bold pb-2">Website Design & Development </h2>
-                    <p>
-                        At Info Logic Solution, we specialize in creating visually appealing and highly functional websites <br /> that reflect your brand's identity and engage your audience. Whether you need a site built on<br />  WordPress, Shopify, Wix, or a custom-coded solution, our team has the expertise to bring your vision to life.
-                    </p>
+                    <h1 className="font-semibold mt-5">Web Design and Development</h1>
+                    <h2 className="text-2xl md:text-6xl my-6 font-semibold leading-[60px] mt-10">Transform Your Online Presence <br /> with Stunning</h2>
+                    <h2 className="text-2xl md:text-6xl font-semibold mb-10 text-gradient font-bold pb-2">Website Design & Development </h2>
+                    <p className="text-base">At Info Logic Solution, we specialize in creating visually appealing and highly functional websites <br /> that reflect your brand's identity and engage your audience. Whether you need a site built on<br />  WordPress, Shopify, Wix, or a custom-coded solution, our team has the expertise to bring your vision to life.</p>
                 </div>
             </div>
 

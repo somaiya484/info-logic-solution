@@ -150,16 +150,14 @@ const GraphicsDesign: React.FC = () => {
     return (
         <div>
             <div className="bg-fixed bg-[url('/graphics.jpg')] h-[600px] w-full flex justify-center items-center relative overflow-auto">
-                <div className="absolute inset-0 bg-gradient-to-b from-[#feddcb] to-[#ffffff] opacity-95"></div>
+                <div className="absolute inset-0 banner-background opacity-95"></div>
                 <div className="text-center relative z-10">
                     <h1 className="font-semibold">Graphics Design</h1>
-                    <h2 className="text-5xl my-8 font-semibold leading-[60px]">
+                    <h2 className="text-2xl md:text-5xl my-8 font-semibold leading-[60px]">
                         Captivate Your Audience with Eye Catching
                     </h2>
-                    <h2 className="text-2xl md:text-5xl font-semibold mb-10 text-gradient font-bold pb-2">Graphic Design</h2>
-                    <p>
-                        Our graphic design services are tailored to create visually striking content that captures attention<br /> and communicates your brand's message effectively. From ad content to marketing materials,<br /> our designs are crafted to resonate with your audience.
-                    </p>
+                    <h2 className="text-2xl md:text-6xl font-semibold mb-10 text-gradient font-bold pb-2">Graphic Design</h2>
+                    <p className="text-base">Our graphic design services are tailored to create visually striking content that captures attention<br /> and communicates your brand's message effectively. From ad content to marketing materials,<br /> our designs are crafted to resonate with your audience.</p>
                 </div>
             </div>
             <ServicePage

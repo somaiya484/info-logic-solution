@@ -139,14 +139,12 @@ const DataVisualizationPage: React.FC = () => {
         <div>
 
             <div className="bg-fixed bg-[url('/datavisualization.jpg')] h-[600px] w-full flex justify-center items-center relative overflow-auto">
-                <div className="absolute inset-0 bg-gradient-to-b from-[#feddcb] to-[#ffffff] opacity-95"></div>
+                <div className="absolute inset-0 banner-background opacity-95"></div>
                 <div className="text-center relative z-10">
                     <h1 className="font-semibold">Data Visualization</h1>
-                    <h2 className="text-2xl md:text-5xl mt-10 font-semibold">Empower Your Business with</h2>
-                    <h2 className="text-2xl md:text-5xl font-semibold mt-5 mb-10 text-gradient font-bold ">Data Visualization</h2>
-                    <p>
-                        Our data analytics services at Info Logic Solution leverage powerful tools like Looker Studio and Power BI <br /> to transform raw data into actionable insights. We help you make informed decisions that<br /> drive growth and improve business performance.
-                    </p>
+                    <h2 className="text-2xl md:text-6xl mt-10 font-semibold">Empower Your Business with</h2>
+                    <h2 className="text-2xl md:text-6xl font-semibold mt-5 mb-10 text-gradient font-bold ">Data Visualization</h2>
+                    <p className="text-base">Our data analytics services at Info Logic Solution leverage powerful tools like Looker Studio and Power BI <br /> to transform raw data into actionable insights. We help you make informed decisions that<br /> drive growth and improve business performance.</p>
                 </div>
             </div>
 

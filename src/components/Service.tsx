@@ -109,13 +109,13 @@ const Service: React.FC = () => {
                 </div>
 
 
-                <Link href='/WebAnalytics' className='service-bg shadow-lg pt-7 px-8 rounded-lg'>
+                <div className='service-bg shadow-lg pt-7 px-8 rounded-lg'>
                     <div className='transition-transform transform hover:scale-110 duration-200'>
                         <MdKeyboardDoubleArrowUp size={27} className='w-[90px] h-[80px] bg-white rounded' />
-                        <h2 className='text-3xl my-5 font-bold hover:underline'>Advanced Web App Analytics</h2>
+                        <Link href='/WebAnalytics'  className='text-3xl my-5 font-bold hover:underline'>Advanced Web App Analytics</Link>
                         <p className="text-gray-700 mb-6 text-base font-semibold">Delve extensively into the performance of your website. Gain insights into your customer's journey and utilize data-driven strategies to improve user experience and drive higher conversion rates.</p>
                     </div>
-                </Link>
+                </div>
 
             </div>
 
@@ -125,30 +125,30 @@ const Service: React.FC = () => {
                 data-aos="fade-up"
                 data-aos-duration="1000">
 
-                <Link href='/SEM' className='service-bg shadow-lg py-7 px-5 rounded-lg transition-transform transform hover:scale-105 duration-200 hover:rounded-sm'>
+                <div  className='service-bg shadow-lg py-7 px-5 rounded-lg transition-transform transform hover:scale-105 duration-200 hover:rounded-sm'>
                     <div className='transition-transform transform hover:scale-105 duration-200'>
                         <MdKeyboardDoubleArrowUp size={27} className='w-[90px] h-[75px] bg-white rounded' />
-                        <h2 className='text-xl md:text-3xl my-5 font-bold hover:underline'>Improve Online ROI with SEO & SEM</h2>
+                        <Link href='/SEM' className='text-xl md:text-3xl my-5 font-bold hover:underline'>Improve Online ROI with SEO & SEM</Link>
                         <p className="text-gray-700 text-base font-semibold">Boosting your online visibility with expert SEO strategies. Driving targeted traffic with effective Google Ads campaigns.</p>
                     </div>
-                </Link>
+                </div>
 
-                <Link href='/SMM' className='service-bg shadow-lg py-7 px-5 rounded-lg transition-transform transform hover:scale-105 duration-200 hover:rounded-sm'>
+                <div  className='service-bg shadow-lg py-7 px-5 rounded-lg transition-transform transform hover:scale-105 duration-200 hover:rounded-sm'>
                     <div className='transition-transform transform hover:scale-105 duration-200'>
                         <MdKeyboardDoubleArrowUp size={27} className='w-[90px] h-[75px] bg-white rounded' />
-                        <h2 className='text-xl md:text-3xl my-5 font-bold hover:underline'>Comprehensive Social Media Marketing</h2>
+                        <Link href='/SMM' className='text-xl md:text-3xl my-5 font-bold hover:underline'>Comprehensive Social Media Marketing</Link>
                         <p className="text-gray-700 text-base font-semibold">Engaging your audience through impactful and strategic Facebook Ads, managing social channels for optimal results, and building a strong brand reputation.</p>
                     </div>
-                </Link>
+                </div>
 
 
-                <Link href='/GraphicsDesign' className='service-bg shadow-lg py-7 px-5 rounded-lg transition-transform transform hover:scale-105 duration-200 hover:rounded-sm'>
+                <div className='service-bg shadow-lg py-7 px-5 rounded-lg transition-transform transform hover:scale-105 duration-200 hover:rounded-sm'>
                     <div className='transition-transform transform hover:scale-105 duration-200'>
                         <MdKeyboardDoubleArrowUp size={27} className='w-[90px] h-[75px] bg-white rounded' />
-                        <h2 className='text-3xl my-5 font-bold hover:underline'>Design and Develop Your Dream Website</h2>
+                        <Link href='/GraphicsDesign' className='text-3xl my-5 font-bold hover:underline'>Design and Develop Your Dream Website</Link>
                         <p className="text-gray-700 text-base font-semibold">Crafting beautiful and functional websites on WordPress, Shopify, and Wix. Delivering custom-coded solutions tailored to your unique needs.</p>
                     </div>
-                </Link>
+                </div>
 
             </div>
         </div>
