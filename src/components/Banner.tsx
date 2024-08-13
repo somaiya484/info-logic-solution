@@ -4,8 +4,6 @@ import styles from './Banner.module.css';
 import Link from "next/link";
 
 const Banner: React.FC = () => {
-
-
   return (
     <div className={`relative overflow-hidden z-30 banner-background`}>
 
@@ -23,15 +21,14 @@ const Banner: React.FC = () => {
 
       <AnimatedText />
 
-      <div className='relative mt-9 md:flex justify-center md:justify-start gap-5 w-2/4 mx-auto md:w-[34%]'>
-      <div className=" primary-button transition-transform transform hover:scale-105 duration-400 w-[200px]">
-        <Link className="ml-6" href="/#services">Explore Services</Link>
-      </div>
+      <div className='relative mt-9 flex flex-col md:flex-row justify-center gap-5'>
+        <div className="primary-button transition-transform transform hover:scale-105 duration-400 w-[200px]">
+          <Link className="ml-6" href="/#services">Explore Services</Link>
+        </div>
 
         <a href='https://forms.gle/kfooAvTuePXRo2ub9' target="_blank" rel="noopener noreferrer" className='secondary-button mt-5 md:mt-0 w-[200px] transition-transform transform hover:scale-105 duration-300'>
           Get Free Consultation
         </a>
-
       </div>
 
       <div className='relative text-center mt-10 md:text-lg font-semibold w-3/4 mx-auto pb-10 z-10'>
