@@ -10,7 +10,7 @@ const ContactEmail: React.FC = () => {
                     <h1 className='font-bold primary-text'>Get In Touch</h1>
                 </div>
                 <div data-aos="fade-up" data-aos-duration="1600">
-                    <h2 className='text-5xl my-8 leading-10 font-semibold'>Let's Make the Solution</h2>
+                    <h2 className='text-5xl my-9 leading-10 font-semibold'>Let's Make the Solution</h2>
                     <p>Do you dream of exploring the furthest reaches of outer space? <br />Do you live for bringing brands to life and finding new ways to tell exciting brand stories? <br />If so, you may have just found your people.</p>
                 </div>
 
