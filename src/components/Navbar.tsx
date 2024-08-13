@@ -117,11 +117,12 @@ const Navbar: React.FC = () => {
                         ))
                     }
                 </ul>
-                <Link href='/contact' className='hidden md:block'>
-                    <button className='primary-button flex items-center'>
+
+                 <a href='https://forms.gle/kfooAvTuePXRo2ub9' target="_blank" rel="noopener noreferrer"  className='hidden md:block'>
+                    <button className='primary-button flex items-center transition-transform transform hover:scale-105 duration-300'>
                         Contact Us <IoMdCall className='text-xl ml-2' />
                     </button>
-                </Link>
+                </a>
             </div>
         </div>
     );

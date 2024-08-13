@@ -12,9 +12,11 @@ const Message = () => {
                     <p className='text-2xl md:text-4xl font-bold animate-text-color-change'>
                         We make the creative solutions for modern brands
                     </p>
-                    <Link href='/contact' className='primary-button flex items-center text-white transition-transform transform hover:scale-105 duration-300'>
-                        Contact Us <IoMdCall className='text-xl ml-2' />
-                    </Link>
+                    <a href='https://forms.gle/kfooAvTuePXRo2ub9' target="_blank" rel="noopener noreferrer" className='hidden md:block'>
+                        <button className='primary-button flex items-center transition-transform transform hover:scale-105 duration-300'>
+                            Contact Us <IoMdCall className='text-xl ml-2' />
+                        </button>
+                    </a>
                 </div>
             </div>
         </div>

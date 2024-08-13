@@ -38,7 +38,7 @@ const WhyChooseUs: React.FC = () => {
 
             <div className="mt-20">
                 <div className="relative">
-                    <div className="z-10 lg:h-[450px] w-full md:w-2/5 bg-indigo-500 absolute md:rounded-r-lg"></div>
+                    <div className="z-10 lg:h-[470px] w-full md:w-2/5 bg-indigo-500 absolute md:rounded-r-lg"></div>
                     <div className="flex flex-col md:flex-row justify-evenly pt-12 items-center">
 
                         <div data-aos="fade-up" data-aos-duration="1000" className="z-30 w-full md:w-[500px] ">
@@ -51,10 +51,8 @@ const WhyChooseUs: React.FC = () => {
                                 <p className="text-xl my-7 leading-8">We deliver top-tier marketing solutions backed <br /> by extensive industry experience.</p>
                             </div>
 
-                            <div data-aos="fade-up" data-aos-duration="800">
-                                <Link href="/#services" className='primary-button w-2/4 mx-auto  md:w-[40%] transition-transform transform hover:scale-105 duration-300'>
-                                    Explore Services <MdKeyboardDoubleArrowUp className='text-xl' />
-                                </Link>
+                            <div data-aos="fade-up" data-aos-duration="1000">
+                                <Link href="/#services" className='primary-button w-2/4 mx-auto  md:w-[40%] transition-transform transform hover:scale-105 duration-300'>Explore Services <MdKeyboardDoubleArrowUp className='text-xl' /></Link>
                             </div>
                         </div>
                     </div>
@@ -64,7 +62,7 @@ const WhyChooseUs: React.FC = () => {
             {/* 2nd */}
             <div className="mt-42 lg:mt-32">
                 <div className="relative">
-                    <div className="z-10 md:h-[300px] lg:h-[400px] w-full md:w-[400px] bg-purple-600/35 absolute md:right-0 md:rounded-l-lg"></div>
+                    <div className="z-10 md:h-[300px] lg:h-[370px] w-full md:w-[400px] bg-purple-600/35 absolute md:right-0 md:rounded-l-lg"></div>
                     <div className="flex flex-col-reverse md:flex-row justify-evenly pt-12 items-center">
                         <div className="text-center md:text-left md:mr-8">
                             <div data-aos="fade-up" data-aos-duration="1000">
@@ -74,10 +72,8 @@ const WhyChooseUs: React.FC = () => {
                                 </p>
                             </div>
 
-                            <div data-aos="fade-up" data-aos-duration="500">
-                                <Link href="/#services" className='primary-button w-2/4 mx-auto md:mx-0 md:w-[32%] transition-transform transform hover:scale-105 duration-300'>
-                                    Explore Services <MdKeyboardDoubleArrowUp className='text-xl' />
-                                </Link>
+                            <div data-aos="fade-up" data-aos-duration="800">
+                                <Link href="/#services" className='primary-button w-2/4 mx-auto md:mx-0 md:w-[32%] transition-transform transform hover:scale-105 duration-300'>Explore Services <MdKeyboardDoubleArrowUp className='text-xl' /></Link>
                             </div>
                         </div>
                         <div data-aos="fade-up" data-aos-duration="800" className="z-30 w-full md:w-[400px] ">
@@ -102,10 +98,8 @@ const WhyChooseUs: React.FC = () => {
                                     Proven excellence with a track record of <br /> impactful, high-performing campaigns.
                                 </p>
                             </div>
-                            <div data-aos="fade-up" data-aos-duration="500">
-                                <Link href="/#services" className='primary-button w-2/4 mx-auto md:w-[40%] transition-transform transform hover:scale-105 duration-300'>
-                                    Explore Services <MdKeyboardDoubleArrowUp className='text-xl' />
-                                </Link>
+                            <div data-aos="fade-up" data-aos-duration="1000">
+                                <Link href="/#services" className='primary-button w-2/4 mx-auto md:w-[40%] transition-transform transform hover:scale-105 duration-300'>Explore Services <MdKeyboardDoubleArrowUp className='text-xl' /></Link>
                             </div>
                         </div>
                     </div>

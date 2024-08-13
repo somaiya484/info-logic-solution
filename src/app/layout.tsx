@@ -39,7 +39,6 @@ export default function RootLayout({
       { name: 'FAQ', link: '/#QaN' },
     ],
     contact: {
-      phone: '+1234567890',
       email: 'admin@infologicsolution.com'
     }
   };

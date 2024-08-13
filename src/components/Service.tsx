@@ -1,57 +1,51 @@
-import React from 'react';
-import Image, { StaticImageData } from "next/image";
-import DataVisualization from "../../public/visualization.jpg";
-import analysis from "../../public/analytics.jpg";
-import SEO from "../../public/seo.jpg";
-import SEM from "../../public/SEM.jpg";
-import web from "../../public/designdevelopment.jpg";
-import { MdKeyboardDoubleArrowUp } from "react-icons/md";
 import Link from 'next/link';
-
+import { GrAnalytics } from "react-icons/gr";
+import { RiSeoFill } from "react-icons/ri";
+import { SiSemanticweb, SiDatabricks, SiEclipsemosquitto } from "react-icons/si";
 
 interface Service {
     id: number;
-    imageSrc: StaticImageData;
     title: string;
     description: string;
-    features: string[];
+    link: string;
+    icon: React.ReactNode;
 }
 
 const services: Service[] = [
     {
         id: 1,
-        imageSrc: DataVisualization,
-        title: "Data Visualization",
-        description: "Empowering your business with advanced analytics through Looker Studio and Power BI.",
-        features: ["Looker Studio", "Power BI"]
+        title: "Data Visualization with Looker Studio & Power BI",
+        description: "Access valuable insights and make informed decisions using personalized dashboards and detailed reports powered by Looker Studio and Power BI for empowering your business.",
+        link: '/DataVisualization',
+        icon: <SiDatabricks size={45} className='text-[#fea32c]' />,
     },
     {
         id: 2,
-        imageSrc: analysis,
-        title: "Web Analytics",
-        description: "Unlocking insights with Google Tag Manager, Conversion API, Pixel Installation, and Google Analytics.",
-        features: ["Google Analytics", "Facebook conversion API", "Google Tag Manager", "Pixel Installation"]
+        title: "Advanced Web App Analytics",
+        description: "Delve extensively into the performance of your website. Gain insights into your customer's journey and utilize data-driven strategies to improve user experience and drive higher conversion rates.",
+        link: '/WebAnalytics',
+        icon: <GrAnalytics size={45} className='text-[#fea32c]' />,
     },
     {
         id: 3,
-        imageSrc: SEO,
-        title: "SEO & SEM",
+        title: "Improve Online ROI with SEO & SEM",
         description: "Boosting your online visibility with expert SEO strategies. Driving targeted traffic with effective Google Ads campaigns.",
-        features: ["SEO strategies", "SEM"]
+        link: '/SEM',
+        icon: <RiSeoFill size={45} className='text-[#fea32c]' />,
     },
     {
         id: 4,
-        imageSrc: SEM,
-        title: "Social Media Marketing",
-        description: "Engaging your audience with impactful and strategic Facebook Ads.",
-        features: ["Google ads", "Facebook ads"]
+        title: "Comprehensive Social Media Marketing",
+        description: "Engaging your audience through impactful and strategic Facebook Ads, managing social channels for optimal results, and building a strong brand reputation.",
+        link: '/SMM',
+        icon: <SiEclipsemosquitto size={45} className='text-[#fea32c]' />,
     },
     {
         id: 5,
-        imageSrc: web,
-        title: "Design & Development",
+        title: "Design and Develop Your Dream Website",
         description: "Crafting beautiful and functional websites on WordPress, Shopify, and Wix. Delivering custom-coded solutions tailored to your unique needs.",
-        features: ["WordPress Design & Development", "Shopify Design & Development", "Wix Design & Development", "Frontend Development"]
+        link: '/GraphicsDesign',
+        icon: <SiSemanticweb size={45} className='text-[#fea32c]' />,
     }
 ];
 
@@ -59,17 +53,11 @@ const Service: React.FC = () => {
     return (
         <div className='mt-28' id='services'>
             <div className="text-center">
-                <div data-aos="fade-up"
-                    data-aos-duration="1000">
-                    <h2 className="text-5xl font-bold primary-text mb-6">
-                        Things we provide!
-                    </h2>
-                    <p className="text-xl">
-                        Let's take your brand to the next level with our comprehensive suite of <br /> marketing services.
-                    </p>
+                <div data-aos="fade-up" data-aos-duration="1000">
+                    <h2 className="text-5xl font-bold primary-text mb-6">Things we provide!</h2>
+                    <p className="text-xl">Let's take your brand to the next level with our comprehensive suite of <br /> marketing services.</p>
                 </div>
-                <div data-aos="fade-up"
-                    data-aos-duration="1000">
+                <div data-aos="fade-up" data-aos-duration="1000">
                     <svg
                         width="500"
                         height="60"
@@ -94,65 +82,30 @@ const Service: React.FC = () => {
                 </div>
             </div>
 
-
-            <div className='grid grid-cols-1 md:grid-cols-2 gap-10 mt-16 mx-2 md:mx-16'
-                data-aos="fade-up"
-                data-aos-duration="1000"
-            >
-
-                <div className=" shadow-lg pt-7 px-8 rounded-lg service-bg">
-                    <div className='transition-transform transform hover:scale-110 duration-200'>
-                        <MdKeyboardDoubleArrowUp size={27} className='w-[90px] h-[80px] bg-white rounded' />
-                        <Link href='/DataVisualization' className='text-3xl my-5 font-bold hover:underline'>Data Visualization with <br />Looker Studio & Power BI</Link>
-                        <p className="text-gray-700 mb-7 text-base font-semibold">Access valuable insights and make informed decisions using personalized dashboards and detailed reports powered by Looker Studio and Power BI for empowering your business</p>
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-10 mt-16 mx-2 md:mx-16' data-aos="fade-up" data-aos-duration="1000">
+                {services.slice(0, 2).map(service => (
+                    <div key={service.id} className="shadow-lg pt-7 px-8 rounded-xl service-bg">
+                        <div className='transition-transform transform hover:scale-110 duration-200'>
+                            <div className="mt-2 mb-4 w-24 h-20 bg-white rounded flex justify-center items-center">{service.icon}</div>
+                            <Link href={service.link} className='text-3xl font-bold hover:underline'>{service.title}</Link>
+                            <p className="text-gray-700 mb-7 text-base font-semibold mt-4">{service.description}</p>
+                        </div>
                     </div>
-                </div>
-
-
-                <div className='service-bg shadow-lg pt-7 px-8 rounded-lg'>
-                    <div className='transition-transform transform hover:scale-110 duration-200'>
-                        <MdKeyboardDoubleArrowUp size={27} className='w-[90px] h-[80px] bg-white rounded' />
-                        <Link href='/WebAnalytics'  className='text-3xl my-5 font-bold hover:underline'>Advanced Web App Analytics</Link>
-                        <p className="text-gray-700 mb-6 text-base font-semibold">Delve extensively into the performance of your website. Gain insights into your customer's journey and utilize data-driven strategies to improve user experience and drive higher conversion rates.</p>
-                    </div>
-                </div>
-
+                ))}
             </div>
 
-
-
-            <div className='grid grid-cols-1 md:grid-cols-3 gap-9 mt-12 mx-2 md:mx-16'
-                data-aos="fade-up"
-                data-aos-duration="1000">
-
-                <div  className='service-bg shadow-lg py-7 px-5 rounded-lg transition-transform transform hover:scale-105 duration-200 hover:rounded-sm'>
-                    <div className='transition-transform transform hover:scale-105 duration-200'>
-                        <MdKeyboardDoubleArrowUp size={27} className='w-[90px] h-[75px] bg-white rounded' />
-                        <Link href='/SEM' className='text-xl md:text-3xl my-5 font-bold hover:underline'>Improve Online ROI with SEO & SEM</Link>
-                        <p className="text-gray-700 text-base font-semibold">Boosting your online visibility with expert SEO strategies. Driving targeted traffic with effective Google Ads campaigns.</p>
+            <div className='grid grid-cols-1 md:grid-cols-3 gap-9 mt-12 mx-2 md:mx-16' data-aos="fade-up" data-aos-duration="1000">
+                {services.slice(2).map(service => (
+                    <div key={service.id} className='service-bg shadow-lg py-7 px-5 rounded-xl transition-transform transform hover:scale-105 duration-200 hover:rounded-sm'>
+                        <div className='transition-transform transform hover:scale-105 duration-200'>
+                            <div className="mt-2 mb-4 w-24 h-20 bg-white rounded flex justify-center items-center">{service.icon}</div>
+                            <Link href={service.link} className='text-xl md:text-3xl font-bold hover:underline'>{service.title}</Link>
+                            <p className="text-gray-700 text-base font-semibold mt-4">{service.description}</p>
+                        </div>
                     </div>
-                </div>
-
-                <div  className='service-bg shadow-lg py-7 px-5 rounded-lg transition-transform transform hover:scale-105 duration-200 hover:rounded-sm'>
-                    <div className='transition-transform transform hover:scale-105 duration-200'>
-                        <MdKeyboardDoubleArrowUp size={27} className='w-[90px] h-[75px] bg-white rounded' />
-                        <Link href='/SMM' className='text-xl md:text-3xl my-5 font-bold hover:underline'>Comprehensive Social Media Marketing</Link>
-                        <p className="text-gray-700 text-base font-semibold">Engaging your audience through impactful and strategic Facebook Ads, managing social channels for optimal results, and building a strong brand reputation.</p>
-                    </div>
-                </div>
-
-
-                <div className='service-bg shadow-lg py-7 px-5 rounded-lg transition-transform transform hover:scale-105 duration-200 hover:rounded-sm'>
-                    <div className='transition-transform transform hover:scale-105 duration-200'>
-                        <MdKeyboardDoubleArrowUp size={27} className='w-[90px] h-[75px] bg-white rounded' />
-                        <Link href='/GraphicsDesign' className='text-3xl my-5 font-bold hover:underline'>Design and Develop Your Dream Website</Link>
-                        <p className="text-gray-700 text-base font-semibold">Crafting beautiful and functional websites on WordPress, Shopify, and Wix. Delivering custom-coded solutions tailored to your unique needs.</p>
-                    </div>
-                </div>
-
+                ))}
             </div>
         </div>
-
     );
 };
 

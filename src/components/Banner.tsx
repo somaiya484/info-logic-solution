@@ -24,10 +24,13 @@ const Banner: React.FC = () => {
       <AnimatedText />
 
       <div className='relative mt-9 md:flex justify-center md:justify-start gap-5 w-2/4 mx-auto md:w-[34%]'>
-        <Link className='primary-button transition-transform transform hover:scale-105 duration-300' href="/#services">Explore Services <MdKeyboardDoubleArrowDown className='text-xl' /></Link>
-        <button className='secondary-button mt-5 md:mt-0'>
+      <div className=" primary-button transition-transform transform hover:scale-105 duration-400 w-[200px]">
+        <Link className="ml-6" href="/#services">Explore Services</Link>
+      </div>
+
+        <a href='https://forms.gle/kfooAvTuePXRo2ub9' target="_blank" rel="noopener noreferrer" className='secondary-button mt-5 md:mt-0 w-[200px] transition-transform transform hover:scale-105 duration-300'>
           Get Free Consultation
-        </button>
+        </a>
 
       </div>
 

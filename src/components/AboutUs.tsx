@@ -36,10 +36,12 @@ const AboutUs: React.FC = () => {
                         <h2 className=' font-bold primary-text'>Who We Are</h2>
                         <p className='text-3xl md:text-5xl mt-6 leading-10 font-semibold'>SOLUTIONS THAT</p>
                         <p className='text-3xl md:text-5xl mt-4 leading-10 font-semibold'>ELEVATE EXPERIENCES </p>
-                        <p className='mt-8 mb-4 leading-7 md:text-xl'><span className='font-bold text-gradient'>Info Logic Solution</span> is your dedicated partner for navigating the digital landscape. We deliver comprehensive marketing services to elevate your brand and drive growth. Our solutions are rooted in thorough brand research and designed to enhance your unique identity. <br /><br /> Our team's singular purpose is to craft impactful marketing experiences that captivate audiences and elevate brands. With our expertise and enthusiasm, we create strategies that drive businesses to new heights. <span className='font-bold text-gradient'>We are committed</span> to constant innovation and creative storytelling, ensuring that your brand stands out in a dynamic market. Join us and see your business thrive.
+                        <p className='mt-8 mb-4 leading-7 md:text-xl'>Info Logic Solution is your dedicated partner for navigating the digital landscape. We deliver <span className='font-bold text-gradient'>comprehensive marketing services </span> to elevate your brand and drive growth. Our solutions are rooted in thorough brand research and designed to enhance your unique identity. <br /><br /> Our team's singular purpose is to craft impactful marketing experiences that captivate audiences and elevate brands. With our expertise and enthusiasm, we create strategies that drive businesses to new heights. <span className='font-bold text-gradient'>We are committed</span> to constant innovation and creative storytelling, ensuring that your brand stands out in a dynamic market. Join us and see your business thrive.
                         </p>
 
-                        <button className='secondary-button w-[200px] mx-auto md:mx-0 mt-3'>Get Free Consultation</button>
+                        <a href='https://forms.gle/kfooAvTuePXRo2ub9' target="_blank" rel="noopener noreferrer" className='secondary-button mt-5 md:mt-0 w-[200px] transition-transform transform hover:scale-105 duration-300'>
+                            Get Free Consultation
+                        </a>
                     </div>
                 </div>
             </div>

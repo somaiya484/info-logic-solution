@@ -76,7 +76,7 @@ const testimonials: TestimonialData[] = [
 const Testimonial: React.FC = () => {
     return (
         <div className="page-background overflow-hidden pb-32" id="testimonial">
-            <div data-aos="fade-up" data-aos-duration="2000">
+            <div data-aos="fade-up" data-aos-duration="1000">
 
 
                 <Swiper

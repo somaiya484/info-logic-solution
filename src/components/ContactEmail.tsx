@@ -10,14 +10,12 @@ const ContactEmail: React.FC = () => {
                     <h1 className='font-bold primary-text'>Get In Touch</h1>
                 </div>
                 <div data-aos="fade-up" data-aos-duration="1600">
-                    <h2 className='text-5xl my-6 leading-10 font-semibold'>Let's Make the Solution</h2>
+                    <h2 className='text-5xl my-8 leading-10 font-semibold'>Let's Make the Solution</h2>
                     <p>Do you dream of exploring the furthest reaches of outer space? <br />Do you live for bringing brands to life and finding new ways to tell exciting brand stories? <br />If so, you may have just found your people.</p>
                 </div>
 
                 <div data-aos="fade-up" data-aos-duration="1200">
-                    <Link href='/contact' className='primary-button w-[135px] mx-auto mt-10'>
-                        Contact Us <IoMdCall className='text-xl ml-2' />
-                    </Link>
+                    <a href='https://forms.gle/kfooAvTuePXRo2ub9' target="_blank" rel="noopener noreferrer" className='primary-button w-[135px] mx-auto mt-10'>Contact Us <IoMdCall className='text-xl ml-2' /></a>
                 </div>
             </div>
         </div>

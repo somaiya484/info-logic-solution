@@ -1,7 +1,5 @@
 "use client"
-import Link from 'next/link';
 import { useState } from 'react';
-import { IoMdCall } from "react-icons/io";
 
 interface Faq {
   question: string;
@@ -63,8 +61,9 @@ const QaN: React.FC = () => {
           <h1 className="text-3xl md:text-7xl font-semibold mb-8 text-red-500 text-center">Questions? </h1>
           <p className='text-lg text-center mb-10 text-gray-700 font-semibold'>We have already addressed some of our frequently asked questions.</p>
         </div>
+
         {faqs.map((faq, index) => (
-          <div key={index} className="border border-b-8 rounded-lg border-gray-600 p-4  transition-transform transform hover:scale-105 hover:shadow duration-300">
+          <div key={index} className="border border-b-8 rounded-lg border-gray-600 p-4 transition-transform transform hover:scale-110 hover:shadow duration-300">
             <button
               className="w-full text-left flex justify-between items-center focus:outline-none"
               onClick={() => toggleFAQ(index)}
