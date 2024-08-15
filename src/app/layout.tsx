@@ -44,7 +44,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/topweb.png" type="image/x-icon" className="w-full" />
+        {/* <link rel="icon" href="/" type="image/x-icon" className="w-full" /> */}
+        <link rel="topIcon" href="/topweb.png" type="image/x-icon" className="w-full" />
       </head>
 
       <body className={inter.className}>
