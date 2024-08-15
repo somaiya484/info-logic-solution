@@ -60,16 +60,16 @@ const ServicePage: React.FC<ServicePageProps> = ({ sections, processSteps, workS
                         {sections.map((section) => (
                             <div data-aos="fade-up" data-aos-duration="1000">
 
-                                <div key={section.id} className="shadow-xl rounded bg-white transition-transform transform hover:scale-105  duration-300 h-full w-full">
+                                <div key={section.id} className="shadow-xl rounded-lg bg-white transition-transform transform hover:scale-105  duration-300 h-full w-full">
                                     <Image src={section.img} width={250} height={250} alt="Company Logo" className="h-80 w-full object-cover p-3" />
                                     <div className="p-6">
                                         <h2 className="text-4xl my-5">{section.title}</h2>
                                         <p className="text-gray-700 mb-7">{section.description}</p>
-                                        <Link href={section.link}>
+                                        <a href='https://forms.gle/kfooAvTuePXRo2ub9' target="_blank" rel="noopener noreferrer"  >
                                             <button className="secondary-button hover:scale-105 duration-200">
                                                 Reach Us
                                             </button>
-                                        </Link>
+                                        </a>
                                     </div>
                                 </div>
                             </div>

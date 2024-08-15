@@ -13,7 +13,7 @@ const AnimatedText: React.FC = () => {
                     1000,
                     'We are passionate about SEO & SEM',
                     1000,
-                    'We are passionate about SMM',
+                    'We are passionate about Social Media Marketing ',
                     1000,
                     'We are passionate about Graphic Design',
                     1000,

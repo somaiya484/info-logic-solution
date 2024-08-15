@@ -8,7 +8,7 @@ const Message = () => {
                 data-aos-duration="900">
 
 
-                <div className="w-[98%] mx-auto flex flex-col md:flex-row justify-center items-center gap-10 text-center">
+                <div className=" mx-auto flex flex-col md:flex-row justify-center items-center gap-10 text-center">
                     <p className='text-2xl md:text-4xl font-bold animate-text-color-change'>
                         We make the creative solutions for modern brands
                     </p>

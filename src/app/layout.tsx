@@ -5,12 +5,10 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import logoFooter from '../../public/logoFooter.png';
 
-
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Info Logic Solution",
-  description: "",
 };
 
 export default function RootLayout({
@@ -45,6 +43,10 @@ export default function RootLayout({
 
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/topweb.png" type="image/x-icon" className="w-full" />
+      </head>
+
       <body className={inter.className}>
         <main className='container mx-auto min-h-screen'>
           <Navbar></Navbar>

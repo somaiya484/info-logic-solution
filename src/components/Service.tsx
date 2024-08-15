@@ -55,14 +55,14 @@ const Service: React.FC = () => {
             <div className="text-center">
                 <div data-aos="fade-up" data-aos-duration="1000">
                     <h2 className="text-5xl font-bold primary-text mb-6">Things we provide!</h2>
-                    <p className="text-xl">Let's take your brand to the next level with our comprehensive suite of <br /> marketing services.</p>
+                    <p className="md:text-xl">Let's take your brand to the next level with our comprehensive suite of <br /> marketing services.</p>
                 </div>
                 <div data-aos="fade-up" data-aos-duration="1000">
                     <svg
                         width="500"
                         height="60"
                         viewBox="0 0 200 40"
-                        className="invisible md:visible mx-auto"
+                        className="hidden md:block mx-auto"
                         xmlns="http://www.w3.org/2000/svg"
                     >
                         <path
@@ -87,7 +87,7 @@ const Service: React.FC = () => {
                     <div key={service.id} className="shadow-lg pt-7 px-8 rounded-xl service-bg">
                         <div className='transition-transform transform hover:scale-110 duration-200'>
                             <div className="mt-2 mb-4 w-24 h-20 bg-white rounded flex justify-center items-center">{service.icon}</div>
-                            <Link href={service.link} className='text-3xl font-bold hover:underline'>{service.title}</Link>
+                            <Link href={service.link} className='text-xl md:text-3xl font-bold hover:underline'>{service.title}</Link>
                             <p className="text-gray-700 mb-7 text-base font-semibold mt-4">{service.description}</p>
                         </div>
                     </div>

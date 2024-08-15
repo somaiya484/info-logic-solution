@@ -5,7 +5,7 @@ const SMM: React.FC = () => {
     const sections = [
         {
             id: 1,
-            img: "/social-media-marketing.jpg",
+            img: "/sem-service.jpg",
             title: "Social Media Marketing",
             description:
                 "Through strategic social media marketing, we help you connect with your audience, build brand awareness, and drive engagement across popular platforms such as Facebook, Instagram, and Twitter. From social media audits to content creation and campaign management, we tailor our approach to align with your business goals and target audience.",
@@ -13,7 +13,7 @@ const SMM: React.FC = () => {
         },
         {
             id: 2,
-            img: "/facebookads.jpg",
+            img: "/ppc.jpg",
             title: "Facebook Ads Campaigns",
             description:
                 "Engage with your audience on the world’s largest social media platform. Our team designs and manages Facebook Ads that resonate with your target market, driving traffic, leads, and sales.",
@@ -143,7 +143,7 @@ const SMM: React.FC = () => {
                     <h1 className="font-semibold mt-5">SMM</h1>
                     <h2 className="text-2xl md:text-6xl my-8 font-semibold leading-[60px]"> Enhance Your Online Presence <br /> with Comprehensive<br /></h2>
                     <h2 className="text-2xl md:text-6xl font-semibold mt-5 mb-10 text-gradient font-bold pb-3">Social Media Marketing</h2>
-                    <p className="text-base">We provide a full suite of social media marketing services designed to boost your online visibility, <br /> drive targeted traffic, and engage your audience. Our expert team integrates creative and strategic approaches <br /> to ensure your brand reaches its full potential.</p>
+                    <p className="md:text-base">We provide a full suite of social media marketing services designed to boost your online visibility, <br /> drive targeted traffic, and engage your audience. Our expert team integrates creative and strategic approaches <br /> to ensure your brand reaches its full potential.</p>
                 </div>
             </div>
 

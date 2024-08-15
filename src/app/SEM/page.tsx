@@ -5,7 +5,7 @@ const SEM: React.FC = () => {
     const sections = [
         {
             id: 1,
-            img: "/seoPage.jpg",
+            img: "/seo-service.jpg",
             title: "SEO",
             description:
                 "Boost your website's search engine rankings and attract more organic traffic with our proven SEO techniques. We focus on comprehensive keyword research, on-page optimization, and high-quality content creation to improve your visibility and drive long-term results.",
@@ -13,7 +13,7 @@ const SEM: React.FC = () => {
         },
         {
             id: 2,
-            img: "/googleAdsCampaigns.png",
+            img: "/Google-Ads.jpg",
             title: "Google Ads Campaigns",
             description:
                 "Maximize your reach and drive targeted traffic to your website through our expertly managed Google Ads campaigns. We ensure high ROI by optimizing ad performance and targeting the right audience at the right time.",
@@ -21,7 +21,7 @@ const SEM: React.FC = () => {
         },
         {
             id: 3,
-            img: "/bingAds.jpeg",
+            img: "/bing-ads.jpeg",
             title: "Bing Ads",
             description:
                 "Expand your reach with Bing Ads and attract more customers through strategic ad placements. Our team optimizes your campaigns for higher click-through rates and better conversion rates, ensuring your marketing budget is used effectively.",
@@ -153,7 +153,7 @@ const SEM: React.FC = () => {
                     <h1 className="font-semibold mt-5">SEO & SEM</h1>
                     <h2 className="text-2xl md:text-6xl mt-10 font-semibold">Elevate Your Online Presence <br /> with Comprehensive</h2>
                     <h2 className="text-2xl md:text-6xl font-semibold mt-8 mb-10 text-gradient font-bold pb-2">SEO, SEM & Ads Campaigns</h2>
-                    <p className="text-base">We will provide a full suite of digital marketing services designed to boost your <br /> online visibility, drive targeted traffic, and engage your audience. Our expert team integrates SEO, SEM, <br />and social media marketing strategies to ensure your brand reaches its full potential</p>
+                    <p className="md:text-base">We will provide a full suite of digital marketing services designed to boost your <br /> online visibility, drive targeted traffic, and engage your audience. Our expert team integrates SEO, SEM, <br />and social media marketing strategies to ensure your brand reaches its full potential</p>
                 </div>
             </div>
 

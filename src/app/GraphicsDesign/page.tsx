@@ -4,32 +4,32 @@ const GraphicsDesign: React.FC = () => {
 
     const sections = [
         {
-            id: 1,
-            img: "/adContentDesign.jpg",
-            title: "Ad Content Design",
-            description:
-                "Capture attention and drive action with our expertly designed ad content. We create visually compelling ads for online and offline platforms, ensuring your message stands out in a crowded marketplace.",
-            link: "/contact",
-        },
-        {
-            id: 2,
-            img: "/socialmediaad.png",
-            title: "Social Media Graphics",
-            description:
-                "Enhance your social media presence with stunning graphics that engage and attract your audience. From Instagram posts to Facebook banners, we design visuals that boost your brand’s online profile.",
-            link: "/contact",
-        },
-        {
             id: 3,
-            img: "/PrintedMarketingMaterials.jpg",
+            img: "/print.jpg",
             title: "Print Materials",
             description:
                 "Make a lasting impression with high-quality print designs. We create everything from business cards and brochures to posters and flyers, ensuring your printed materials are as impactful as your digital ones.",
             link: "/contact",
         },
         {
+            id: 2,
+            img: "/social-graphics.jpg",
+            title: "Social Media Graphics",
+            description:
+                "Enhance your social media presence with stunning graphics that engage and attract your audience. From Instagram posts to Facebook banners, we design visuals that boost your brand’s online profile.",
+            link: "/contact",
+        },
+        {
+            id: 1,
+            img: "/ads-content.jpg",
+            title: "Ad Content Design",
+            description:
+                "Capture attention and drive action with our expertly designed ad content. We create visually compelling ads for online and offline platforms, ensuring your message stands out in a crowded marketplace.",
+            link: "/contact",
+        },
+        {
             id: 4,
-            img: "/brandIdentity.PNG",
+            img: "/brand-id.jpg",
             title: "Brand Identity",
             description:
                 "Develop a cohesive and memorable brand identity with our comprehensive design services. We create logos, color schemes, and brand guidelines that reflect your business’s values and vision.",
@@ -157,7 +157,7 @@ const GraphicsDesign: React.FC = () => {
                         Captivate Your Audience with Eye Catching
                     </h2>
                     <h2 className="text-2xl md:text-6xl font-semibold mb-10 text-gradient font-bold pb-2">Graphic Design</h2>
-                    <p className="text-base">Our graphic design services are tailored to create visually striking content that captures attention<br /> and communicates your brand's message effectively. From ad content to marketing materials,<br /> our designs are crafted to resonate with your audience.</p>
+                    <p className="md:text-base">Our graphic design services are tailored to create visually striking content that captures attention<br /> and communicates your brand's message effectively. From ad content to marketing materials,<br /> our designs are crafted to resonate with your audience.</p>
                 </div>
             </div>
             <ServicePage

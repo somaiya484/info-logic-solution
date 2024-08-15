@@ -167,7 +167,7 @@ const WebAnalytics: React.FC = () => {
                     <h1 className="font-semibold">Web Analytics</h1>
                     <h2 className="text-2xl md:text-5xl mt-10 font-semibold">Unlock Actionable Insights with Advanced</h2>
                     <h2 className="text-2xl md:text-6xl font-semibold mt-7 mb-10 text-gradient font-bold pb-2">Web Analytics</h2>
-                    <p className="text-base">Info Logic Solution offers comprehensive web analytics services to help you understand your website's <br />performance and user behavior for both client and server sides. We use tools like Google Tag Manager, Conversion API,<br /> Google Analytics, and other marketing platforms to provide insights that drive informed business decisions.</p>
+                    <p className="md:text-base">Info Logic Solution offers comprehensive web analytics services to help you understand your website's <br />performance and user behavior for both client and server sides. We use tools like Google Tag Manager, Conversion API,<br /> Google Analytics, and other marketing platforms to provide insights that drive informed business decisions.</p>
                 </div>
             </div>
             <ServicePage

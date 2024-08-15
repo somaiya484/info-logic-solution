@@ -39,9 +39,16 @@ const AboutUs: React.FC = () => {
                         <p className='mt-8 mb-4 leading-7 md:text-xl'>Info Logic Solution is your dedicated partner for navigating the digital landscape. We deliver <span className='font-bold text-gradient'>comprehensive marketing services </span> to elevate your brand and drive growth. Our solutions are rooted in thorough brand research and designed to enhance your unique identity. <br /><br /> Our team's singular purpose is to craft impactful marketing experiences that captivate audiences and elevate brands. With our expertise and enthusiasm, we create strategies that drive businesses to new heights. <span className='font-bold text-gradient'>We are committed</span> to constant innovation and creative storytelling, ensuring that your brand stands out in a dynamic market. Join us and see your business thrive.
                         </p>
 
-                        <a href='https://forms.gle/kfooAvTuePXRo2ub9' target="_blank" rel="noopener noreferrer" className='secondary-button mt-5 md:mt-0 w-[200px] transition-transform transform hover:scale-105 duration-300'>
-                            Get Free Consultation
-                        </a>
+                        <div className='flex justify-center sm:justify-start'>
+                            <a
+                                href='https://forms.gle/kfooAvTuePXRo2ub9'
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className='secondary-button mt-5 sm:mt-0 w-[200px] transition-transform transform hover:scale-105 duration-300 text-center'
+                            >
+                                Get Free Consultation
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -144,7 +144,7 @@ const DataVisualizationPage: React.FC = () => {
                     <h1 className="font-semibold">Data Visualization</h1>
                     <h2 className="text-2xl md:text-6xl mt-10 font-semibold">Empower Your Business with</h2>
                     <h2 className="text-2xl md:text-6xl font-semibold mt-5 mb-10 text-gradient font-bold ">Data Visualization</h2>
-                    <p className="text-base">Our data analytics services at Info Logic Solution leverage powerful tools like Looker Studio and Power BI <br /> to transform raw data into actionable insights. We help you make informed decisions that<br /> drive growth and improve business performance.</p>
+                    <p className="md:text-base">Our data analytics services at Info Logic Solution leverage powerful tools like Looker Studio and Power BI <br /> to transform raw data into actionable insights. We help you make informed decisions that<br /> drive growth and improve business performance.</p>
                 </div>
             </div>
 

@@ -70,7 +70,8 @@ const Navbar: React.FC = () => {
 
     return (
         <div className={`w-full fixed top-0 left-0 z-50 transition-colors duration-300 ${scrolled ? 'bg-white shadow-lg' : 'bg-[radial-gradient(circle,_rgba(255,165,0,0.8)_0%]'} `}>
-            <div className='container mx-auto flex items-center justify-between px-6'>
+            <div className='container mx-auto flex items-center justify-between'>
+                {/* nav icon */}
                 <div className='flex items-center'>
                     <Link href='/'>
                         <Image
@@ -118,7 +119,7 @@ const Navbar: React.FC = () => {
                     }
                 </ul>
 
-                 <a href='https://forms.gle/kfooAvTuePXRo2ub9' target="_blank" rel="noopener noreferrer"  className='hidden md:block'>
+                 <a href='https://forms.gle/kfooAvTuePXRo2ub9' target="_blank" rel="noopener noreferrer"  className='hidden md:block pr-4'>
                     <button className='primary-button flex items-center transition-transform transform hover:scale-105 duration-300'>
                         Contact Us <IoMdCall className='text-xl ml-2' />
                     </button>

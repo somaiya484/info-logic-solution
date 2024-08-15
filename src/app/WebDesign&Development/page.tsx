@@ -155,7 +155,7 @@ const WebDesignDevelopment: React.FC = () => {
                     <h1 className="font-semibold mt-10">Web Design and Development</h1>
                     <h2 className="text-2xl md:text-6xl my-6 font-semibold leading-[60px] mt-7">Transform Your Online Presence <br /> with Stunning</h2>
                     <h2 className="text-2xl md:text-6xl font-semibold mb-10 text-gradient font-bold pb-2">Website Design & Development </h2>
-                    <p className="text-base">At Info Logic Solution, we specialize in creating visually appealing and highly functional websites <br /> that reflect your brand's identity and engage your audience. Whether you need a site built on<br />  WordPress, Shopify, Wix, or a custom-coded solution, our team has the expertise to bring your vision to life.</p>
+                    <p className="md:text-base">At Info Logic Solution, we specialize in creating visually appealing and highly functional websites <br /> that reflect your brand's identity and engage your audience. Whether you need a site built on<br />  WordPress, Shopify, Wix, or a custom-coded solution, our team has the expertise to bring your vision to life.</p>
                 </div>
             </div>
 

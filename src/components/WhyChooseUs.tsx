@@ -16,7 +16,7 @@ const WhyChooseUs: React.FC = () => {
                         width="500"
                         height="60"
                         viewBox="0 0 200 40"
-                        className="invisible md:visible  mx-auto"
+                        className="hidden md:block  mx-auto"
                         xmlns="http://www.w3.org/2000/svg"
                     >
                         <path
@@ -47,7 +47,7 @@ const WhyChooseUs: React.FC = () => {
 
                         <div className="text-center md:text-left md:ml-8">
                             <div data-aos="fade-up" data-aos-duration="600">
-                                <h3 className="text-5xl">Exceptional Expertise</h3>
+                                <h3 className="text-5xl mt-6 md:mt-0">Exceptional Expertise</h3>
                                 <p className="text-xl my-7 leading-8">We deliver top-tier marketing solutions backed <br /> by extensive industry experience.</p>
                             </div>
 
@@ -60,13 +60,13 @@ const WhyChooseUs: React.FC = () => {
             </div>
 
             {/* 2nd */}
-            <div className="mt-42 lg:mt-32">
+            <div className="mt-32 md:mt-32">
                 <div className="relative">
                     <div className="z-10 md:h-[300px] lg:h-[370px] w-full md:w-[400px] bg-purple-600/35 absolute md:right-0 md:rounded-l-lg"></div>
                     <div className="flex flex-col-reverse md:flex-row justify-evenly pt-12 items-center">
                         <div className="text-center md:text-left md:mr-8">
                             <div data-aos="fade-up" data-aos-duration="1000">
-                                <h3 className="text-5xl">Client-Focused Excellence</h3>
+                                <h3 className="text-5xl mt-6 md:mt-0">Client-Focused Excellence</h3>
                                 <p className="text-xl my-7 leading-8">
                                     Personalized strategies tailored<br /> to  achieve your business goals.
                                 </p>
@@ -93,7 +93,7 @@ const WhyChooseUs: React.FC = () => {
                         </div>
                         <div className="text-center md:text-left md:ml-8">
                             <div data-aos="fade-up" data-aos-duration="800">
-                                <h3 className="text-5xl">Proven Track Record</h3>
+                                <h3 className="text-5xl mt-6 md:mt-0">Proven Track Record</h3>
                                 <p className="text-xl my-7 leading-8">
                                     Proven excellence with a track record of <br /> impactful, high-performing campaigns.
                                 </p>

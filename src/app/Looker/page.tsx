@@ -145,7 +145,7 @@ const LookerPage: React.FC = () => {
                     <h1 className="font-semibold">Looker and Reporting</h1>
                     <h2 className="text-2xl md:text-6xl mt-10 font-semibold">Unlock Insights with Powerful</h2>
                     <h2 className="text-2xl md:text-6xl font-semibold py-5 mb-10 text-gradient font-bold">Looker & Reporting</h2>
-                    <p className="text-base">At Info Logic Solution, we specialize in transforming complex data into clear and actionable insights. <br /> Our Looker services leverage Looker Studio to help you understand your data, make informed decisions,<br /> and drive business success.</p>
+                    <p className="md:text-base">At Info Logic Solution, we specialize in transforming complex data into clear and actionable insights. <br /> Our Looker services leverage Looker Studio to help you understand your data, make informed decisions,<br /> and drive business success.</p>
                 </div>
             </div>
 

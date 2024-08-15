@@ -54,7 +54,7 @@ const Footer: React.FC<FooterProps> = ({ logoSrc, message, services, companyLink
                     <ul>
                         <li><a className="link link-hover text-gray-400 hover:underline hover:text-white" href={`mailto:${contact.email}`}>Email: {contact.email}</a></li>
                     </ul>
-                    <div className="flex gap-8 items-center mt-5 text-2xl  text-gray-400 ">
+                    <div className="flex gap-8 items-center justify-center md:justify-start mt-5 text-2xl  text-gray-400 ">
                         <a href='https://www.linkedin.com/company/infologicsolution/' target="_blank" rel="noopener noreferrer" className='cursour-pointer hover:text-white' ><FaLinkedin /></a>
                         <a href=' https://www.instagram.com/infologicsolution/' target="_blank" rel="noopener noreferrer" className='cursour-pointer hover:text-white' ><FaInstagram /></a>
                         <a href='https://www.facebook.com/infologicsolution/' target="_blank" rel="noopener noreferrer" className='cursour-pointer hover:text-white' ><FaFacebookF /></a>
