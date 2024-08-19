@@ -43,6 +43,27 @@ const LookerPage: React.FC = () => {
 
     const workSamples = [
         {
+            id: 7,
+            category: "Looker Studio",
+            img: "/lookerpage-sample.png",
+            title: "Promo Business - Report",
+            link: 'https://lookerstudio.google.com/u/0/reporting/03084ee0-265e-484e-8cce-7c4659023e6c/page/p_wny5ctoocd',
+        },
+        {
+            id: 8,
+            category: "Looker Studio",
+            img: "/lookers10.png",
+            title: "Architectural - Report",
+            link: 'https://lookerstudio.google.com/u/0/reporting/5aba887b-c46e-48ac-805b-42c7c6080618/page/VMAzC',
+        },
+        {
+            id: 9,
+            category: "Looker Studio",
+            img: "/lookers12.png",
+            title: "Vacation Rental - Report",
+            link: 'https://lookerstudio.google.com/u/0/reporting/b3d68400-3d98-4a4f-9182-d9927820b9dd/page/yEsVD',
+        },
+        {
             id: 1,
             category: "Looker Studio",
             img: "/lookers5.png",
@@ -83,28 +104,7 @@ const LookerPage: React.FC = () => {
             img: "/lookers2.png",
             title: "Kubla - Report",
             link: 'https://lookerstudio.google.com/reporting/c02faf95-df49-4dfb-95f3-6b13b8be248b/page/p_pr8q1l6ncd',
-        },
-        {
-            id: 7,
-            category: "Looker Studio",
-            img: "/lookerpage-sample.png",
-            title: "Promo Business - Report",
-            link: 'https://lookerstudio.google.com/u/0/reporting/03084ee0-265e-484e-8cce-7c4659023e6c/page/p_wny5ctoocd',
-        },
-        {
-            id: 8,
-            category: "Looker Studio",
-            img: "/lookers10.png",
-            title: "Architectural - Report",
-            link: 'https://lookerstudio.google.com/u/0/reporting/5aba887b-c46e-48ac-805b-42c7c6080618/page/VMAzC',
-        },
-        {
-            id: 9,
-            category: "Looker Studio",
-            img: "/lookers12.png",
-            title: "Vacation Rental - Report",
-            link: 'https://lookerstudio.google.com/u/0/reporting/b3d68400-3d98-4a4f-9182-d9927820b9dd/page/yEsVD',
-        },
+        }
     ];
 
     const plans = [

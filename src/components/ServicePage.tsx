@@ -63,7 +63,7 @@ const ServicePage: React.FC<ServicePageProps> = ({ sections, processSteps, workS
                                         <h2 className="text-4xl mt-3  mb-5">{section.title}</h2>
                                         <p className="text-gray-700 mb-7 text-sm">{section.description}</p>
                                         <a href='https://forms.gle/kfooAvTuePXRo2ub9' target="_blank" rel="noopener noreferrer">
-                                            <button className="px-4 py-2 gradient-background2 border-b-2 border-l-2 border-r-2 border-[#FFD7C2] font-semibold rounded text-base hover:scale-105 duration-200  hover:border-orange-300">Reach Us</button>
+                                            <button className="px-4 py-2 gradient-background2 border-b-2 border-l-2 border-r-2 border-orange-200 font-semibold rounded text-base hover:scale-105 duration-200  hover:border-orange-300">Reach Us</button>
                                         </a>
                                     </div>
                                 </div>
@@ -99,11 +99,7 @@ const ServicePage: React.FC<ServicePageProps> = ({ sections, processSteps, workS
 
             {/* Work Samples Section */}
             <div className="bg-white text-black">
-                <div data-aos="fade-up" data-aos-duration="1000">
-                    <h1 className="text-gradient font-bold text-center text-5xl mt-32 mb-20">
-                        Work Samples
-                    </h1>
-                </div>
+                <div data-aos="fade-up" data-aos-duration="1000"><h1 className="text-gradient font-bold text-center text-5xl mt-32 mb-20">Work Samples</h1></div>
 
                 <div className="mx-auto grid md:grid-cols-3 gap-10 px=6 md:px-16">
                     {workSamples.map((sample) => (

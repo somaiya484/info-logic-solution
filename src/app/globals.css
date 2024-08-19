@@ -133,6 +133,11 @@
     background: linear-gradient(180deg, #feddcb 0%, #FFFFFF 100%, #feddcb 0%);
     text-align: center;
 }
+.gradient-backgroundr {
+    position: relative;
+    background: linear-gradient(180deg, #fdbd9b 0%, #fceeee 100%, #fcc2a3 0%);
+    text-align: center;
+}
 
 .service-bg {
     background-image: linear-gradient(#ffd0b64f, #ffce8d55), url('../../public//servicebg.png');

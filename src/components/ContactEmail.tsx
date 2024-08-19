@@ -12,9 +12,7 @@ const ContactEmail: React.FC = () => {
                 <div data-aos="fade-up" data-aos-duration="1000">
                     <h2 className='text-5xl my-9 leading-10 font-semibold'>Let's Make the Solution</h2>
                     <p>Do you dream of exploring the furthest reaches of outer space? <br />Do you live for bringing brands to life and finding new ways to tell exciting brand stories? <br />If so, you may have just found your people.</p>
-                </div>
 
-                <div data-aos="fade-up" data-aos-duration="1000">
                     <a href='https://forms.gle/kfooAvTuePXRo2ub9' target="_blank" rel="noopener noreferrer" className='primary-button w-[135px] mx-auto mt-10'>Contact Us <IoMdCall className='text-xl ml-2' /></a>
                 </div>
             </div>
