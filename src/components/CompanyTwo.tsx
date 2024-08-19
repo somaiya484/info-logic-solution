@@ -1,16 +1,19 @@
 import Marquee from "react-fast-marquee";
 import Image from 'next/image';
-// import com1 from '../../public/com1.png'
-// import com2 from '../../public/com2.png'
-// import com3 from '../../public/com3.png'
-// import com4 from '../../public/com4.png'
-// import com5 from '../../public/com5.png'
-// import com6 from '../../public/com6.png'
-// import com7 from '../../public/com7.png'
-// import com8 from '../../public/com8.jpg'
-// import com9 from '../../public/com9.png'
-// import com10 from '../../public/com10.jpg'
-// import com11 from '../../public/com11.png'
+import partner2 from '../../public/partner2.png'
+import partner3 from '../../public/partner3.png'
+import partner5 from '../../public/partner5.png'
+import partner6 from '../../public/partner6.png'
+import partner8 from '../../public/partner7.png'
+import partner9 from '../../public/partner8.png'
+import partner10 from '../../public/partner9.png'
+import partner11 from '../../public/partner10.jpg'
+import partner12 from '../../public/partner11.png'
+import partner14 from '../../public/partner13.png'
+import partner15 from '../../public/partner14.png'
+import partner17 from '../../public/partner16.jpg'
+import partner18 from '../../public/partner17.png'
+
 
 const CompanyTwo: React.FC = () => {
     return (
@@ -25,24 +28,26 @@ const CompanyTwo: React.FC = () => {
             </div>
 
             <Marquee pauseOnHover speed={100} direction="left" className='order g-4 hover:cursor-pointer'>
-                {/* <div className="flex items-center md:gap-36 ">
-                    <Image src={com1} width={250} height={250} alt="Company Logo" className="w-52 md:ml-24" />
-                    <Image src={com2} width={250} height={250} alt="Company Logo" className="w-40" />
-                    <Image src={com3} width={250} height={250} alt="Company Logo" className="w-52" />
-                    <Image src={com4} width={250} height={250} alt="Company Logo" className="w-52" />
-                    <Image src={com5} width={250} height={250} alt="Company Logo" className="w-44" />
-                    <Image src={com6} width={250} height={250} alt="Company Logo" className="w-52" />
-                </div> */}
+                <div className="flex items-center md:gap-36  mt-20">
+                    <Image src={partner18} width={250} height={250} alt="Company Logo" className="w-52 md:ml-24" />
+                    <Image src={partner2} width={250} height={250} alt="Company Logo" className="w-40" />
+                    <Image src={partner3} width={250} height={250} alt="Company Logo" className="w-40" />
+                    <Image src={partner5} width={250} height={250} alt="Company Logo" className="w-40" />
+                    <Image src={partner6} width={250} height={250} alt="Company Logo" className="w-52" />
+                    <Image src={partner8} width={250} height={250} alt="Company Logo" className="w-44" />
+                    <Image src={partner9} width={250} height={250} alt="Company Logo" className="w-52" />
+                </div>
             </Marquee>
 
             <Marquee pauseOnHover speed={100} direction="right" className='order g-4 mt-14 hover:cursor-pointer'>
-                {/* <div className="flex items-center md:gap-36">
-                    <Image src={com7} width={250} height={250} alt="Company Logo" className="w-52 md:ml-24" />
-                    <Image src={com8} width={250} height={250} alt="Company Logo" className="w-40" />
-                    <Image src={com9} width={250} height={250} alt="Company Logo" className="w-52" />
-                    <Image src={com10} width={250} height={250} alt="Company Logo" className="w-52" />
-                    <Image src={com11} width={250} height={250} alt="Company Logo" className="w-52" /> */}
-                {/* </div> */}
+            <div className="flex items-center md:gap-36">
+                    <Image src={partner10} width={250} height={250} alt="Company Logo" className="w-44 md:ml-24" />
+                    <Image src={partner11} width={250} height={250} alt="Company Logo" className="w-40" />
+                    <Image src={partner12} width={250} height={250} alt="Company Logo" className="w-52" />
+                    <Image src={partner14} width={250} height={250} alt="Company Logo" className="w-52" />
+                    <Image src={partner15} width={250} height={250} alt="Company Logo" className="w-52" />
+                    <Image src={partner17} width={250} height={250} alt="Company Logo" className="w-44" />
+                </div>
             </Marquee>
 
         </div>
