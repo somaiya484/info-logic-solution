@@ -1,7 +1,6 @@
 "use client"
 import React, { useEffect } from "react";
 import { AiFillTags } from "react-icons/ai";
-import Link from "next/link";
 import ContactSection from "@/components/ContactSectionProps";
 import CompanyTwo from "@/components/CompanyTwo";
 import Message from "./Message";
@@ -14,7 +13,6 @@ interface Section {
     img: string;
     title: string;
     description: string;
-    link: string;
 }
 
 interface ProcessStep {
@@ -51,24 +49,21 @@ const ServicePage: React.FC<ServicePageProps> = ({ sections, processSteps, workS
             {sections && (
                 <div className="my-20 page-background">
                     <div data-aos="fade-up" data-aos-duration="1000">
-                        <h1 className="text-gradient font-bold text-center text-6xl mb-14">
+                        <h1 className="text-gradient font-bold text-center text-5xl mb-14">
                             Our Services
                         </h1>
                     </div>
 
-                    <div className="container mx-auto grid md:grid-cols-2 gap-16 px-6 md:px-24">
+                    <div className="container mx-auto grid md:grid-cols-2 gap-16 md:gap-16  px-6 md:px-24">
                         {sections.map((section) => (
                             <div data-aos="fade-up" data-aos-duration="1000">
-
-                                <div key={section.id} className="shadow-xl rounded-lg bg-white transition-transform transform hover:scale-105  duration-300 h-full w-full">
-                                    <Image src={section.img} width={250} height={250} alt="Company Logo" className="h-80 w-full object-cover p-3" />
+                                <div key={section.id} className="shadow-lg rounded-lg bg-white transition-transform transform hover:scale-105  duration-300 h-full">
+                                    <Image src={section.img} width={250} height={250} alt="Company Logo" className="h-64 md:h-80 lg:h-[360px] w-full object-cover p-3 " />
                                     <div className="p-6">
-                                        <h2 className="text-4xl my-5">{section.title}</h2>
-                                        <p className="text-gray-700 mb-7">{section.description}</p>
-                                        <a href='https://forms.gle/kfooAvTuePXRo2ub9' target="_blank" rel="noopener noreferrer"  >
-                                            <button className="secondary-button hover:scale-105 duration-200">
-                                                Reach Us
-                                            </button>
+                                        <h2 className="text-4xl mt-3  mb-5">{section.title}</h2>
+                                        <p className="text-gray-700 mb-7 text-sm">{section.description}</p>
+                                        <a href='https://forms.gle/kfooAvTuePXRo2ub9' target="_blank" rel="noopener noreferrer">
+                                            <button className="px-4 py-2 gradient-background2 border-b-2 border-l-2 border-r-2 border-[#FFD7C2] font-semibold rounded text-base hover:scale-105 duration-200  hover:border-orange-300">Reach Us</button>
                                         </a>
                                     </div>
                                 </div>
@@ -81,9 +76,7 @@ const ServicePage: React.FC<ServicePageProps> = ({ sections, processSteps, workS
 
             {/* Process Steps Section */}
             <div data-aos="fade-up" data-aos-duration="1000">
-                <h1 className="font-bold text-center text-4xl mt-10 mb-10">
-                    Our <span className="text-gradient">Process</span>
-                </h1>
+                <h1 className="font-bold text-center text-4xl mt-10 mb-10">Our <span className="text-gradient">Process</span></h1>
                 <p className="text-center md:text-lg">
                     Do you dream of exploring the furthest reaches of outer space? <br />
                     Do you live for bringing brands to life and finding new ways to tell exciting
@@ -107,7 +100,7 @@ const ServicePage: React.FC<ServicePageProps> = ({ sections, processSteps, workS
             {/* Work Samples Section */}
             <div className="bg-white text-black">
                 <div data-aos="fade-up" data-aos-duration="1000">
-                    <h1 className="text-gradient font-bold text-center text-6xl mt-32 mb-20">
+                    <h1 className="text-gradient font-bold text-center text-5xl mt-32 mb-20">
                         Work Samples
                     </h1>
                 </div>

@@ -12,7 +12,7 @@ import WhyChooseUs from "@/components/WhyChooseUs";
 export default function Home() {
 
   return (
-    <main className='bg-[#fefefe] text-black font-sans  max-w-screen'>
+    <main className='bg-[#fefefe] text-black font-sans max-w-screen'>
       <Banner></Banner>
       <BackToTopButton></BackToTopButton>
       <Service></Service>

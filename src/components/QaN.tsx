@@ -63,7 +63,7 @@ const QaN: React.FC = () => {
         </div>
 
         {faqs.map((faq, index) => (
-          <div key={index} className="border border-b-8 rounded-lg border-gray-600 p-4 transition-transform transform hover:scale-110 hover:shadow duration-300">
+          <div key={index} className="border border-b-8 rounded-lg border-gray-600 p-4 transition-transform transform hover:scale-105 md:hover:scale-110  hover:shadow duration-300">
             <button
               className="w-full text-left flex justify-between items-center focus:outline-none"
               onClick={() => toggleFAQ(index)}

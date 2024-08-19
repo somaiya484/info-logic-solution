@@ -1,23 +1,20 @@
 import ServicePage from "@/components/ServicePage";
 
-
 const DataVisualizationPage: React.FC = () => {
     const sections = [
         {
             id: 1,
-            img: "/looker.png",
+            img: "/Looker-s.png",
             title: "Looker Studio",
             description:
                 "Our Expert Looker Master will transform your data into clear, actionable insights with Looker Studio. We design custom dashboards and reports that help you visualize your data and make informed business decisions.",
-            link: "/contact",
         },
         {
             id: 2,
-            img: "/powerBi.jpg",
+            img: "/power-BI2.jpg",
             title: "Power BI",
             description:
                 "Unlock the power of your data with Microsoft Power BI. Our experts create interactive dashboards and reports that provide in-depth insights into your business performance, helping you drive strategic decisions.",
-            link: "/contact",
         },
     ];
 

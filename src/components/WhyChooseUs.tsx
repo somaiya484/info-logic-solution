@@ -70,9 +70,7 @@ const WhyChooseUs: React.FC = () => {
                                 <p className="text-xl my-7 leading-8">
                                     Personalized strategies tailored<br /> to  achieve your business goals.
                                 </p>
-                            </div>
 
-                            <div data-aos="fade-up" data-aos-duration="800">
                                 <Link href="/#services" className='primary-button w-2/4 mx-auto md:mx-0 md:w-[32%] transition-transform transform hover:scale-105 duration-300'>Explore Services <MdKeyboardDoubleArrowUp className='text-xl' /></Link>
                             </div>
                         </div>
@@ -91,14 +89,13 @@ const WhyChooseUs: React.FC = () => {
                         <div data-aos="fade-up" data-aos-duration="1000" className="z-30 w-full md:w-[500px] ">
                             <Image src={img3} width={500} height={500} alt="Picture of the author" className="rounded-lg" />
                         </div>
+                        
                         <div className="text-center md:text-left md:ml-8">
-                            <div data-aos="fade-up" data-aos-duration="800">
+                            <div data-aos="fade-up" data-aos-duration="1000">
                                 <h3 className="text-5xl mt-6 md:mt-0">Proven Track Record</h3>
                                 <p className="text-xl my-7 leading-8">
                                     Proven excellence with a track record of <br /> impactful, high-performing campaigns.
                                 </p>
-                            </div>
-                            <div data-aos="fade-up" data-aos-duration="1000">
                                 <Link href="/#services" className='primary-button w-2/4 mx-auto md:w-[40%] transition-transform transform hover:scale-105 duration-300'>Explore Services <MdKeyboardDoubleArrowUp className='text-xl' /></Link>
                             </div>
                         </div>

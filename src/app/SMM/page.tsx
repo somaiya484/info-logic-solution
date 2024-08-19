@@ -9,7 +9,6 @@ const SMM: React.FC = () => {
             title: "Social Media Marketing",
             description:
                 "Through strategic social media marketing, we help you connect with your audience, build brand awareness, and drive engagement across popular platforms such as Facebook, Instagram, and Twitter. From social media audits to content creation and campaign management, we tailor our approach to align with your business goals and target audience.",
-            link: "/contact",
         },
         {
             id: 2,
@@ -17,7 +16,6 @@ const SMM: React.FC = () => {
             title: "Facebook Ads Campaigns",
             description:
                 "Engage with your audience on the world’s largest social media platform. Our team designs and manages Facebook Ads that resonate with your target market, driving traffic, leads, and sales.",
-            link: "/contact",
         },
     ];
 

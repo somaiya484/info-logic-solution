@@ -1,5 +1,4 @@
 import { IoMdCall } from "react-icons/io";
-import Link from "next/link";
 
 interface ContactSectionProps {
     serviceName: string;
@@ -16,20 +15,20 @@ const ContactSection: React.FC<ContactSectionProps> = ({ serviceName }) => {
 
             <div data-aos="fade-up" data-aos-duration="1000">
 
-            <p className='md:text-lg text-gray-700'>
-                We thrive on innovation and turning brilliant ideas into reality. Our goal is
-                to create exceptional experiences through meticulous execution. If you share
-                our passion, don't hesitate to reach out via phone or email to begin your
-                journey with us.
-            </p>
+                <p className='md:text-lg text-gray-700'>
+                    We thrive on innovation and turning brilliant ideas into reality. Our goal is
+                    to create exceptional experiences through meticulous execution. If you share
+                    our passion, don't hesitate to reach out via phone or email to begin your
+                    journey with us.
+                </p>
             </div>
             <div data-aos="fade-up" data-aos-duration="1000">
 
-            <Link href="/contact">
-                <button className="primary-button mt-7 hover:scale-105 duration-300 transition-all">
-                    Contact Us <IoMdCall className="text-xl ml-2" />
-                </button>
-            </Link>
+                <a href='https://forms.gle/kfooAvTuePXRo2ub9' target="_blank" rel="noopener noreferrer"  >
+                    <button className="primary-button mt-7 hover:scale-105 duration-300 transition-all">
+                        Contact Us <IoMdCall className="text-xl ml-2" />
+                    </button>
+                </a>
             </div>
         </div>
     );

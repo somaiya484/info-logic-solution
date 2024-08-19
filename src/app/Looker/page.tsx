@@ -1,23 +1,20 @@
 import ServicePage from "@/components/ServicePage";
 
-
 const LookerPage: React.FC = () => {
     const sections = [
         {
             id: 1,
-            img: "/LookerStudio.png",
-            title: "Looker Studio Reporting",
+            img: "/looker-studio-dashboard.png",
+            title: "Looker Reporting",
             description:
                 "Transform raw data into actionable insights with Looker Studio. We create comprehensive and interactive reports that help you make data-driven decisions and understand key performance metrics at a glance.",
-            link: "/contact",
         },
         {
             id: 3,
-            img: "/CustomReports.png",
-            title: "Custom Reporting Solutions",
+            img: "/lookerCS.png",
+            title: "Custom Reporting Solution",
             description:
                 "Need something unique? We offer custom reporting solutions tailored to your specific requirements. Whether it's combining multiple data sources or creating bespoke visualizations, we've got you covered.",
-            link: "/contact",
         }
     ];
 
@@ -86,7 +83,28 @@ const LookerPage: React.FC = () => {
             img: "/lookers2.png",
             title: "Kubla - Report",
             link: 'https://lookerstudio.google.com/reporting/c02faf95-df49-4dfb-95f3-6b13b8be248b/page/p_pr8q1l6ncd',
-        }
+        },
+        {
+            id: 7,
+            category: "Looker Studio",
+            img: "/lookerpage-sample.png",
+            title: "Promo Business - Report",
+            link: 'https://lookerstudio.google.com/u/0/reporting/03084ee0-265e-484e-8cce-7c4659023e6c/page/p_wny5ctoocd',
+        },
+        {
+            id: 8,
+            category: "Looker Studio",
+            img: "/lookers10.png",
+            title: "Architectural - Report",
+            link: 'https://lookerstudio.google.com/u/0/reporting/5aba887b-c46e-48ac-805b-42c7c6080618/page/VMAzC',
+        },
+        {
+            id: 9,
+            category: "Looker Studio",
+            img: "/lookers12.png",
+            title: "Vacation Rental - Report",
+            link: 'https://lookerstudio.google.com/u/0/reporting/b3d68400-3d98-4a4f-9182-d9927820b9dd/page/yEsVD',
+        },
     ];
 
     const plans = [
@@ -149,39 +167,7 @@ const LookerPage: React.FC = () => {
                 </div>
             </div>
 
-            <div className="my-16">
-                <h2 className="text-center font-bold mb-8 text-6xl text-gradient">Our Plans</h2>
-                <div className="md:flex ml-8 md:ml-0 justify-center gap-8">
-                    {plans.map((plan, index) => (
-                        <div key={plan.id} className={`relative border border-orange-200 p-6 mt-10 rounded-lg shadow-lg w-80 text-center flex flex-col justify-between bg-white hover:shadow-2xl transition-shadow duration-300 ${index === 1 ? 'border-2 border-orange-500' : ''}`}>
-                            {index === 1 && (
-                                <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-orange-500 text-white py-1 px-3 rounded-t-md">
-                                    Most Popular
-                                </div>
-                            )}
-                            <div>
-                                <h3 className={`text-2xl font-semibold mb-4 ${index === 1 ? 'text-orange-500' : 'text-black'}`}>{plan.title}</h3>
-                                <p className="mb-10 text-gray-500 w-[70%] mx-auto text-sm ">{plan.description}</p>
-                                <ul className="text-left mb-4 text-gray-800">
-                                    {plan.features.map((feature, i) => (
-                                        <li key={i} className="mb-2">• {feature}</li>
-                                    ))}
-                                </ul>
-                            </div>
-                            <a
-                                href={plan.link}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="bg-orange-600 text-white py-2 px-4 rounded mt-4 hover:bg-orange-700 transition-colors duration-300"
-                            >
-                                Preview
-                            </a>
-                        </div>
-                    ))}
-                </div>
-            </div>
-
-            <ServicePage processSteps={processSteps} workSamples={workSamples} serviceName="Looker Studio" />
+            <ServicePage sections={sections} processSteps={processSteps} workSamples={workSamples} serviceName="Looker Studio" />
         </div>
     );
 };

@@ -6,33 +6,35 @@ const WebAnalytics: React.FC = () => {
             id: 1,
             img: "/googleTagManager.png",
             title: "Google Tag Manager",
-            description:
-                "Implement and manage your website’s tags efficiently with Google Tag Manager. We set up and configure tags to track important data, ensuring you get accurate insights without slowing down your site",
-            link: "/contact",
+            description:"Implement and manage your website’s tags efficiently with Google Tag Manager. We set up and configure tags to track important data, ensuring you get accurate insights without slowing down your site",
         },
         {
             id: 2,
-            img: "/conversionAPI-preview.png",
+            img: "/metacapi.jpeg",
             title: "Conversion API",
             description:
                 "Accurately track conversions and customer interactions with our Conversion API services. We integrate your website with various platforms to provide detailed analytics that help you optimize your marketing strategies.",
-            link: "/contact",
         },
         {
             id: 4,
-            img: "/googleAnalytics.png",
+            img: "/GOOGLE-ANALYTICS4.jpg",
             title: "Google Analytics",
             description:
-                "Optimize your Google Ads campaigns with in-depth analytics and insights. We track and analyze your ad performance, providing detailed reports and recommendations to improve your ad strategies and maximize ROI. From keyword performance to ad spend efficiency, we ensure your Google Ads drive the best possible results.",
-            link: "/contact",
+                "Optimize your website tracking with in-depth analytics and insights. We track and analyze your website performance, providing detailed reports and and maximize ROI. From keyword performance to ad spend efficiency, we ensure your GA4 drive the accurate possible results.",
+        },
+        {
+            id: 7,
+            img: "/googleAdsCampaigns.png",
+            title: "Google ADs",
+            description:
+                "We'll Optimize your Google Ads campaigns with in-depth analytics and insights. We track and analyze your ad performance, providing detailed reports and recommendations to improve your ad strategies and maximize ROI. From keyword performance to ad spend efficiency, we ensure your Google Ads drive the best possible results.",
         },
         {
             id: 3,
-            img: "/pixelInstallation.png",
+            img: "/meta-pixel.jpeg",
             title: "Pixel Installation",
             description:
                 "Maximize your ad campaigns' effectiveness with precise pixel tracking. We install and configure tracking pixels from platforms like Facebook and Google to monitor user actions and optimize your marketing efforts.",
-            link: "/contact",
         },
         {
             id: 5,
@@ -40,7 +42,6 @@ const WebAnalytics: React.FC = () => {
             title: "Other Marketing Platforms Analytics ",
             description:
                 "Lastly, our expert team can also provide you with both the client and server sides with Pinterest, Snap, TikTok, Microsoft Ads, and Twitter Linkedin Conversion Tracking",
-            link: "/contact",
         },
     ];
 

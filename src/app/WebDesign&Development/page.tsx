@@ -6,34 +6,26 @@ const WebDesignDevelopment: React.FC = () => {
         {
             id: 1,
             img: "/WordPressDevelopment.jpg",
-            title: "WordPress Development:",
-            description:
-                "Leverage the power and flexibility of WordPress to build a dynamic and scalable website. Our team creates custom themes and plugins to meet your specific needs, ensuring your site is both user-friendly and SEO-optimized.",
-            link: "/contact",
+            title: "WordPress Development",
+            description: "Leverage the power and flexibility of WordPress to build a dynamic and scalable website. Our team creates custom themes and plugins to meet your specific needs, ensuring your site is both user-friendly and SEO-optimized.",
         },
         {
             id: 2,
             img: "/ShopifyDevelopment.png",
-            title: "Shopify Development:",
-            description:
-                "Build a robust e-commerce platform with Shopify. We design and develop beautiful, responsive online stores that provide an exceptional shopping experience for your customers while being easy to manage on the backend.",
-            link: "/contact",
+            title: "Shopify Development",
+            description: "Build a robust e-commerce platform with Shopify. We design and develop beautiful, responsive online stores that provide an exceptional shopping experience for your customers while being easy to manage on the backend.",
         },
         {
             id: 3,
             img: "/wixDevelopment.PNG",
-            title: "Wix Development:",
-            description:
-                "Create stunning websites quickly with Wix. Our experts use the platform’s versatile tools to craft visually appealing and functional sites tailored to your brand, perfect for small businesses and personal projects.",
-            link: "/contact",
+            title: "Wix Development",
+            description: "Create stunning websites quickly with Wix. Our experts use the platform’s versatile tools to craft visually appealing and functional sites tailored to your brand, perfect for small businesses and personal projects.",
         },
         {
             id: 4,
             img: "/WebDevelopment.jpg",
-            title: "Web Development:",
-            description:
-                "When your project requires a more bespoke approach, our front-end Development services are here to help. We develop unique, scalable websites and applications tailored precisely to your business requirements. ",
-            link: "/contact",
+            title: "Frontend Development",
+            description: "When your project requires a more bespoke approach, our front-end Development services are here to help. We develop unique, scalable websites and applications tailored precisely to your business requirements. ",
         }
     ];
 
@@ -62,89 +54,33 @@ const WebDesignDevelopment: React.FC = () => {
 
     const workSamples = [
         {
-            id: 1,
-            category: "Power BI",
-            img: "/bi4.png",
-            title: "Regional - Distinct Count",
-            link: 'https://app.powerbi.com/view?r=eyJrIjoiMzFkNmViN2ItYTFlZS00NGI1LWFmMzMtNTA1MDczODllMDkyIiwidCI6ImIzMTY2OTliLWEwNTItNDA0ZS05N2EzLWEzM2Y4NTIyZGZiZCIsImMiOjEwfQ%3D%3D',
+            id: 2,
+            category: "",
+            img: "/websample-2.png",
+            title: "Daily News",
+            link: 'https://the-universal-news.vercel.app/',
         },
         {
-            id: 2,
-            category: "Power BI",
-            img: "/bi2.png",
-            title: "Muppet - Inventory",
-            link: 'https://app.powerbi.com/view?r=eyJrIjoiZWEyZmYzMmEtOTcwYS00MzUwLWJiZmItYTEyZDczYWJjODhkIiwidCI6ImIzMTY2OTliLWEwNTItNDA0ZS05N2EzLWEzM2Y4NTIyZGZiZCIsImMiOjEwfQ%3D%3D',
+            id: 1,
+            category: "",
+            img: "/websample.png",
+            title: "College Admission",
+            link: 'https://64da95262317310ceba545b2--prismatic-crepe-a94a96.netlify.app/',
         },
         {
             id: 3,
-            category: "Power BI",
-            img: "/bi3.png",
-            title: "Magento - Ecommerce",
-            link: 'https://app.powerbi.com/view?r=eyJrIjoiODcwNjgwMGMtNzY1Mi00M2VjLThiMTQtZDk2YzQyZmUxZDJmIiwidCI6ImIzMTY2OTliLWEwNTItNDA0ZS05N2EzLWEzM2Y4NTIyZGZiZCIsImMiOjEwfQ%3D%3D',
+            category: "",
+            img: "/websample-3.png",
+            title: "Justice Laws",
+            link: 'https://somaiya484.github.io/assignment-3/',
         },
         {
             id: 4,
-            category: "Power BI",
-            img: "/bi1.png",
-            title: "Healthy Food - Revenue",
-            link: 'https://app.powerbi.com/view?r=eyJrIjoiYzlmYWFmMzMtYWM5Mi00NTA3LWIxMzYtYWJkNDkzZTNmMjU0IiwidCI6ImIzMTY2OTliLWEwNTItNDA0ZS05N2EzLWEzM2Y4NTIyZGZiZCIsImMiOjEwfQ%3D%3D',
-        },
-        {
-            id: 5,
-            category: "Power BI",
-            img: "/bi6.png",
-            title: "Store Insight - Sales",
-            link: 'https://app.powerbi.com/view?r=eyJrIjoiMTIzNGVjNmEtOGY0ZC00YTJjLWFhYWItMGU3OTk5ZmU0ZTNhIiwidCI6ImIzMTY2OTliLWEwNTItNDA0ZS05N2EzLWEzM2Y4NTIyZGZiZCIsImMiOjEwfQ%3D%3D',
-        },
-        {
-            id: 6,
-            category: "Power BI",
-            img: "/bi5.png",
-            title: "Batex- Data Range",
-            link: 'https://app.powerbi.com/view?r=eyJrIjoiMTkxOWIzMDItZGVmMy00MGZmLTkzY2UtZTZiZTdmM2ZkMGNmIiwidCI6ImIzMTY2OTliLWEwNTItNDA0ZS05N2EzLWEzM2Y4NTIyZGZiZCIsImMiOjEwfQ%3D%3D',
-        },
-        {
-            id: 7,
-            category: "Looker Studio",
-            img: "/lookers5.png",
-            title: "Debisca - Ecommerce",
-            link: 'https://lookerstudio.google.com/reporting/8d0707b4-925f-4397-a690-8861fd306c33/page/rpRbD',
-        },
-        {
-            id: 8,
-            category: "Looker Studio",
-            img: "/lookers1.png",
-            title: "FirePlace - Report",
-            link: 'https://lookerstudio.google.com/reporting/7159f089-c0ac-45c5-a6b1-1d9353ee6b25/page/6pNmD',
-        },
-        {
-            id: 9,
-            category: "Looker Studio",
-            img: "/lookers3.png",
-            title: "Nitro House - Lead",
-            link: 'https://lookerstudio.google.com/reporting/27d0424e-2712-46ee-b6c7-470108d10031/page/XpgGD',
-        },
-        {
-            id: 10,
-            category: "Looker Studio",
-            img: "/lookers4.png",
-            title: "WW Trauma - Survey",
-            link: 'https://lookerstudio.google.com/reporting/f7857c5f-9ea2-40bb-aadd-dcbb0b5ec95d/page/p_onq4gv6a4c',
-        },
-        {
-            id: 11,
-            category: "Looker Studio",
-            img: "/lookers6.png",
-            title: "PK4 - Student tracking",
-            link: 'https://lookerstudio.google.com/reporting/13b9f68c-5982-42c5-ad69-461263b0762e/page/PhafC',
-        },
-        {
-            id: 12,
-            category: "Looker Studio",
-            img: "/lookers2.png",
-            title: "Kubla - Report",
-            link: 'https://lookerstudio.google.com/reporting/c02faf95-df49-4dfb-95f3-6b13b8be248b/page/p_pr8q1l6ncd',
-        },
+            category: "",
+            img: "/websample-4.png",
+            title: "Job Hunting",
+            link: 'https://vermillion-bombolone-f5585c.netlify.app/',
+        }
     ];
 
     return (

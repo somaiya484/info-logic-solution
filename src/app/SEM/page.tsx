@@ -9,7 +9,6 @@ const SEM: React.FC = () => {
             title: "SEO",
             description:
                 "Boost your website's search engine rankings and attract more organic traffic with our proven SEO techniques. We focus on comprehensive keyword research, on-page optimization, and high-quality content creation to improve your visibility and drive long-term results.",
-            link: "/contact",
         },
         {
             id: 2,
@@ -17,7 +16,6 @@ const SEM: React.FC = () => {
             title: "Google Ads Campaigns",
             description:
                 "Maximize your reach and drive targeted traffic to your website through our expertly managed Google Ads campaigns. We ensure high ROI by optimizing ad performance and targeting the right audience at the right time.",
-            link: "/contact",
         },
         {
             id: 3,
@@ -25,7 +23,6 @@ const SEM: React.FC = () => {
             title: "Bing Ads",
             description:
                 "Expand your reach with Bing Ads and attract more customers through strategic ad placements. Our team optimizes your campaigns for higher click-through rates and better conversion rates, ensuring your marketing budget is used effectively.",
-            link: "/contact",
         }
     ];
 
