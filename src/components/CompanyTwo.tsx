@@ -13,6 +13,9 @@ import partner14 from '../../public/partner13.png'
 import partner15 from '../../public/partner14.png'
 import partner17 from '../../public/partner16.jpg'
 import partner18 from '../../public/partner17.png'
+import partner19 from '../../public/partner18.png'
+import partner20 from '../../public/partner19.png'
+import partner21 from '../../public/partner20.png'
 
 
 const CompanyTwo: React.FC = () => {
@@ -28,25 +31,28 @@ const CompanyTwo: React.FC = () => {
             </div>
 
             <Marquee pauseOnHover speed={100} direction="left" className='order g-4 hover:cursor-pointer'>
-                <div className="flex items-center md:gap-36  mt-10">
-                    <Image src={partner18} width={250} height={250} alt="Company Logo" className="w-52 md:ml-24" />
-                    <Image src={partner2} width={250} height={250} alt="Company Logo" className="w-40" />
-                    <Image src={partner3} width={250} height={250} alt="Company Logo" className="w-40" />
+                <div className="flex items-center md:gap-36  mt-20">
+                    <Image src={partner3} width={250} height={250} alt="Company Logo" className="w-40 md:ml-24" />
                     <Image src={partner5} width={250} height={250} alt="Company Logo" className="w-40" />
                     <Image src={partner6} width={250} height={250} alt="Company Logo" className="w-52" />
+                    <Image src={partner19} width={250} height={250} alt="Company Logo" className="w-44" />
+                    <Image src={partner20} width={250} height={250} alt="Company Logo" className="w-52" />
+                    <Image src={partner21} width={250} height={250} alt="Company Logo" className="w-52" />
                     <Image src={partner8} width={250} height={250} alt="Company Logo" className="w-44" />
                     <Image src={partner9} width={250} height={250} alt="Company Logo" className="w-52" />
                 </div>
             </Marquee>
 
             <Marquee pauseOnHover speed={100} direction="right" className='order g-4 mt-14 hover:cursor-pointer'>
-            <div className="flex items-center md:gap-36">
+                <div className="flex items-center md:gap-36">
                     <Image src={partner10} width={250} height={250} alt="Company Logo" className="w-44 md:ml-24" />
                     <Image src={partner11} width={250} height={250} alt="Company Logo" className="w-40" />
                     <Image src={partner12} width={250} height={250} alt="Company Logo" className="w-52" />
                     <Image src={partner14} width={250} height={250} alt="Company Logo" className="w-52" />
                     <Image src={partner15} width={250} height={250} alt="Company Logo" className="w-52" />
                     <Image src={partner17} width={250} height={250} alt="Company Logo" className="w-44" />
+                    <Image src={partner18} width={250} height={250} alt="Company Logo" className="w-44" />
+                    <Image src={partner2} width={250} height={250} alt="Company Logo" className="w-40" />
                 </div>
             </Marquee>
 

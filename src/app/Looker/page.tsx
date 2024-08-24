@@ -4,14 +4,14 @@ const LookerPage: React.FC = () => {
     const sections = [
         {
             id: 1,
-            img: "/looksam1.jpg",
+            img: "/Looker-s.png",
             title: "Looker Reporting",
             description:
                 "Transform raw data into actionable insights with Looker Studio. We create comprehensive and interactive reports that help you make data-driven decisions and understand key performance metrics at a glance.",
         },
         {
             id: 2,
-            img: "/looksam3.jpg",
+            img: "/23.jpg",
             title: "Custom Reporting",
             description:
                 "Need something unique? We offer custom reporting solutions tailored to your specific requirements. Whether it's combining multiple data sources or creating bespoke visualizations, we've got you covered.",
@@ -45,114 +45,59 @@ const LookerPage: React.FC = () => {
         {
             id: 1,
             category: "Looker Studio",
-            img: "/looksam7.jpg",
+            img: "/1.jpg",
             title: "Promo Business - Report",
-            link: 'https://lookerstudio.google.com/u/0/reporting/03084ee0-265e-484e-8cce-7c4659023e6c/page/p_wny5ctoocd',
+            link: 'https://lookerstudio.google.com/reporting/d6375d72-f428-413d-86a0-d815f627be2d',
         },
         {
             id: 2,
             category: "Looker Studio",
-            img: "/looksam5.jpg",
+            img: "/2.jpg",
             title: "Architectural - Report",
-            link: 'https://lookerstudio.google.com/u/0/reporting/5aba887b-c46e-48ac-805b-42c7c6080618/page/VMAzC',
+            link: 'https://lookerstudio.google.com/u/0/reporting/f9f8a5b5-145b-4312-8992-c0783b7d62de/page/p_i69ns9r9fd',
         },
         {
             id: 3,
             category: "Looker Studio",
-            img: "/looksam13.jpg",
+            img: "/3.jpg",
             title: "Vacation Rental - Report",
-            link: 'https://lookerstudio.google.com/u/0/reporting/b3d68400-3d98-4a4f-9182-d9927820b9dd/page/yEsVD',
+            link: 'https://lookerstudio.google.com/reporting/ad232a63-0375-4c88-bd6e-371ec96b420a',
         },
         {
             id: 4,
             category: "Looker Studio",
-            img: "/looksam10.jpg",
+            img: "/4.jpg",
             title: "Debisca - Ecommerce",
-            link: 'https://lookerstudio.google.com/reporting/8d0707b4-925f-4397-a690-8861fd306c33/page/rpRbD',
-        },
-        {
-            id: 5,
-            category: "Looker Studio",
-            img: "/looksam7.jpg",
-            title: "FirePlace - Report",
-            link: 'https://lookerstudio.google.com/reporting/7159f089-c0ac-45c5-a6b1-1d9353ee6b25/page/6pNmD',
+            link: 'https://lookerstudio.google.com/reporting/82ce4ad1-5e15-41e9-b0c8-7812d928ffc0',
         },
         {
             id: 6,
             category: "Looker Studio",
-            img: "/looksam5.jpg",
+            img: "/6.jpg",
             title: "Nitro House - Lead",
-            link: 'https://lookerstudio.google.com/reporting/27d0424e-2712-46ee-b6c7-470108d10031/page/XpgGD',
+            link: 'https://lookerstudio.google.com/reporting/04f4c7a9-9940-42ad-af52-8cf1d5daa1a2',
         },
         {
             id: 7,
             category: "Looker Studio",
-            img: "/looksam7.jpg",
+            img: "/7.jpg",
             title: "WW Trauma - Survey",
-            link: 'https://lookerstudio.google.com/reporting/f7857c5f-9ea2-40bb-aadd-dcbb0b5ec95d/page/p_onq4gv6a4c',
+            link: 'https://lookerstudio.google.com/reporting/f7857c5f-9ea2-40bb-aadd-dcbb0b5ec95d',
         },
         {
             id: 8,
             category: "Looker Studio",
-            img: "/looksam15.jpg",
+            img: "/8.jpg",
             title: "PK4 - Student Tracking",
-            link: 'https://lookerstudio.google.com/reporting/13b9f68c-5982-42c5-ad69-461263b0762e/page/PhafC',
+            link: 'https://lookerstudio.google.com/reporting/b9322e31-ea0e-426e-ae9b-5716332ebdfc',
         },
         {
             id: 9,
             category: "Looker Studio",
-            img: "/looksam9.jpg",
+            img: "/9.jpg",
             title: "Kubla - Report",
-            link: 'https://lookerstudio.google.com/reporting/c02faf95-df49-4dfb-95f3-6b13b8be248b/page/p_pr8q1l6ncd',
+            link: 'https://lookerstudio.google.com/reporting/a28e4820-6555-4083-82fa-9d31866c93c5',
         }
-    ];
-
-    const plans = [
-        {
-            id: 1,
-            title: "Basic",
-            description: "Targeted insights on a single location",
-            features: [
-                "Map 100 outlets",
-                "Up to 5 brands / products",
-                "1 location",
-                "Interactive dashboards",
-                "Geospatial data visualizations",
-                "Raw data downloads",
-            ],
-            link: "/sample-basic",
-        },
-        {
-            id: 2,
-            title: "Pro",
-            description: "Broader insights and product tracking",
-            features: [
-                "Map 300 outlets",
-                "Up to 10 brands / products",
-                "Multiple locations",
-                "Interactive dashboards",
-                "Geospatial data visualizations",
-                "Raw data downloads",
-                "Unlimited users",
-            ],
-            link: "/sample-pro",
-        },
-        {
-            id: 3,
-            title: "Premium",
-            description: "Expansive insights and product tracking",
-            features: [
-                "Map 1000 outlets",
-                "Up to 20 brands / products",
-                "Multiple locations",
-                "Interactive dashboards",
-                "Geospatial data visualizations",
-                "Raw data downloads",
-                "Unlimited users",
-                "API access",
-            ],
-            link: "/sample-premium",
-        },
     ];
 
     return (
@@ -162,7 +107,7 @@ const LookerPage: React.FC = () => {
                 <div className="text-center relative z-10">
                     <h1 className="font-semibold">Looker and Reporting</h1>
                     <h2 className="text-2xl md:text-6xl mt-10 font-semibold">Unlock Insights with Powerful</h2>
-                    <h2 className="text-2xl md:text-6xl font-semibold py-5 mb-10 text-gradient font-bold">Looker & Reporting</h2>
+                    <h2 className="text-2xl md:text-6xl py-5 mb-10 text-gradient font-bold">Looker & Reporting</h2>
                     <p className="md:text-base">At Info Logic Solution, we specialize in transforming complex data into clear and actionable insights. <br /> Our Looker services leverage Looker Studio to help you understand your data, make informed decisions,<br /> and drive business success.</p>
                 </div>
             </div>

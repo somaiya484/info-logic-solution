@@ -75,7 +75,7 @@ const testimonials: TestimonialData[] = [
 
 const Testimonial: React.FC = () => {
     return (
-        <div className="page-background overflow-hidden pb-32 mt-12" id="testimonial">
+        <div className="page-background overflow-hidden mt-12" id="testimonial">
             <div data-aos="fade-up" data-aos-duration="1000">
 
 
@@ -100,7 +100,6 @@ const Testimonial: React.FC = () => {
                             <div className="mb-4 mt-5">
                                 <h2 className="text-2xl font-bold text-amber-600 italic">{testimonial.name}</h2>
                                 <p className="text-base font-medium text-red-700">{testimonial.role}</p>
-                                {/* <p className="text-sm text-red-500">{testimonial.agency}</p> */}
                             </div>
                             <p className="text-base italic text-gray-800 mb-4">"{testimonial.feedback}"</p>
                             <div className="flex justify-center items-center">

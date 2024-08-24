@@ -91,12 +91,12 @@ const Navbar: React.FC = () => {
                         mainLinks.map((mainLink, index) => (
                             <li key={mainLink.name} className='md:ml-4 lg:ml-6 md:mt-0 mt-2 relative group'>
                                 <div className='flex items-center'>
-                                    <Link href={mainLink.link || '#'} className='hover:text-orange-600 focus:text-orange-600 duration-200 block md:inline-block font-semibold text-base' onClick={() => handleSubMenuToggle(index)}>
-                                        {mainLink.name}
+                                    <Link href={mainLink.link || '#'} className='hover:text-orange-600 focus:text-orange-600 duration-200 block md:flex items-center font-semibold text-base' onClick={() => handleSubMenuToggle(index)}>
+                                        <p>{mainLink.name}</p>
+                                        {mainLink.subLinks && (
+                                            <IoIosArrowDown className='ml-1 text-lg text-gray-600' />
+                                        )}
                                     </Link>
-                                    {mainLink.subLinks && (
-                                        <IoIosArrowDown className='ml-1 text-lg text-gray-600' />
-                                    )}
                                 </div>
                                 {mainLink.subLinks && openSubMenu === index && (
                                     <ul className='absolute left-0 mt-2 w-48 bg-white shadow-md rounded-md z-50'>
@@ -119,7 +119,7 @@ const Navbar: React.FC = () => {
                     }
                 </ul>
 
-                 <a href='https://forms.gle/kfooAvTuePXRo2ub9' target="_blank" rel="noopener noreferrer"  className='hidden md:block pr-4'>
+                <a href='https://forms.gle/kfooAvTuePXRo2ub9' target="_blank" rel="noopener noreferrer" className='hidden md:block pr-4'>
                     <button className='primary-button flex items-center transition-transform transform hover:scale-105 duration-300'>
                         Contact Us <IoMdCall className='text-xl ml-2' />
                     </button>
