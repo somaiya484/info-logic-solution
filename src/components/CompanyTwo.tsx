@@ -28,7 +28,7 @@ const CompanyTwo: React.FC = () => {
             </div>
 
             <Marquee pauseOnHover speed={100} direction="left" className='order g-4 hover:cursor-pointer'>
-                <div className="flex items-center md:gap-36  mt-20">
+                <div className="flex items-center md:gap-36  mt-10">
                     <Image src={partner18} width={250} height={250} alt="Company Logo" className="w-52 md:ml-24" />
                     <Image src={partner2} width={250} height={250} alt="Company Logo" className="w-40" />
                     <Image src={partner3} width={250} height={250} alt="Company Logo" className="w-40" />

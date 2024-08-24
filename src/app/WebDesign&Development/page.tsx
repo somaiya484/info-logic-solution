@@ -54,30 +54,37 @@ const WebDesignDevelopment: React.FC = () => {
 
     const workSamples = [
         {
-            id: 2,
+            id: 1,
             category: "",
-            img: "/websample-2.png",
+            img: "/devs2.jpg",
             title: "Daily News",
             link: 'https://the-universal-news.vercel.app/',
         },
         {
-            id: 1,
+            id: 5,
             category: "",
-            img: "/websample.png",
+            img: "/devs5.png",
+            title: "Job Hunting",
+            link: 'https://intelliwave-ai.vercel.app/',
+        },
+        {
+            id: 2,
+            category: "",
+            img: "/devs1.jpg",
             title: "College Admission",
             link: 'https://64da95262317310ceba545b2--prismatic-crepe-a94a96.netlify.app/',
         },
         {
             id: 3,
             category: "",
-            img: "/websample-3.png",
+            img: "/devs3.jpg",
             title: "Justice Laws",
             link: 'https://somaiya484.github.io/assignment-3/',
         },
         {
             id: 4,
             category: "",
-            img: "/websample-4.png",
+            img: "/devs4.jpg",
             title: "Job Hunting",
             link: 'https://vermillion-bombolone-f5585c.netlify.app/',
         }
@@ -88,10 +95,10 @@ const WebDesignDevelopment: React.FC = () => {
             <div className="bg-fixed bg-[url('/devebg.jpg')] h-[600px] w-full flex justify-center items-center relative overflow-auto">
                 <div className="absolute inset-0 banner-background opacity-95"></div>
                 <div className="text-center relative z-10">
-                    <h1 className="font-semibold mt-10">Web Design and Development</h1>
-                    <h2 className="text-2xl md:text-6xl my-6 font-semibold leading-[60px] mt-7">Transform Your Online Presence <br /> with Stunning</h2>
-                    <h2 className="text-2xl md:text-6xl font-semibold mb-10 text-gradient font-bold pb-2">Website Design & Development </h2>
-                    <p className="md:text-base">At Info Logic Solution, we specialize in creating visually appealing and highly functional websites <br /> that reflect your brand's identity and engage your audience. Whether you need a site built on<br />  WordPress, Shopify, Wix, or a custom-coded solution, our team has the expertise to bring your vision to life.</p>
+                    <h1 className="font-semibold mt-20">Web Design and Development</h1>
+                    <h2 className="text-2xl md:text-6xl my-6 font-semibold leading-[60px] mt-9">Transform Your Online Presence with Stunning</h2>
+                    <h2 className="text-2xl md:text-6xl mb-10 text-gradient font-bold pb-2">Website Design & Development </h2>
+                    <p className="text-sm md:text-base">At Info Logic Solution, we specialize in creating visually appealing and highly functional websites <br /> that reflect your brand's identity and engage your audience. Whether you need a site built on<br />  WordPress, Shopify, Wix, or a custom-coded solution, our team has the expertise to bring your vision to life.</p>
                 </div>
             </div>
 

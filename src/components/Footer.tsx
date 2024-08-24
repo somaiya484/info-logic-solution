@@ -13,7 +13,7 @@ interface FooterProps {
 
 const Footer: React.FC<FooterProps> = ({ logoSrc, message, services, companyLinks, contact }) => {
     return (
-        <footer className="footer bg-slate-900 text-white py-16 px-5">
+        <footer className="footer bg-slate-900 text-white pt-16 pb-5 px-5">
             <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
                 <div className="text-center md:text-left">
                     <Link href='/'>
@@ -54,13 +54,20 @@ const Footer: React.FC<FooterProps> = ({ logoSrc, message, services, companyLink
                     <ul>
                         <li><a className="link link-hover text-gray-400 hover:underline hover:text-white" href={`mailto:${contact.email}`}>Email: {contact.email}</a></li>
                     </ul>
-                    <div className="flex gap-8 items-center justify-center md:justify-start mt-5 text-2xl  text-gray-400 ">
+                    <div className="flex gap-8 items-center justify-center mt-5 md:justify-start text-2xl  text-gray-400 ">
                         <a href='https://www.linkedin.com/company/infologicsolution/' target="_blank" rel="noopener noreferrer" className='cursour-pointer hover:text-white' ><FaLinkedin /></a>
                         <a href=' https://www.instagram.com/infologicsolution/' target="_blank" rel="noopener noreferrer" className='cursour-pointer hover:text-white' ><FaInstagram /></a>
                         <a href='https://www.facebook.com/infologicsolution/' target="_blank" rel="noopener noreferrer" className='cursour-pointer hover:text-white' ><FaFacebookF /></a>
                         <a href='https://www.youtube.com/@InfoLogicSolutions' target="_blank" rel="noopener noreferrer" className='cursour-pointer hover:text-white' ><FaYoutube /></a>
                     </div>
+
                 </nav>
+            </div>
+
+            <div className=" flex sm:justify-between justify-center items-center gap-10 max-sm:flex-col mt-10">
+                <p className="caption text-n-4 lg:block">
+                    © {new Date().getFullYear()} Info Logic Solution | all rights reseved by Info Logic Solution.
+                </p>
             </div>
         </footer>
     );

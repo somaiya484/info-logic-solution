@@ -45,30 +45,29 @@ const ServicePage: React.FC<ServicePageProps> = ({ sections, processSteps, workS
     return (
         <div className="bg-white text-black">
 
-            {/* Conditionally render "Our Services" section */}
             {sections && (
                 <div className="my-20 page-background">
                     <div data-aos="fade-up" data-aos-duration="1000">
-                        <h1 className="text-gradient font-bold text-center text-5xl mb-14">
-                            Our Services
-                        </h1>
+                        <h1 className="text-gradient font-bold text-center text-5xl mb-14">Our Services</h1>
                     </div>
-
-                    <div className="container mx-auto grid md:grid-cols-2 gap-16 md:gap-16  px-6 md:px-24">
+                    <div className="container mx-auto grid md:grid-cols-2 gap-16 mt-32 px-12 md:px-16 lg:px-24">
                         {sections.map((section) => (
-                            <div data-aos="fade-up" data-aos-duration="1000">
-                                <div key={section.id} className="shadow-lg rounded-lg bg-white transition-transform transform hover:scale-105  duration-300 h-full">
-                                    <Image src={section.img} width={250} height={250} alt="Company Logo" className="h-64 md:h-80 lg:h-[360px] w-full object-cover p-3 " />
-                                    <div className="p-6">
-                                        <h2 className="text-4xl mt-3  mb-5">{section.title}</h2>
+                            <div key={section.id} data-aos="fade-up" data-aos-duration="1000"> 
+                                <div className="relative shadow-md rounded-lg px-4 pt-14 transition-transform transform hover:scale-105 duration-300 bg-white mt-16">
+                                    <div className="absolute -top-16 left-1/2 transform -translate-x-1/2 w-full flex justify-center">
+                                        <div className="w-[90%] md:w-[80%] lg:w-[80%] mx-auto ">
+                                            <Image src={section.img} width={300} height={180} alt="Company Logo" className="object-cover rounded-lg h-[250px] md:h-[260px] w-[500px] shadow-lg" />
+                                        </div>
+                                    </div>
+                                    <div className="p-6 mt-32 md:mt-36 pb-10">
+                                        <h2 className="text-2xl md:text-4xl mt-3 mb-5">{section.title}</h2>
                                         <p className="text-gray-700 mb-7 text-sm">{section.description}</p>
                                         <a href='https://forms.gle/kfooAvTuePXRo2ub9' target="_blank" rel="noopener noreferrer">
-                                            <button className="px-4 py-2 gradient-background2 border-b-2 border-l-2 border-r-2 border-orange-200 font-semibold rounded text-base hover:scale-105 duration-200  hover:border-orange-300">Reach Us</button>
+                                            <button className="px-4 py-2 gradient-background2 border-b-2 border-l-2 border-r-2 border-orange-200 font-semibold rounded text-base hover:scale-105 duration-200 hover:border-orange-300">Reach Us</button>
                                         </a>
                                     </div>
                                 </div>
                             </div>
-
                         ))}
                     </div>
                 </div>
@@ -101,12 +100,12 @@ const ServicePage: React.FC<ServicePageProps> = ({ sections, processSteps, workS
             <div className="bg-white text-black">
                 <div data-aos="fade-up" data-aos-duration="1000"><h1 className="text-gradient font-bold text-center text-5xl mt-32 mb-20">Work Samples</h1></div>
 
-                <div className="mx-auto grid md:grid-cols-3 gap-10 px=6 md:px-16">
+                <div className="mx-auto grid md:grid-cols-3 gap-10 px-10 md:px-16">
                     {workSamples.map((sample) => (
                         <div key={sample.id} className="sample-style" data-aos="fade-up" data-aos-duration="1000">
                             <Image
                                 src={sample.img} width={250} height={250} alt="Company Logo"
-                                className="rounded-2xl w-full h-60 object-cover shadow-lg shadow-orange-100" />
+                                className="rounded-2xl w-full md:h-60 object-cover shadow-lg shadow-orange-100" />
 
                             <div className="sample-inner-style">
                                 <div className="text-center text-white p-6">
