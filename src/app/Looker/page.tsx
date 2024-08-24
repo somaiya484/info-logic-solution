@@ -12,7 +12,7 @@ const LookerPage: React.FC = () => {
         {
             id: 2,
             img: "/looksam3.jpg",
-            title: "Custom Reporting Solution",
+            title: "Custom Reporting",
             description:
                 "Need something unique? We offer custom reporting solutions tailored to your specific requirements. Whether it's combining multiple data sources or creating bespoke visualizations, we've got you covered.",
         }

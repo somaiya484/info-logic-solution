@@ -8,7 +8,7 @@ const SEM: React.FC = () => {
             img: "/seo-service.jpg",
             title: "SEO",
             description:
-                "Boost your website's search engine rankings and attract more organic traffic with our proven SEO techniques. We focus on comprehensive keyword research, on-page optimization, and high-quality content creation to improve your visibility and drive long-term results.",
+                "Boost your website's search engine rankings and attract more organic traffic with our proven SEO techniques. We focus on comprehensive keyword research, on-page optimization, and high-quality content creation to improve your visibility.",
         },
         {
             id: 2,
