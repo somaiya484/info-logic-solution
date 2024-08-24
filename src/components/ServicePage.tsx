@@ -52,11 +52,11 @@ const ServicePage: React.FC<ServicePageProps> = ({ sections, processSteps, workS
                     </div>
                     <div className="container mx-auto grid md:grid-cols-2 gap-16 mt-32 px-12 md:px-16 lg:px-24">
                         {sections.map((section) => (
-                            <div key={section.id} data-aos="fade-up" data-aos-duration="1000"> 
+                            <div key={section.id} data-aos="fade-up" data-aos-duration="1000">
                                 <div className="relative shadow-md rounded-lg px-4 pt-14 transition-transform transform hover:scale-105 duration-300 bg-white mt-16">
                                     <div className="absolute -top-16 left-1/2 transform -translate-x-1/2 w-full flex justify-center">
                                         <div className="w-[90%] md:w-[80%] lg:w-[80%] mx-auto ">
-                                            <Image src={section.img} width={300} height={180} alt="Company Logo" className="object-cover rounded-lg h-[250px] md:h-[260px] w-[500px] shadow-lg" />
+                                            <Image src={`/${section.img}`} width={300} height={180} alt="Company Logo" className="object-cover rounded-lg h-[250px] md:h-[260px] w-[500px] shadow-lg" />
                                         </div>
                                     </div>
                                     <div className="p-6 mt-32 md:mt-36 pb-10">
@@ -104,7 +104,7 @@ const ServicePage: React.FC<ServicePageProps> = ({ sections, processSteps, workS
                     {workSamples.map((sample) => (
                         <div key={sample.id} className="sample-style" data-aos="fade-up" data-aos-duration="1000">
                             <Image
-                                src={sample.img} width={250} height={250} alt="Company Logo"
+                                src={`/${sample.img}`} width={250} height={250} alt="Company Logo"
                                 className="rounded-2xl w-full md:h-60 object-cover shadow-lg shadow-orange-100" />
 
                             <div className="sample-inner-style">

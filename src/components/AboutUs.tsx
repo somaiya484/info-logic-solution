@@ -1,7 +1,5 @@
 "use client"
 import React, { useEffect } from "react";
-import { MdKeyboardDoubleArrowDown } from "react-icons/md";
-import aboutUsImage from '../../public/aboutus.jpg';
 import Image from 'next/image';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -20,7 +18,7 @@ const AboutUs: React.FC = () => {
                     data-aos-duration="1000"
                     className="w-full md:w-[45%]">
                     <Image
-                        src={aboutUsImage}
+                        src='/aboutus.jpg'
                         width={500}
                         height={500}
                         alt="About us"

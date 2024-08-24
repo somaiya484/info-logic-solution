@@ -2,7 +2,6 @@
 import React, { useState, useEffect } from 'react';
 import { IoMdMenu, IoMdCall, IoIosArrowDown } from "react-icons/io";
 import Image from "next/image";
-import logo from "../../public/navlogo.png";
 import Link from "next/link";
 
 interface MainLink {
@@ -75,7 +74,7 @@ const Navbar: React.FC = () => {
                 <div className='flex items-center'>
                     <Link href='/'>
                         <Image
-                            src={logo}
+                            src='/navlogo.png'
                             width={230}
                             height={80}
                             alt="Logo"

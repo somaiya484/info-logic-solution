@@ -5,25 +5,25 @@ const WebDesignDevelopment: React.FC = () => {
     const sections = [
         {
             id: 1,
-            img: "/WordPressDevelopment.jpg",
+            img: "WordPressDevelopment.jpg",
             title: "WordPress Development",
             description: "Leverage the power and flexibility of WordPress to build a dynamic and scalable website. Our team creates custom themes and plugins to meet your specific needs, ensuring your site is both user-friendly and SEO-optimized.",
         },
         {
             id: 2,
-            img: "/ShopifyDevelopment.png",
+            img: "ShopifyDevelopment.png",
             title: "Shopify Development",
             description: "Build a robust e-commerce platform with Shopify. We design and develop beautiful, responsive online stores that provide an exceptional shopping experience for your customers while being easy to manage on the backend.",
         },
         {
             id: 3,
-            img: "/wixDevelopment.PNG",
+            img: "wixDevelopment.PNG",
             title: "Wix Development",
             description: "Create stunning websites quickly with Wix. Our experts use the platform’s versatile tools to craft visually appealing and functional sites tailored to your brand, perfect for small businesses and personal projects.",
         },
         {
             id: 4,
-            img: "/WebDevelopment.jpg",
+            img: "WebDevelopment.jpg",
             title: "Frontend Development",
             description: "When your project requires a more bespoke approach, our front-end Development services are here to help. We develop unique, scalable websites and applications tailored precisely to your business requirements. ",
         }
@@ -56,35 +56,35 @@ const WebDesignDevelopment: React.FC = () => {
         {
             id: 1,
             category: "",
-            img: "/devs2.jpg",
+            img: "devs2.jpg",
             title: "Daily News",
             link: 'https://the-universal-news.vercel.app/',
         },
         {
             id: 5,
             category: "",
-            img: "/devs5.png",
+            img: "devs5.png",
             title: "Job Hunting",
             link: 'https://intelliwave-ai.vercel.app/',
         },
         {
             id: 2,
             category: "",
-            img: "/devs1.jpg",
+            img: "devs1.jpg",
             title: "College Admission",
             link: 'https://64da95262317310ceba545b2--prismatic-crepe-a94a96.netlify.app/',
         },
         {
             id: 3,
             category: "",
-            img: "/devs3.jpg",
+            img: "devs3.jpg",
             title: "Justice Laws",
             link: 'https://somaiya484.github.io/assignment-3/',
         },
         {
             id: 4,
             category: "",
-            img: "/devs4.jpg",
+            img: "devs4.jpg",
             title: "Job Hunting",
             link: 'https://vermillion-bombolone-f5585c.netlify.app/',
         }

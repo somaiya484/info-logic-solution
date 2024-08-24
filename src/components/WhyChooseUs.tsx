@@ -1,7 +1,4 @@
 import Image from "next/image";
-import img1 from "../../public/Expertise.jpg";
-import img2 from "../../public/Client.jpg";
-import img3 from "../../public/Proven.jpg";
 import { MdKeyboardDoubleArrowUp } from "react-icons/md";
 import Link from "next/link";
 
@@ -42,7 +39,7 @@ const WhyChooseUs: React.FC = () => {
                     <div className="flex flex-col md:flex-row justify-evenly pt-12 items-center">
 
                         <div data-aos="fade-up" data-aos-duration="1000" className="z-30 w-full md:w-[500px] ">
-                            <Image src={img1} width={500} height={500} alt="Picture of the author" className="rounded-lg" />
+                            <Image src='/Expertise.jpg' width={500} height={500} alt="Picture of the author" className="rounded-lg" />
                         </div>
 
                         <div className="text-center md:text-left md:ml-8">
@@ -75,7 +72,7 @@ const WhyChooseUs: React.FC = () => {
                             </div>
                         </div>
                         <div data-aos="fade-up" data-aos-duration="800" className="z-30 w-full md:w-[400px] ">
-                            <Image src={img2} width={500} height={500} alt="Picture of the author" className="rounded-lg" />
+                            <Image src='/Client.jpg' width={500} height={500} alt="Picture of the author" className="rounded-lg" />
                         </div>
                     </div>
                 </div>
@@ -87,7 +84,7 @@ const WhyChooseUs: React.FC = () => {
                     <div className="z-10 lg:h-[450px] w-full md:w-2/5 bg-lime-500/60 absolute md:rounded-r-lg"></div>
                     <div className="flex flex-col md:flex-row justify-evenly pt-12 items-center">
                         <div data-aos="fade-up" data-aos-duration="1000" className="z-30 w-full md:w-[500px] ">
-                            <Image src={img3} width={500} height={500} alt="Picture of the author" className="rounded-lg" />
+                            <Image src='/Proven.jpg' width={500} height={500} alt="Picture of the author" className="rounded-lg" />
                         </div>
                         
                         <div className="text-center md:text-left md:ml-8">
