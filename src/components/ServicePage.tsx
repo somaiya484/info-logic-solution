@@ -6,7 +6,7 @@ import CompanyTwo from "@/components/CompanyTwo";
 import Message from "./Message";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Image from 'next/image';
+import BackToTopButton from "./BackToTopButton";
 
 interface Section {
     id: number;
@@ -44,6 +44,7 @@ const ServicePage: React.FC<ServicePageProps> = ({ sections, processSteps, workS
 
     return (
         <div className="bg-white text-black">
+            <BackToTopButton></BackToTopButton>
 
             {sections && (
                 <div className="my-20 page-background">
@@ -56,7 +57,7 @@ const ServicePage: React.FC<ServicePageProps> = ({ sections, processSteps, workS
                                 <div className="relative shadow-md rounded-lg px-4 pt-14 transition-transform transform hover:scale-105 duration-300 bg-white mt-16">
                                     <div className="absolute -top-16 left-1/2 transform -translate-x-1/2 w-full flex justify-center">
                                         <div className="w-[90%] md:w-[80%] lg:w-[80%] mx-auto ">
-                                            <Image src={`/${section.img}`} width={300} height={180} alt="Company Logo" className="object-cover rounded-lg h-[250px] md:h-[260px] w-[500px] shadow-lg" />
+                                            <img src={`/${section.img}`} width={300} height={180} alt="Company Logo" className="object-cover rounded-lg h-[250px] md:h-[260px] w-[500px] shadow-lg" />
                                         </div>
                                     </div>
                                     <div className="p-6 mt-32 md:mt-36 pb-10">
@@ -103,9 +104,7 @@ const ServicePage: React.FC<ServicePageProps> = ({ sections, processSteps, workS
                 <div className="mx-auto grid md:grid-cols-3 gap-10 px-10 md:px-16">
                     {workSamples.map((sample) => (
                         <div key={sample.id} className="sample-style" data-aos="fade-up" data-aos-duration="1000">
-                            <Image
-                                src={`/${sample.img}`} width={250} height={250} alt="Company Logo"
-                                className="rounded-2xl w-full md:h-60 object-cover shadow-lg shadow-orange-100" />
+                            <img src={`/${sample.img}`} width={250} height={250} alt="Company Logo" className="rounded-2xl w-full md:h-60 object-cover shadow-lg shadow-orange-100" />
 
                             <div className="sample-inner-style">
                                 <div className="text-center text-white p-6">

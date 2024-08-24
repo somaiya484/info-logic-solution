@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import Image, { StaticImageData } from 'next/image';
+import { StaticImageData } from 'next/image';
 import { FaFacebookF, FaYoutube, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 
@@ -17,8 +17,8 @@ const Footer: React.FC<FooterProps> = ({ logoSrc, message, services, companyLink
             <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
                 <div className="text-center md:text-left">
                     <Link href='/'>
-                        <Image
-                            src={logoSrc}
+                        <img
+                            src='/logoFooter.png'
                             width={250}
                             height={250}
                             alt="Company Logo"

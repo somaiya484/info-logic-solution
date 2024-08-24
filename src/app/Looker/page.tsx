@@ -4,7 +4,7 @@ const LookerPage: React.FC = () => {
     const sections = [
         {
             id: 1,
-            img: "Looker-s.png",
+            img: "look.png",
             title: "Looker Reporting",
             description:
                 "Transform raw data into actionable insights with Looker Studio. We create comprehensive and interactive reports that help you make data-driven decisions and understand key performance metrics at a glance.",

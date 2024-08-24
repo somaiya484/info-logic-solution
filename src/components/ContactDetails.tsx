@@ -2,7 +2,6 @@
 import { useEffect } from "react";
 import { FaPhoneAlt } from "react-icons/fa";
 import { IoMailOutline, IoLocationOutline } from "react-icons/io5";
-import Image from 'next/image';
 import contactImage from '../../public/contact.jpg'
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -18,7 +17,7 @@ const ContactDetails: React.FC = () => {
             <div className="md:flex px-8 gap-16 items-center service-bg py-16 w-full">
 
                 <div className="md:w-[50%] -ml-8">
-                    <Image
+                    <img
                         src={contactImage}
                         width={250}
                         height={250}

@@ -4,7 +4,7 @@ const DataVisualizationPage: React.FC = () => {
     const sections = [
         {
             id: 1,
-            img: "Looker-s.png",
+            img: "look.png",
             title: "Looker Studio",
             description:
                 "Our Expert Looker Master will transform your data into clear, actionable insights with Looker Studio. We design custom dashboards and reports that help you visualize your data and make informed business decisions.",

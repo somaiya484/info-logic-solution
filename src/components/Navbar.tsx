@@ -1,7 +1,6 @@
 "use client";
 import React, { useState, useEffect } from 'react';
 import { IoMdMenu, IoMdCall, IoIosArrowDown } from "react-icons/io";
-import Image from "next/image";
 import Link from "next/link";
 
 interface MainLink {
@@ -70,14 +69,13 @@ const Navbar: React.FC = () => {
     return (
         <div className={`w-full fixed top-0 left-0 z-50 transition-colors duration-300 ${scrolled ? 'bg-white shadow-lg' : 'bg-[radial-gradient(circle,_rgba(255,165,0,0.8)_0%]'} `}>
             <div className='container mx-auto flex items-center justify-between'>
-                {/* nav icon */}
                 <div className='flex items-center'>
                     <Link href='/'>
-                        <Image
+                        <img
                             src='/navlogo.png'
                             width={230}
                             height={80}
-                            alt="Logo"
+                            alt="Company Logo"
                             className="h-[80px] w-[230px]"
                         />
                     </Link>

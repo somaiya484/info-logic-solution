@@ -1,5 +1,4 @@
 import Marquee from "react-fast-marquee";
-import Image from 'next/image';
 
 
 const CompanyTwo: React.FC = () => {
@@ -16,27 +15,27 @@ const CompanyTwo: React.FC = () => {
 
             <Marquee pauseOnHover speed={100} direction="left" className='order g-4 hover:cursor-pointer'>
                 <div className="flex items-center md:gap-36  mt-20">
-                    <Image src='/partner3.png' width={250} height={250} alt="Company Logo" className="w-40 md:ml-24" />
-                    <Image src='/partner5.png' width={250} height={250} alt="Company Logo" className="w-40" />
-                    <Image src='/partner6.png' width={250} height={250} alt="Company Logo" className="w-52" />
-                    <Image src='/partner18.png' width={250} height={250} alt="Company Logo" className="w-44" />
-                    <Image src='/partner19.png' width={250} height={250} alt="Company Logo" className="w-52" />
-                    <Image src='/partner20.png' width={250} height={250} alt="Company Logo" className="w-52" />
-                    <Image src='/partner7.png' width={250} height={250} alt="Company Logo" className="w-44" />
-                    <Image src='/partner8.png' width={250} height={250} alt="Company Logo" className="w-52" />
+                    <img src='/partner3.png' width={250} height={250} alt="Company Logo" className="w-40 md:ml-24" />
+                    <img src='/partner5.png' width={250} height={250} alt="Company Logo" className="w-40" />
+                    <img src='/partner6.png' width={250} height={250} alt="Company Logo" className="w-52" />
+                    <img src='/partner18.png' width={250} height={250} alt="Company Logo" className="w-44" />
+                    <img src='/partner19.png' width={250} height={250} alt="Company Logo" className="w-52" />
+                    <img src='/partner20.png' width={250} height={250} alt="Company Logo" className="w-52" />
+                    <img src='/partner7.png' width={250} height={250} alt="Company Logo" className="w-44" />
+                    <img src='/partner8.png' width={250} height={250} alt="Company Logo" className="w-52" />
                 </div>
             </Marquee>
 
             <Marquee pauseOnHover speed={100} direction="right" className='order g-4 mt-14 hover:cursor-pointer'>
                 <div className="flex items-center md:gap-36">
-                    <Image src='/partner9.png' width={250} height={250} alt="Company Logo" className="w-44 md:ml-24" />
-                    <Image src='/partner10.jpg' width={250} height={250} alt="Company Logo" className="w-40" />
-                    <Image src='/partner11.png' width={250} height={250} alt="Company Logo" className="w-52" />
-                    <Image src='/partner13.png' width={250} height={250} alt="Company Logo" className="w-52" />
-                    <Image src='/partner14.png' width={250} height={250} alt="Company Logo" className="w-52" />
-                    <Image src='/partner16.jpg' width={250} height={250} alt="Company Logo" className="w-44" />
-                    <Image src='/partner17.png' width={250} height={250} alt="Company Logo" className="w-44" />
-                    <Image src='/partner2.png' width={250} height={250} alt="Company Logo" className="w-40" />
+                    <img src='/partner9.png' width={250} height={250} alt="Company Logo" className="w-44 md:ml-24" />
+                    <img src='/partner10.jpg' width={250} height={250} alt="Company Logo" className="w-40" />
+                    <img src='/partner11.png' width={250} height={250} alt="Company Logo" className="w-52" />
+                    <img src='/partner13.png' width={250} height={250} alt="Company Logo" className="w-52" />
+                    <img src='/partner14.png' width={250} height={250} alt="Company Logo" className="w-52" />
+                    <img src='/partner16.jpg' width={250} height={250} alt="Company Logo" className="w-44" />
+                    <img src='/partner17.png' width={250} height={250} alt="Company Logo" className="w-44" />
+                    <img src='/partner2.png' width={250} height={250} alt="Company Logo" className="w-40" />
                 </div>
             </Marquee>
 

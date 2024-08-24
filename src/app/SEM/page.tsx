@@ -12,7 +12,7 @@ const SEM: React.FC = () => {
         },
         {
             id: 2,
-            img: "Google-Ads.jpg",
+            img: "Google-Ads-ser.jpg",
             title: "Google Ads Campaigns",
             description:
                 "Maximize your reach and drive targeted traffic to your website through our expertly managed Google Ads campaigns. We ensure high ROI by optimizing ad performance and targeting the right audience at the right time.",

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { MdKeyboardDoubleArrowUp } from "react-icons/md";
 import Link from "next/link";
 
@@ -39,7 +38,7 @@ const WhyChooseUs: React.FC = () => {
                     <div className="flex flex-col md:flex-row justify-evenly pt-12 items-center">
 
                         <div data-aos="fade-up" data-aos-duration="1000" className="z-30 w-full md:w-[500px] ">
-                            <Image src='/Expertise.jpg' width={500} height={500} alt="Picture of the author" className="rounded-lg" />
+                            <img src='/Expertise.jpg' width={500} height={500} alt="Picture of the author" className="rounded-lg" />
                         </div>
 
                         <div className="text-center md:text-left md:ml-8">
@@ -72,7 +71,7 @@ const WhyChooseUs: React.FC = () => {
                             </div>
                         </div>
                         <div data-aos="fade-up" data-aos-duration="800" className="z-30 w-full md:w-[400px] ">
-                            <Image src='/Client.jpg' width={500} height={500} alt="Picture of the author" className="rounded-lg" />
+                            <img src='/Client.jpg' width={500} height={500} alt="Picture of the author" className="rounded-lg" />
                         </div>
                     </div>
                 </div>
@@ -84,7 +83,7 @@ const WhyChooseUs: React.FC = () => {
                     <div className="z-10 lg:h-[450px] w-full md:w-2/5 bg-lime-500/60 absolute md:rounded-r-lg"></div>
                     <div className="flex flex-col md:flex-row justify-evenly pt-12 items-center">
                         <div data-aos="fade-up" data-aos-duration="1000" className="z-30 w-full md:w-[500px] ">
-                            <Image src='/Proven.jpg' width={500} height={500} alt="Picture of the author" className="rounded-lg" />
+                            <img src='/Proven.jpg' width={500} height={500} alt="Picture of the author" className="rounded-lg" />
                         </div>
                         
                         <div className="text-center md:text-left md:ml-8">
