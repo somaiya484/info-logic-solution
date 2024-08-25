@@ -51,7 +51,7 @@ const ServicePage: React.FC<ServicePageProps> = ({ sections, processSteps, workS
                     <div data-aos="fade-up" data-aos-duration="1000">
                         <h1 className="text-gradient font-bold text-center text-5xl mb-14">Our Services</h1>
                     </div>
-                    <div className="container mx-auto grid md:grid-cols-2 gap-16 mt-32 px-12 md:px-16 lg:px-24">
+                    <div className="container mx-auto grid md:grid-cols-2 gap-16 mt-32 px-2 md:px-16 lg:px-24">
                         {sections.map((section) => (
                             <div key={section.id} data-aos="fade-up" data-aos-duration="1000">
                                 <div className="relative shadow-md rounded-lg px-4 pt-14 transition-transform transform hover:scale-105 duration-300 bg-white mt-16">

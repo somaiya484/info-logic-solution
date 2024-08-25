@@ -7,7 +7,7 @@ const Banner: React.FC = () => {
   return (
     <div className={`relative overflow-hidden z-30 banner-background`}>
        <div className='relative pt-[60px]'>
-        <div className='text-center bg-gray-800 py-1 md:py-2 w-1/2 md:w-[28%] mx-auto rounded-2xl'>
+        <div className='text-center bg-gray-800 py-1 md:py-2 w-3/4 md:w-[28%] mx-auto rounded-2xl'>
           <p className='md:text-[21px] font-bold animate-text-color-change text-center'>Empower Your Digital Journey</p>
         </div>
       </div>

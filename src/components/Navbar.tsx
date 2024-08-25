@@ -88,7 +88,7 @@ const Navbar: React.FC = () => {
                         mainLinks.map((mainLink, index) => (
                             <li key={mainLink.name} className='md:ml-4 lg:ml-6 md:mt-0 mt-2 relative group'>
                                 <div className='flex items-center'>
-                                    <Link href={mainLink.link || '#'} className='hover:text-orange-600 focus:text-orange-600 duration-200 block md:flex items-center font-semibold text-base' onClick={() => handleSubMenuToggle(index)}>
+                                    <Link href={mainLink.link || '#'} className='hover:text-orange-600 focus:text-orange-600 duration-200 flex items-center font-semibold text-base' onClick={() => handleSubMenuToggle(index)}>
                                         <p>{mainLink.name}</p>
                                         {mainLink.subLinks && (
                                             <IoIosArrowDown className='ml-1 text-lg text-gray-600' />
