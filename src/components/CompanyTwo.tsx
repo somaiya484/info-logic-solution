@@ -17,7 +17,6 @@ const CompanyTwo: React.FC = () => {
                     <img src='/partner3.png' width={250} height={250} alt="Company Logo" className="w-24 md:w-40 ml-5 md:ml-24" />
                     <img src='/partner5.png' width={250} height={250} alt="Company Logo" className="w-24 md:w-40" />
                     <img src='/partner6.png' width={250} height={250} alt="Company Logo" className="w-24 md:w-52" />
-                    <img src='/partner18.png' width={250} height={250} alt="Company Logo" className="w-24 md:w-44" />
                     <img src='/partner19.png' width={250} height={250} alt="Company Logo" className="w-24 md:w-52" />
                     <img src='/partner20.png' width={250} height={250} alt="Company Logo" className="w-24 md:w-52" />
                     <img src='/partner7.png' width={250} height={250} alt="Company Logo" className="w-24 md:w-44" />

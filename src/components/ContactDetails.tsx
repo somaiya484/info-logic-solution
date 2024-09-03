@@ -17,7 +17,7 @@ const ContactDetails: React.FC = () => {
             <div className="md:flex px-8 gap-16 items-center service-bg py-16 w-full">
 
                 <div className="md:w-[50%] -ml-8">
-                    <img
+                    {/* <img
                         src={contactImage}
                         width={250}
                         height={250}
@@ -25,7 +25,7 @@ const ContactDetails: React.FC = () => {
                         className="rounded-e-3xl w-full"
                         data-aos="fade-up"
                         data-aos-duration="1500"
-                    />
+                    /> */}
                 </div>
 
                 <div className="md:w-[50%] mt-10 md:mt-0" data-aos="fade-up" data-aos-duration="1500">
