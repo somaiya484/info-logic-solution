@@ -21,12 +21,13 @@ export default function RootLayout({
     logoSrc: logoFooter,
     message: "Thank you for visiting our website. We appreciate your support and look forward to helping you achieve your goals. Here's to success and collaboration!",
     services: [
-      { name: "Data Visualization", link: "/DataVisualization" },
-      { name: "Web and App", link: "/WebAnalytics" },
-      { name: "SEM", link: "/SEM" },
-      { name: "SMM", link: "/SMM" },
-      { name: "Graphic Design", link: "/GraphicsDesign" },
-      { name: "Development", link: "/WebDesign&Development" }
+      { name: "Looker", link: "/looker" },
+      { name: "Data Visualization", link: "/datavisualization" },
+      { name: "Web Analytics", link: "/webanalytics" },
+      { name: "SEM", link: "/sem" },
+      { name: "SMM", link: "/smm" },
+      { name: "Graphic Design", link: "/graphicsdesign" },
+      { name: "Development", link: "/webdesigndevelopment" }
     ],
     companyLinks: [
       { name: 'About Us', link: '/#about' },
@@ -35,6 +36,7 @@ export default function RootLayout({
       { name: 'Company', link: '/#company' },
       { name: 'Testimonial', link: '/#testimonial' },
       { name: 'FAQ', link: '/#QaN' },
+      { name: "Contact", link: "/contact" }
     ],
     contact: {
       email: 'admin@infologicsolution.com'
@@ -47,11 +49,13 @@ export default function RootLayout({
         <link rel="icon" href="/topweb.png" />
       </head>
       <body className={inter.className}>
+        
         <main className='container mx-auto min-h-screen'>
           <Navbar></Navbar>
           {children}
           <Footer {...footerData} />
         </main>
+        
       </body>
     </html>
   );

@@ -1,4 +1,4 @@
-"use client";  // Add this at the top of the file
+"use client";
 
 import Link from "next/link";
 import { IoMdCall } from "react-icons/io";
@@ -36,11 +36,11 @@ const Message = () => {
                     <p className='text-2xl md:text-4xl font-bold animate-text-color-change'>
                         We make the creative solutions for modern brands
                     </p>
-                    <a href='https://forms.gle/kfooAvTuePXRo2ub9' target="_blank" rel="noopener noreferrer" className='hidden md:block'>
+                    <Link href='/contact'   className='hidden md:block'>
                         <button className='primary-button flex items-center transition-transform transform hover:scale-105 duration-300'>
                             Contact Us <IoMdCall className='text-xl ml-2' />
                         </button>
-                    </a>
+                    </Link>
                 </div>
             </div>
         </div>

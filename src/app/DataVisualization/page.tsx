@@ -1,6 +1,6 @@
 import ServicePage from "@/components/ServicePage";
 
-const DataVisualizationPage: React.FC = () => {
+const DataVisualization: React.FC = () => {
     const sections = [
         {
             id: 1,
@@ -149,4 +149,4 @@ const DataVisualizationPage: React.FC = () => {
     );
 };
 
-export default DataVisualizationPage;
+export default DataVisualization;

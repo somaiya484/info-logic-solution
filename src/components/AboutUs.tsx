@@ -2,6 +2,7 @@
 import React, { useEffect } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Link from "next/link";
 
 const AboutUs: React.FC = () => {
 
@@ -37,14 +38,12 @@ const AboutUs: React.FC = () => {
                         </p>
 
                         <div className='flex justify-center sm:justify-start'>
-                            <a
-                                href='https://forms.gle/kfooAvTuePXRo2ub9'
-                                target="_blank"
-                                rel="noopener noreferrer"
+                            <Link
+                                href='/contact'
                                 className='secondary-button mt-5 sm:mt-0 w-[200px] transition-transform transform hover:scale-105 duration-300 text-center'
                             >
                                 Get Free Consultation
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>

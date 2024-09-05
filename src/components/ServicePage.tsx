@@ -7,6 +7,7 @@ import Message from "./Message";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import BackToTopButton from "./BackToTopButton";
+import Link from "next/link";
 
 interface Section {
     id: number;
@@ -63,9 +64,9 @@ const ServicePage: React.FC<ServicePageProps> = ({ sections, processSteps, workS
                                     <div className="p-6 mt-32 md:mt-36 pb-10">
                                         <h2 className="text-2xl md:text-4xl mt-3 mb-5">{section.title}</h2>
                                         <p className="text-gray-700 mb-7 text-sm">{section.description}</p>
-                                        <a href='https://forms.gle/kfooAvTuePXRo2ub9' target="_blank" rel="noopener noreferrer">
+                                        <Link href='/contact'  >
                                             <button className="px-4 py-2 gradient-background2 border-b-2 border-l-2 border-r-2 border-orange-200 font-semibold rounded text-base hover:scale-105 duration-200 hover:border-orange-300">Reach Us</button>
-                                        </a>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -109,7 +110,7 @@ const ServicePage: React.FC<ServicePageProps> = ({ sections, processSteps, workS
                             <div className="sample-inner-style">
                                 <div className="text-center text-white p-6">
                                     <h3 className="text-lg font-semibold italic mb-5 text-center">{sample.category}</h3>
-                                    <a href={sample.link} target="_blank" rel="noopener noreferrer" className="sample_button">Preview</a>
+                                    <a href={sample.link}   className="sample_button">Preview</a>
                                 </div>
                             </div>
 

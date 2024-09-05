@@ -29,25 +29,25 @@ const SEM: React.FC = () => {
     const processSteps = [
         {
             id: 1,
-            title: "1. Audit & Analysis",
+            title: "Audit & Analysis",
             description:
                 "We audit your online presence, including website performance, keyword rankings, competition, and social media engagement.",
         },
         {
             id: 2,
-            title: "2. Strategy Development",
+            title: "Strategy Development",
             description:
                 "We develop a strategy based on our audit, including SEO, keyword research, SEM campaigns, and social media plans.",
         },
         {
             id: 3,
-            title: "3. Implementation",
+            title: "Implementation",
             description:
                 "We implement the strategy, optimizing SEO, setting up SEM campaigns, and creating social media content.",
         },
         {
             id: 4,
-            title: "4. Monitoring & Reporting",
+            title: "Monitoring & Reporting",
             description:
                 "We monitor SEO, SEM, and social media, making adjustments for maximum ROI and engagement, and provide regular reports.",
         },

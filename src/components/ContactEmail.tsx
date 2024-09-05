@@ -13,7 +13,7 @@ const ContactEmail: React.FC = () => {
                     <h2 className='text-5xl my-9 leading-10 font-semibold'>Let's Make the Solution</h2>
                     <p>Do you dream of exploring the furthest reaches of outer space? <br />Do you live for bringing brands to life and finding new ways to tell exciting brand stories? <br />If so, you may have just found your people.</p>
 
-                    <a href='https://forms.gle/kfooAvTuePXRo2ub9' target="_blank" rel="noopener noreferrer" className='primary-button w-[35%] md:w-[135px] mx-auto mt-10 text-center'>Contact Us <IoMdCall className='text-xl md:ml-2' /></a>
+                    <Link href='/contact'  className='primary-button w-[35%] md:w-[135px] mx-auto mt-10 text-center'>Contact Us <IoMdCall className='text-xl md:ml-2' /></Link>
                 </div>
             </div>
         </div>

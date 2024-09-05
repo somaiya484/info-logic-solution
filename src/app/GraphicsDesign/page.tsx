@@ -36,22 +36,22 @@ const GraphicsDesign: React.FC = () => {
     const processSteps = [
         {
             id: 1,
-            title: "1. Concept & Brainstorming",
+            title: "Concept & Brainstorming",
             description: "We brainstorm to understand your vision and goals, developing creative concepts aligned with your brand."
         },
         {
             id: 2,
-            title: "2. Design Creation",
+            title: "Design Creation",
             description: "Our designers bring concepts to life with advanced tools, creating visually impactful designs."
         },
         {
             id: 3,
-            title: "3. Feedback & Revisions",
+            title: "Feedback & Revisions",
             description: "We present designs for feedback and revise them until you're satisfied."
         },
         {
             id: 4,
-            title: "4. Final Delivery",
+            title: "Final Delivery",
             description: "Once approved, we deliver the final designs in the required formats for your marketing campaigns."
         },
     ];

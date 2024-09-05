@@ -22,25 +22,25 @@ const SMM: React.FC = () => {
     const processSteps = [
         {
             id: 1,
-            title: "1. Audit & Analysis",
+            title: "Audit & Analysis",
             description:
                 "We analyze your current social media presence and engagement, including audience insights and content performance.",
         },
         {
             id: 2,
-            title: "2. Strategy Development",
+            title: "Strategy Development",
             description:
                 "We develop a customized strategy with targeted campaigns, content calendars, and ad planning.",
         },
         {
             id: 3,
-            title: "3. Implementation",
+            title: "Implementation",
             description:
                 "We create and schedule posts, launch ad campaigns, and optimize content for better reach and interaction.",
         },
         {
             id: 4,
-            title: "4. Monitoring & Reporting",
+            title: "Monitoring & Reporting",
             description:
                 "We monitor performance and provide regular reports, making adjustments to enhance results and ROI.",
         },

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { IoMdCall } from "react-icons/io";
 
 interface ContactSectionProps {
@@ -24,11 +25,11 @@ const ContactSection: React.FC<ContactSectionProps> = ({ serviceName }) => {
             </div>
             <div data-aos="fade-up" data-aos-duration="1000">
 
-                <a href='https://forms.gle/kfooAvTuePXRo2ub9' target="_blank" rel="noopener noreferrer"  >
+                <Link href='/contact'    >
                     <button className="primary-button mt-7 hover:scale-105 duration-300 transition-all">
                         Contact Us <IoMdCall className="text-xl ml-2" />
                     </button>
-                </a>
+                </Link>
             </div>
         </div>
     );

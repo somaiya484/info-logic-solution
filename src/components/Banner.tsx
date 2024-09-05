@@ -25,9 +25,9 @@ const Banner: React.FC = () => {
           <Link className="ml-6" href="/#services">Explore Services</Link>
         </div>
 
-        <a href='https://forms.gle/kfooAvTuePXRo2ub9' target="_blank" rel="noopener noreferrer" className='secondary-button w-[200px] transition-transform transform hover:scale-105 duration-300'>
+        <Link href='/contact' className='secondary-button w-[200px] transition-transform transform hover:scale-105 duration-300'>
           Get Free Consultation
-        </a>
+        </Link>
       </div>
 
       <div className='relative text-center mt-10 md:text-lg text-sm font-semibold w-11/12 sm:w-3/4 mx-auto pb-5 sm:pb-10 z-10'>
